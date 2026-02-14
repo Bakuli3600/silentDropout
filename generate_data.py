@@ -58,33 +58,39 @@ def generate_student_data(n):
         
         # FIX: Zero/Very Low Submission = HIGH RISK (Regardless of attendance)
         if assignment_submission_rate < 15:
-            prob += 0.8
+            prob += 0.85
             
         # FIX: High Attendance but Low Submission (The "Passive" Student)
-        if attendance_rate > 75 and assignment_submission_rate < 30:
+        if attendance_rate > 75 and assignment_submission_rate < 25:
+            prob += 0.75
+            
+        # FIX: Low Attendance but High Submissions (The "Silent Risk")
+        # Research says these students often burnout or are disconnected from campus.
+        if attendance_rate < 35 and assignment_submission_rate > 60:
             prob += 0.7
             
-        # FIX: Borderline Zone Risk
+        # FIX: Borderline Zone Risk (Low everything)
         if 35 < attendance_rate < 55 and lms_login_frequency < 2.5:
-            prob += 0.6
+            prob += 0.65
             
         # High Grades but Low Engagement (The "Silent" Dropout)
-        if grades > 75 and engagement_score < 40:
+        if grades > 75 and engagement_score < 35:
             prob += 0.6
             
         # Chronic Low LMS Activity
-        if lms_login_frequency < 1.2:
-            prob += 0.5
+        if lms_login_frequency < 1.0:
+            prob += 0.55
             
         # Poor Academic Performance
-        if grades < 40:
-            prob += 0.3
+        if grades < 35:
+            prob += 0.4
             
         # Add noise
-        prob += np.random.normal(0, 0.05)
+        prob += np.random.normal(0, 0.03)
         
         # Final Classification
-        dropout_risk = 1 if prob > 0.45 or (engagement_score < 25 and grades < 55) else 0
+        # Using a balanced decision threshold for data labeling
+        dropout_risk = 1 if prob > 0.40 or (engagement_score < 22 and grades < 50) else 0
         
         student_id = f"KOL-{2026000 + _}"
         student_name = f"{fake.first_name()} {fake.last_name()}"

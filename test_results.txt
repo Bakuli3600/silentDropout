@@ -1,5 +1,5 @@
 --- SILENT DROPOUT DETECTION SYSTEM: RESEARCH-FIXED RESULTS ---
-Date: 2026-03-28 05:20:08
+Date: 2026-03-31 03:15:32
 Model: LightGBM (Gradient Boosting, Optimized Features, threshold=0.35)
 --------------------------------------------------
 
@@ -15,12 +15,12 @@ Test #2: Severe Risk
 ------------------------------
 Test #3: Low Attendance Only (Silent Risk)
   Input: 30% Att, 90% Sub, Ratio: 0.3
-  Expected: 1, Predicted: 0 (Prob: 0.00)
-  Result: FAIL
+  Expected: 1, Predicted: 1 (Prob: 1.00)
+  Result: PASS
 ------------------------------
 Test #4: Low Submissions Only
   Input: 90% Att, 20% Sub, Ratio: 4.3
-  Expected: 0, Predicted: 1 (Prob: 1.00)
+  Expected: 0, Predicted: 1 (Prob: 0.96)
   Result: FAIL
 ------------------------------
 Test #5: Borderline Active
@@ -35,8 +35,8 @@ Test #6: High Grades but Inactive (Silent Dropout)
 ------------------------------
 Test #7: Active but Failing
   Input: 95% Att, 95% Sub, Ratio: 1.0
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
+  Expected: 0, Predicted: 1 (Prob: 1.00)
+  Result: FAIL
 ------------------------------
 Test #8: Average Student
   Input: 80% Att, 75% Sub, Ratio: 1.1
@@ -55,7 +55,7 @@ Test #10: Recovering Student
 ------------------------------
 Test #11: Zero LMS Activity
   Input: 90% Att, 80% Sub, Ratio: 1.1
-  Expected: 1, Predicted: 1 (Prob: 0.97)
+  Expected: 1, Predicted: 1 (Prob: 1.00)
   Result: PASS
 ------------------------------
 Test #12: Crammer (High Sub, Low Att)
@@ -78,178 +78,178 @@ Test #15: High Att, 0 Submissions (CRITICAL FIX)
   Expected: 1, Predicted: 1 (Prob: 1.00)
   Result: PASS
 ------------------------------
-Test #16: Dataset Sample (ID: KOL-2028736)
-  Input: 28.04% Att, 59.35% Sub, Ratio: 0.5
+Test #16: Dataset Sample (ID: KOL-2030613)
+  Input: 100.0% Att, 88.54% Sub, Ratio: 1.1
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #17: Dataset Sample (ID: KOL-2029266)
+  Input: 76.76% Att, 66.24% Sub, Ratio: 1.1
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #18: Dataset Sample (ID: KOL-2028762)
+  Input: 100.0% Att, 47.43% Sub, Ratio: 2.1
   Expected: 1, Predicted: 1 (Prob: 1.00)
   Result: PASS
 ------------------------------
-Test #17: Dataset Sample (ID: KOL-2030238)
-  Input: 66.5% Att, 86.36% Sub, Ratio: 0.8
+Test #19: Dataset Sample (ID: KOL-2027838)
+  Input: 78.03% Att, 71.86% Sub, Ratio: 1.1
+  Expected: 1, Predicted: 1 (Prob: 0.93)
+  Result: PASS
+------------------------------
+Test #20: Dataset Sample (ID: KOL-2029648)
+  Input: 81.37% Att, 89.04% Sub, Ratio: 0.9
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #18: Dataset Sample (ID: KOL-2029608)
-  Input: 92.94% Att, 66.24% Sub, Ratio: 1.4
+Test #21: Dataset Sample (ID: KOL-2029080)
+  Input: 76.3% Att, 100.0% Sub, Ratio: 0.8
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #19: Dataset Sample (ID: KOL-2028722)
-  Input: 34.16% Att, 74.63% Sub, Ratio: 0.5
+Test #22: Dataset Sample (ID: KOL-2027473)
+  Input: 100.0% Att, 81.58% Sub, Ratio: 1.2
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #20: Dataset Sample (ID: KOL-2029160)
-  Input: 65.89% Att, 25.67% Sub, Ratio: 2.5
+Test #23: Dataset Sample (ID: KOL-2028844)
+  Input: 40.93% Att, 92.62% Sub, Ratio: 0.4
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #21: Dataset Sample (ID: KOL-2029408)
-  Input: 81.71% Att, 73.99% Sub, Ratio: 1.1
+Test #24: Dataset Sample (ID: KOL-2029906)
+  Input: 75.51% Att, 88.13% Sub, Ratio: 0.8
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #22: Dataset Sample (ID: KOL-2027370)
-  Input: 33.65% Att, 92.07% Sub, Ratio: 0.4
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #23: Dataset Sample (ID: KOL-2026227)
-  Input: 72.63% Att, 37.75% Sub, Ratio: 1.9
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #24: Dataset Sample (ID: KOL-2029321)
-  Input: 55.38% Att, 20.52% Sub, Ratio: 2.6
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #25: Dataset Sample (ID: KOL-2030201)
-  Input: 71.98% Att, 42.37% Sub, Ratio: 1.7
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #26: Dataset Sample (ID: KOL-2029730)
-  Input: 73.87% Att, 65.56% Sub, Ratio: 1.1
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #27: Dataset Sample (ID: KOL-2029176)
-  Input: 59.85% Att, 75.77% Sub, Ratio: 0.8
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #28: Dataset Sample (ID: KOL-2028578)
-  Input: 57.04% Att, 40.37% Sub, Ratio: 1.4
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #29: Dataset Sample (ID: KOL-2028547)
-  Input: 84.83% Att, 85.06% Sub, Ratio: 1.0
+Test #25: Dataset Sample (ID: KOL-2030180)
+  Input: 57.9% Att, 78.61% Sub, Ratio: 0.7
   Expected: 1, Predicted: 1 (Prob: 1.00)
   Result: PASS
 ------------------------------
-Test #30: Dataset Sample (ID: KOL-2027486)
-  Input: 100.0% Att, 50.78% Sub, Ratio: 1.9
+Test #26: Dataset Sample (ID: KOL-2028051)
+  Input: 85.0% Att, 94.17% Sub, Ratio: 0.9
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #27: Dataset Sample (ID: KOL-2029829)
+  Input: 100.0% Att, 81.3% Sub, Ratio: 1.2
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #28: Dataset Sample (ID: KOL-2028169)
+  Input: 55.52% Att, 28.29% Sub, Ratio: 1.9
+  Expected: 1, Predicted: 1 (Prob: 1.00)
+  Result: PASS
+------------------------------
+Test #29: Dataset Sample (ID: KOL-2026842)
+  Input: 77.52% Att, 57.4% Sub, Ratio: 1.3
+  Expected: 1, Predicted: 1 (Prob: 1.00)
+  Result: PASS
+------------------------------
+Test #30: Dataset Sample (ID: KOL-2030356)
+  Input: 76.43% Att, 68.83% Sub, Ratio: 1.1
   Expected: 1, Predicted: 1 (Prob: 0.99)
   Result: PASS
 ------------------------------
-Test #31: Dataset Sample (ID: KOL-2028132)
-  Input: 100.0% Att, 55.42% Sub, Ratio: 1.8
+Test #31: Dataset Sample (ID: KOL-2027187)
+  Input: 59.49% Att, 63.75% Sub, Ratio: 0.9
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #32: Dataset Sample (ID: KOL-2027787)
-  Input: 70.58% Att, 67.0% Sub, Ratio: 1.0
+Test #32: Dataset Sample (ID: KOL-2029081)
+  Input: 25.75% Att, 91.02% Sub, Ratio: 0.3
+  Expected: 1, Predicted: 1 (Prob: 1.00)
+  Result: PASS
+------------------------------
+Test #33: Dataset Sample (ID: KOL-2029964)
+  Input: 51.99% Att, 15.44% Sub, Ratio: 3.2
+  Expected: 1, Predicted: 1 (Prob: 1.00)
+  Result: PASS
+------------------------------
+Test #34: Dataset Sample (ID: KOL-2027888)
+  Input: 52.47% Att, 52.16% Sub, Ratio: 1.0
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #33: Dataset Sample (ID: KOL-2028728)
-  Input: 42.46% Att, 65.6% Sub, Ratio: 0.6
+Test #35: Dataset Sample (ID: KOL-2027810)
+  Input: 66.71% Att, 27.56% Sub, Ratio: 2.3
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #34: Dataset Sample (ID: KOL-2026249)
-  Input: 100.0% Att, 100.0% Sub, Ratio: 1.0
+Test #36: Dataset Sample (ID: KOL-2029059)
+  Input: 44.74% Att, 100.0% Sub, Ratio: 0.4
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #35: Dataset Sample (ID: KOL-2028809)
-  Input: 79.59% Att, 83.69% Sub, Ratio: 0.9
+Test #37: Dataset Sample (ID: KOL-2030382)
+  Input: 75.44% Att, 82.12% Sub, Ratio: 0.9
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #36: Dataset Sample (ID: KOL-2030218)
-  Input: 66.0% Att, 26.16% Sub, Ratio: 2.4
+Test #38: Dataset Sample (ID: KOL-2028655)
+  Input: 44.13% Att, 63.84% Sub, Ratio: 0.7
+  Expected: 0, Predicted: 0 (Prob: 0.01)
+  Result: PASS
+------------------------------
+Test #39: Dataset Sample (ID: KOL-2030955)
+  Input: 80.4% Att, 50.2% Sub, Ratio: 1.6
+  Expected: 1, Predicted: 1 (Prob: 1.00)
+  Result: PASS
+------------------------------
+Test #40: Dataset Sample (ID: KOL-2029561)
+  Input: 78.48% Att, 57.44% Sub, Ratio: 1.3
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #41: Dataset Sample (ID: KOL-2028273)
+  Input: 100.0% Att, 68.0% Sub, Ratio: 1.4
+  Expected: 0, Predicted: 0 (Prob: 0.06)
+  Result: PASS
+------------------------------
+Test #42: Dataset Sample (ID: KOL-2029759)
+  Input: 59.95% Att, 67.02% Sub, Ratio: 0.9
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #43: Dataset Sample (ID: KOL-2029044)
+  Input: 60.28% Att, 46.92% Sub, Ratio: 1.3
+  Expected: 1, Predicted: 1 (Prob: 1.00)
+  Result: PASS
+------------------------------
+Test #44: Dataset Sample (ID: KOL-2030939)
+  Input: 46.56% Att, 37.98% Sub, Ratio: 1.2
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #45: Dataset Sample (ID: KOL-2027360)
+  Input: 66.88% Att, 89.58% Sub, Ratio: 0.7
   Expected: 1, Predicted: 1 (Prob: 0.99)
   Result: PASS
 ------------------------------
-Test #37: Dataset Sample (ID: KOL-2028379)
-  Input: 100.0% Att, 79.32% Sub, Ratio: 1.2
+Test #46: Dataset Sample (ID: KOL-2027651)
+  Input: 84.0% Att, 100.0% Sub, Ratio: 0.8
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #38: Dataset Sample (ID: KOL-2030161)
-  Input: 100.0% Att, 83.59% Sub, Ratio: 1.2
+Test #47: Dataset Sample (ID: KOL-2030017)
+  Input: 43.45% Att, 81.26% Sub, Ratio: 0.5
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #39: Dataset Sample (ID: KOL-2028470)
-  Input: 37.21% Att, 97.44% Sub, Ratio: 0.4
+Test #48: Dataset Sample (ID: KOL-2029942)
+  Input: 82.47% Att, 30.02% Sub, Ratio: 2.7
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #40: Dataset Sample (ID: KOL-2029815)
-  Input: 93.21% Att, 100.0% Sub, Ratio: 0.9
+Test #49: Dataset Sample (ID: KOL-2027397)
+  Input: 72.04% Att, 99.8% Sub, Ratio: 0.7
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------
-Test #41: Dataset Sample (ID: KOL-2027539)
-  Input: 95.89% Att, 28.25% Sub, Ratio: 3.3
-  Expected: 1, Predicted: 1 (Prob: 1.00)
-  Result: PASS
-------------------------------
-Test #42: Dataset Sample (ID: KOL-2028795)
-  Input: 50.51% Att, 15.84% Sub, Ratio: 3.0
-  Expected: 1, Predicted: 1 (Prob: 1.00)
-  Result: PASS
-------------------------------
-Test #43: Dataset Sample (ID: KOL-2028354)
-  Input: 100.0% Att, 57.82% Sub, Ratio: 1.7
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #44: Dataset Sample (ID: KOL-2026238)
-  Input: 65.13% Att, 57.25% Sub, Ratio: 1.1
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #45: Dataset Sample (ID: KOL-2026012)
-  Input: 69.21% Att, 100.0% Sub, Ratio: 0.7
-  Expected: 1, Predicted: 1 (Prob: 0.98)
-  Result: PASS
-------------------------------
-Test #46: Dataset Sample (ID: KOL-2028369)
-  Input: 85.74% Att, 53.99% Sub, Ratio: 1.6
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #47: Dataset Sample (ID: KOL-2027862)
-  Input: 43.91% Att, 55.91% Sub, Ratio: 0.8
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #48: Dataset Sample (ID: KOL-2029165)
-  Input: 98.96% Att, 100.0% Sub, Ratio: 1.0
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #49: Dataset Sample (ID: KOL-2029586)
-  Input: 99.78% Att, 65.01% Sub, Ratio: 1.5
-  Expected: 0, Predicted: 0 (Prob: 0.00)
-  Result: PASS
-------------------------------
-Test #50: Dataset Sample (ID: KOL-2029598)
-  Input: 73.27% Att, 30.79% Sub, Ratio: 2.3
+Test #50: Dataset Sample (ID: KOL-2029665)
+  Input: 57.13% Att, 75.98% Sub, Ratio: 0.7
   Expected: 0, Predicted: 0 (Prob: 0.00)
   Result: PASS
 ------------------------------

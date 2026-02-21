@@ -39,13 +39,15 @@ def train_dropout_model(data_path, model_save_path):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
     # 3. Model Initialization
-    print("INFO: Training LightGBM Classifier (n_estimators=300, depth=8, class_weight='balanced')...")
+    print("INFO: Training LightGBM Classifier (n_estimators=500, depth=10, balanced)...")
     model = LGBMClassifier(
-        n_estimators=300,
-        learning_rate=0.05,
-        max_depth=8,
-        num_leaves=31,
+        n_estimators=500,
+        learning_rate=0.03,
+        max_depth=10,
+        num_leaves=63,
         class_weight='balanced',
+        subsample=0.8,
+        colsample_bytree=0.8,
         random_state=42,
         n_jobs=-1,
         verbose=-1

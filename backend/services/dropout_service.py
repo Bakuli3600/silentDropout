@@ -14,9 +14,6 @@ class DropoutService:
         self._load_model()
 
     def _load_model(self):
-        """
-        Loads the trained model and initializes SHAP.
-        """
         if not os.path.exists(self.model_path):
             raise FileNotFoundError(f"Model file not found at {self.model_path}")
         
@@ -26,11 +23,7 @@ class DropoutService:
         self.explainer = shap.TreeExplainer(self.model)
 
     def predict(self, input_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Inference with Feature Engineering + Lower Decision Threshold (0.4)
-        """
-        # --- FIX 2: Dynamic Feature Engineering ---
-        # Calculate engagement_score based on normalized LMS login frequency
+        # --- dynamic feature engineering ---
         normalized_lms = (input_data['lms_login_frequency'] / 14) * 100
         engagement_score = (
             input_data['attendance_rate'] * 0.4 +
@@ -38,10 +31,11 @@ class DropoutService:
             normalized_lms * 0.3
         )
         
-        # Add engagement_score to input data
-        input_data['engagement_score'] = round(engagement_score, 2)
+        attendance_lms_interaction = input_data['attendance_rate'] * input_data['lms_login_frequency']
         
-        # --- Core Prediction Logic ---
+        input_data['engagement_score'] = round(engagement_score, 2)
+        input_data['attendance_lms_interaction'] = round(attendance_lms_interaction, 2)
+        
         df_input = pd.DataFrame([input_data])
         df_features = df_input[self.features]
 
@@ -49,14 +43,15 @@ class DropoutService:
         proba_all = self.model.predict_proba(df_features)[0]
         probability = float(proba_all[1])
 
-        # --- FIX 4: Lower Decision Threshold (0.4) for higher sensitivity ---
+        # Lower threshold for high sensitivity
         risk = 1 if probability > 0.4 else 0
 
-        # --- SHAP Explanation ---
+        # SHAP Explanation
         shap_values = self.explainer.shap_values(df_features)
         
+        # LightGBM binary shap_values returns a single array in newer versions
         if isinstance(shap_values, list):
-            s_vals = shap_values[1][0]
+            s_vals = shap_values[1][0] if len(shap_values) > 1 else shap_values[0][0]
         else:
             s_vals = shap_values[0, :, 1] if len(shap_values.shape) == 3 else shap_values[0]
 
@@ -80,6 +75,5 @@ class DropoutService:
             "explanation": explanation
         }
 
-# Singleton instance
 MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models/dropout_model.joblib")
 dropout_service = DropoutService(MODEL_PATH)

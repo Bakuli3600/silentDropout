@@ -11,13 +11,13 @@ random.seed(42)
 # Initialize Faker with Indian locale
 fake = Faker('en_IN')
 
-# Number of students
-num_students = 1500
+# Create a huge dataset
+num_students = 5000
 
 def generate_student_data(n):
     """
     Advanced synthetic data generation for 'Silent Dropout' detection.
-    Includes edge cases for high grades but low engagement.
+    Includes edge cases for high grades but low engagement, and interaction features.
     """
     data = []
     institutions = ["Jadavpur University", "University of Calcutta", "St. Xavier's College", "Presidency University"]
@@ -37,8 +37,8 @@ def generate_student_data(n):
         avg_session_time = np.clip(avg_session_time, 2, 180)
         grades = np.clip(grades, 0, 100)
         
-        # 2. FEATURE ENGINEERING: Engagement Score (Strong Behavioral Signal)
-        # Normalizing logins (max 14/week) to 0-100 scale
+        # 2. FEATURE ENGINEERING
+        # Engagement Score
         normalized_lms = (lms_login_frequency / 14) * 100
         engagement_score = (
             attendance_rate * 0.4 +
@@ -46,33 +46,38 @@ def generate_student_data(n):
             normalized_lms * 0.3
         )
         
-        # 3. ADVANCED DROPOUT RISK LOGIC (Beyond just grades)
-        # Base probability calculation
+        # Interaction Feature: Attendance x LMS Activity (Captures compound engagement)
+        attendance_lms_interaction = attendance_rate * lms_login_frequency
+        
+        # 3. ADVANCED DROPOUT RISK LOGIC
         prob = 0.0
         
-        # Rule 1: High Grades but LOW Engagement (The "Silent" Dropout)
+        # High Grades but LOW Engagement (The "Silent" Dropout)
         if grades > 75 and engagement_score < 45:
             prob += 0.65
             
-        # Rule 2: Chronic Low LMS Activity (Strong indicator of disengagement)
+        # Chronic Low LMS Activity
         if lms_login_frequency < 1.5:
             prob += 0.5
             
-        # Rule 3: Declining Attendance (Traditional indicator)
+        # Declining Attendance
         if attendance_rate < 40:
             prob += 0.4
             
-        # Rule 4: Poor Academic Performance
+        # Poor Academic Performance
         if grades < 45:
             prob += 0.3
             
-        # Add noise and normalize
+        # Compound Risk (Low interaction score)
+        if attendance_lms_interaction < 100:  # e.g., 50% attendance * 2 logins
+            prob += 0.2
+            
+        # Add noise
         prob += np.random.normal(0, 0.1)
         
-        # Final Classification: Higher sensitivity (0.4 threshold)
+        # Final Classification: (0.4 threshold)
         dropout_risk = 1 if prob > 0.45 or (engagement_score < 30 and grades < 50) else 0
         
-        # Profiles
         student_id = f"KOL-{2026000 + _}"
         student_name = f"{fake.first_name()} {fake.last_name()}"
         institution = random.choice(institutions)
@@ -87,16 +92,15 @@ def generate_student_data(n):
             "avg_session_time": round(avg_session_time, 1),
             "grades": round(grades, 2),
             "engagement_score": round(engagement_score, 2),
+            "attendance_lms_interaction": round(attendance_lms_interaction, 2),
             "dropout_risk": dropout_risk
         })
         
     return pd.DataFrame(data)
 
-# Run generation
 df = generate_student_data(num_students)
 os.makedirs('data', exist_ok=True)
 df.to_csv('data/synthetic_students.csv', index=False)
 
-print(f"✅ Generated {len(df)} records with enhanced dropout logic.")
+print(f"✅ Generated {len(df)} records with enhanced dropout logic and interaction features.")
 print(f"📊 Dropout Rate: {round(df['dropout_risk'].mean() * 100, 2)}%")
-print(f"🔍 Silent Dropout Cases (High Grades + Low Engagement): {len(df[(df['grades'] > 75) & (df['engagement_score'] < 45)])}")

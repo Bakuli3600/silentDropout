@@ -12,17 +12,19 @@ fi
 
 echo "📥 Installing Backend Dependencies..."
 ./venv/bin/pip install -r backend/requirements.txt
-./venv/bin/pip install faker shap
+./venv/bin/pip install faker shap lightgbm
 
 # 2. Data & Model Generation
 if [ ! -f "data/synthetic_students.csv" ]; then
-    echo "📊 Generating synthetic student data (Kolkata Pilot)..."
+    echo "📊 Generating synthetic student data (Kolkata Pilot - 5k Dataset)..."
     ./venv/bin/python3 generate_data.py
 fi
 
 if [ ! -f "backend/models/dropout_model.joblib" ]; then
-    echo "🤖 Training ML Model (RandomForest Optimized)..."
+    echo "🤖 Training ML Model (LightGBM Optimized)..."
     ./venv/bin/python3 training.py
+    echo "🧪 Running Model Verification Tests..."
+    ./venv/bin/python3 run_tests.py
 fi
 
 # 3. Start Backend (in background)

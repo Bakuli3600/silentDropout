@@ -1,6 +1,6 @@
 # Silent Dropout Detection System
 
-A modular platform for detecting silent dropouts using machine learning.
+A modular API for detecting silent dropouts using machine learning.
 
 ## Tech Stack
 - **Backend:** FastAPI, Uvicorn
@@ -8,10 +8,12 @@ A modular platform for detecting silent dropouts using machine learning.
 - **Frontend:** React (TypeScript)
 
 ## Project Structure
-- `backend/app`: FastAPI entry point and application factory.
-- `backend/routes`: API endpoints (e.g., `/health`).
-- `backend/models`: Data models and ML schemas.
-- `backend/services`: Business logic and ML processing.
+- `backend/`: Root directory for the API.
+  - `main.py`: Entry point for the FastAPI application.
+  - `app/`: Application-specific logic and configurations.
+  - `routes/`: API endpoints (e.g., `/health`).
+  - `models/`: Data models and ML schemas.
+  - `services/`: Business logic and ML processing.
 - `frontend/`: React frontend application.
 
 ## Getting Started
@@ -19,7 +21,7 @@ A modular platform for detecting silent dropouts using machine learning.
 ### Backend
 1. Create a virtual environment: `python3 -m venv venv`
 2. Install dependencies: `pip install -r backend/requirements.txt`
-3. Run the server: `cd backend && ../venv/bin/uvicorn app.main:app --reload`
+3. Run the server: `cd backend && ../venv/bin/uvicorn main:app --reload`
 
 ### Frontend
 1. Navigate to the frontend directory: `cd frontend`

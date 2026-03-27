@@ -1,10 +1,4 @@
-import sys
-import os
 from fastapi import FastAPI
-
-# Add the parent directory to sys.path to allow imports from other backend modules
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from routes import health
 
 def create_app() -> FastAPI:

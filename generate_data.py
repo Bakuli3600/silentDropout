@@ -84,7 +84,6 @@ def generate_student_data(n):
         prob += np.random.normal(0, 0.05)
         
         # Final Classification
-        # We use a combined logic: high prob OR critical engagement failure
         dropout_risk = 1 if prob > 0.45 or (engagement_score < 25 and grades < 55) else 0
         
         student_id = f"KOL-{2026000 + _}"
@@ -112,6 +111,6 @@ df = generate_student_data(num_students)
 os.makedirs('data', exist_ok=True)
 df.to_csv('data/synthetic_students.csv', index=False)
 
-print(f"✅ Generated {len(df)} records with Research-Fix logic.")
-print(f"📊 New Dropout Rate: {round(df['dropout_risk'].mean() * 100, 2)}%")
-print(f"🔍 Passive Risk Cases (High Att + Low Sub): {len(df[(df['attendance_rate'] > 75) & (df['assignment_submission_rate'] < 30)])}")
+print(f"SUCCESS: Generated {len(df)} records with Research-Fix logic.")
+print(f"STATUS: New Dropout Rate: {round(df['dropout_risk'].mean() * 100, 2)}%")
+print(f"ANALYSIS: Passive Risk Cases (High Att + Low Sub): {len(df[(df['attendance_rate'] > 75) & (df['assignment_submission_rate'] < 30)])}")

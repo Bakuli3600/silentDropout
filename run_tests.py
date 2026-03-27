@@ -23,10 +23,10 @@ def calculate_engineered_features(row):
     return engagement_score, ratio, lms_inter
 
 def run_comprehensive_tests():
-    print("🧪 Starting 50 Research-Fixed Accuracy & Inference Tests...")
+    print("INFO: Starting 50 Research-Fixed Accuracy & Inference Tests...")
     
     if not os.path.exists(MODEL_PATH):
-        print(f"❌ Error: Model not found at {MODEL_PATH}")
+        print(f"ERROR: Model not found at {MODEL_PATH}")
         return
 
     model_data = joblib.load(MODEL_PATH)
@@ -109,8 +109,8 @@ def run_comprehensive_tests():
         f.write(f"\nFINAL RESEARCH ACCURACY: {accuracy:.2f}% ({correct_predictions}/{total_cases})\n")
         f.write("-" * 50 + "\n")
 
-    print(f"✅ Tests completed. Final Research Accuracy: {accuracy:.2f}%")
-    print(f"📂 Results saved to: {RESULTS_FILE}")
+    print(f"SUCCESS: Tests completed. Final Research Accuracy: {accuracy:.2f}%")
+    print(f"INFO: Results saved to: {RESULTS_FILE}")
 
 if __name__ == "__main__":
     run_comprehensive_tests()

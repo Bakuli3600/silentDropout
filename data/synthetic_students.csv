@@ -1,0 +1,1201 @@
+student_id,name,institution,attendance_rate,assignment_submission_rate,lms_login_frequency,avg_session_time,grades,dropout_risk
+KOL-2026000,Bina Karan,Jadavpur University,92.45,77.23,6.3,75.5,66.49,0
+KOL-2026001,Meghana Rajagopal,Jadavpur University,100.0,95.35,4.1,55.9,63.05,0
+KOL-2026002,Hitesh Chaudhuri,St. Xavier's College,88.63,41.73,1.6,33.8,54.81,0
+KOL-2026003,Neha Deshmukh,University of Calcutta,71.38,51.75,7.9,40.5,71.01,0
+KOL-2026004,Udyati Subramaniam,University of Calcutta,76.83,82.22,2.7,52.5,60.99,0
+KOL-2026005,Chakrika Kunda,University of Calcutta,75.97,100.0,5.0,23.8,82.34,0
+KOL-2026006,Nitara Acharya,Jadavpur University,88.13,40.81,2.3,48.9,81.08,0
+KOL-2026007,Aadi Savant,Jadavpur University,83.27,73.98,2.0,30.6,63.09,0
+KOL-2026008,Tamanna Tella,Presidency University,90.15,44.74,5.6,37.3,59.85,0
+KOL-2026009,Pratyush Saini,Jadavpur University,100.0,98.63,3.3,38.8,74.97,0
+KOL-2026010,Rehaan Sinha,Jadavpur University,77.81,76.29,2.8,21.1,82.19,0
+KOL-2026011,Jasmit Garg,Jadavpur University,83.92,100.0,5.7,32.1,75.42,0
+KOL-2026012,Watika Sankaran,University of Calcutta,84.46,100.0,0.0,61.4,71.31,0
+KOL-2026013,Timothy Raman,University of Calcutta,86.38,40.25,4.6,52.1,92.17,0
+KOL-2026014,Urmi Kumer,Jadavpur University,72.87,69.96,6.8,51.6,62.05,0
+KOL-2026015,Yochana Dugal,University of Calcutta,86.46,99.37,3.6,38.4,64.12,0
+KOL-2026016,Karan Sinha,Presidency University,89.44,85.22,5.0,40.3,48.77,0
+KOL-2026017,Girik Dass,University of Calcutta,79.86,63.95,4.7,53.1,98.29,0
+KOL-2026018,Idika Zacharia,Presidency University,88.86,78.51,1.2,44.5,70.9,1
+KOL-2026019,Liam Chaudhuri,St. Xavier's College,82.11,86.03,4.9,21.6,87.14,0
+KOL-2026020,Fitan Sane,Jadavpur University,96.87,61.81,7.8,17.0,78.8,0
+KOL-2026021,Chanakya Bahl,University of Calcutta,70.14,68.67,5.2,34.9,46.74,0
+KOL-2026022,Hardik Shah,Presidency University,69.07,89.47,3.2,76.0,58.25,0
+KOL-2026023,Dayamai Sachar,St. Xavier's College,97.2,55.38,5.5,71.1,45.89,0
+KOL-2026024,Praneel Kalla,St. Xavier's College,88.9,95.64,2.5,18.6,77.83,0
+KOL-2026025,Yuvraj Narayan,University of Calcutta,88.76,86.93,3.6,49.6,74.4,0
+KOL-2026026,Yatin Dhawan,University of Calcutta,100.0,89.48,2.6,58.1,55.38,0
+KOL-2026027,Nirja Narayan,St. Xavier's College,100.0,63.59,6.9,53.3,82.33,0
+KOL-2026028,Vansha Parsa,Jadavpur University,81.32,64.93,3.2,28.7,68.84,0
+KOL-2026029,Brijesh Mani,Jadavpur University,89.15,96.54,5.0,74.1,66.03,0
+KOL-2026030,Rushil Morar,Presidency University,94.39,62.86,2.9,54.6,66.65,0
+KOL-2026031,Indrajit Bansal,Jadavpur University,92.1,78.54,3.3,14.7,63.3,0
+KOL-2026032,Vasudha Thaker,St. Xavier's College,88.21,55.09,5.3,52.7,56.74,0
+KOL-2026033,Jalsa Thakkar,St. Xavier's College,85.87,57.14,5.7,56.2,86.25,0
+KOL-2026034,Abha Anne,St. Xavier's College,64.33,61.24,6.0,55.3,77.73,1
+KOL-2026035,Orinder D’Alia,Jadavpur University,93.56,100.0,6.9,58.0,65.27,0
+KOL-2026036,Omaja Zachariah,Presidency University,73.41,75.26,4.0,46.6,100.0,0
+KOL-2026037,Gagan Grewal,Jadavpur University,95.29,47.75,4.1,66.8,70.96,0
+KOL-2026038,Vaishnavi Gole,Presidency University,74.27,93.59,3.5,49.3,70.68,0
+KOL-2026039,Ijaya Chahal,Jadavpur University,100.0,92.68,0.9,48.7,60.07,0
+KOL-2026040,Isaiah Chada,St. Xavier's College,73.11,77.71,6.0,62.3,52.0,0
+KOL-2026041,Aradhana Bava,St. Xavier's College,77.88,66.93,8.5,53.1,51.09,0
+KOL-2026042,Kavya Muni,University of Calcutta,100.0,100.0,2.0,35.3,89.0,0
+KOL-2026043,Aarini Bhasin,Jadavpur University,91.66,95.49,3.1,43.8,21.38,0
+KOL-2026044,Ekta Chaudry,Jadavpur University,81.21,55.04,8.3,16.4,63.4,0
+KOL-2026045,Indali Upadhyay,University of Calcutta,100.0,51.28,7.3,45.2,55.28,0
+KOL-2026046,Raghav Krishnan,St. Xavier's College,87.99,68.0,5.1,37.3,71.7,0
+KOL-2026047,Jai Aurora,Jadavpur University,100.0,55.24,9.3,6.0,67.72,0
+KOL-2026048,Thomas Sachdeva,University of Calcutta,89.21,67.55,4.6,35.1,61.16,0
+KOL-2026049,Gayathri Mallick,Jadavpur University,90.36,66.14,6.8,51.1,82.19,0
+KOL-2026050,Maanav Goyal,Presidency University,72.57,68.8,6.5,57.2,69.69,0
+KOL-2026051,David Saraf,St. Xavier's College,100.0,68.17,6.1,41.0,66.73,0
+KOL-2026052,Caleb Mane,Presidency University,97.38,96.27,7.6,45.4,80.23,0
+KOL-2026053,Eiravati Nair,St. Xavier's College,89.86,77.4,5.2,56.9,57.73,0
+KOL-2026054,Garima Johal,University of Calcutta,69.91,55.72,7.3,60.8,79.36,0
+KOL-2026055,Saanvi Mane,St. Xavier's College,84.82,62.05,5.2,31.5,84.63,0
+KOL-2026056,Watika Sant,St. Xavier's College,72.62,73.57,5.8,33.7,57.67,0
+KOL-2026057,Neelima Khalsa,University of Calcutta,88.67,69.86,4.1,49.6,48.28,0
+KOL-2026058,Chanakya Mann,St. Xavier's College,74.22,75.73,5.6,74.5,82.86,0
+KOL-2026059,Ranbir Krishnan,Jadavpur University,84.71,59.95,5.0,39.2,74.84,0
+KOL-2026060,Priya Naidu,University of Calcutta,92.79,100.0,4.8,53.0,80.35,0
+KOL-2026061,Dhruv Nagi,University of Calcutta,88.36,80.25,5.2,29.5,70.37,0
+KOL-2026062,Darsh Sandhu,University of Calcutta,100.0,99.19,9.3,29.7,83.08,0
+KOL-2026063,Ayush Ranganathan,Presidency University,100.0,63.83,3.3,33.0,38.14,0
+KOL-2026064,Mitali Wali,Presidency University,73.61,83.01,5.7,82.5,84.26,0
+KOL-2026065,Kai Sastry,St. Xavier's College,71.52,89.84,2.4,81.6,87.69,0
+KOL-2026066,Forum Goel,University of Calcutta,59.3,100.0,4.8,69.8,46.08,0
+KOL-2026067,Wakeeta Vasa,St. Xavier's College,85.08,80.94,4.1,57.5,53.99,0
+KOL-2026068,Vivaan Bhakta,Jadavpur University,86.8,90.29,6.4,22.5,46.99,0
+KOL-2026069,Eshana Mammen,University of Calcutta,89.98,65.03,8.1,47.3,87.69,0
+KOL-2026070,Vedika Edwin,Jadavpur University,100.0,100.0,4.5,64.4,79.68,0
+KOL-2026071,Kai Sarma,St. Xavier's College,70.53,93.72,7.1,9.8,52.25,0
+KOL-2026072,Pratyush Nagar,Presidency University,80.96,94.35,8.0,46.5,94.43,0
+KOL-2026073,Samaksh Sarraf,St. Xavier's College,59.45,78.89,5.8,44.3,38.99,0
+KOL-2026074,Parth Contractor,Jadavpur University,65.43,93.39,5.7,26.2,62.29,0
+KOL-2026075,Aarna Subramanian,University of Calcutta,84.06,99.1,3.0,55.1,62.05,0
+KOL-2026076,Ekiya Gade,St. Xavier's College,83.39,59.3,3.9,21.0,99.47,0
+KOL-2026077,Inaya Pau,University of Calcutta,74.5,84.28,4.8,40.6,79.21,0
+KOL-2026078,Gaurika Dutt,Presidency University,77.04,68.48,4.4,2.0,47.27,1
+KOL-2026079,Praneel Krish,Presidency University,100.0,75.02,6.2,51.2,100.0,0
+KOL-2026080,Pallavi Pai,Presidency University,83.08,60.89,1.8,49.1,58.65,0
+KOL-2026081,Aahana Natarajan,University of Calcutta,75.3,58.37,8.4,62.6,69.88,0
+KOL-2026082,Hemal Singh,St. Xavier's College,86.16,62.77,8.0,55.8,54.44,0
+KOL-2026083,Vasana Dada,University of Calcutta,71.87,52.34,6.9,83.2,49.02,0
+KOL-2026084,Michael Naik,University of Calcutta,75.24,70.26,3.8,27.7,70.73,0
+KOL-2026085,Raghav Batra,St. Xavier's College,89.06,79.0,4.5,26.8,61.35,0
+KOL-2026086,Rohan Chaudhuri,Presidency University,92.51,60.45,5.2,60.0,44.96,0
+KOL-2026087,Ekaraj Baria,Presidency University,75.06,91.41,3.5,8.9,45.59,0
+KOL-2026088,Zaid Setty,St. Xavier's College,88.9,61.91,6.3,11.8,69.01,0
+KOL-2026089,Dayamai Devi,University of Calcutta,75.22,80.95,3.3,37.3,85.09,0
+KOL-2026090,Vritti Chandra,University of Calcutta,97.54,57.41,6.1,73.8,32.93,0
+KOL-2026091,Qarin Bail,Presidency University,93.66,75.94,5.7,32.9,71.3,0
+KOL-2026092,Ryan Khosla,Jadavpur University,100.0,85.09,5.7,36.8,62.69,0
+KOL-2026093,Anusha Memon,Jadavpur University,90.92,71.58,5.6,86.5,83.07,0
+KOL-2026094,Nimrat Hegde,Jadavpur University,100.0,71.84,0.9,24.8,41.94,0
+KOL-2026095,Zaid Desai,University of Calcutta,85.28,100.0,5.7,40.6,82.44,0
+KOL-2026096,Aarush Sur,University of Calcutta,88.53,95.42,2.0,67.9,75.08,0
+KOL-2026097,Viraj Natarajan,Presidency University,94.49,100.0,5.4,50.0,63.11,0
+KOL-2026098,Ridhi Pal,Jadavpur University,97.46,62.88,5.1,35.4,77.18,0
+KOL-2026099,Falan Bal,Presidency University,100.0,69.8,4.5,25.4,63.34,0
+KOL-2026100,Chatresh Ganesh,Presidency University,96.35,61.56,6.7,72.1,76.2,0
+KOL-2026101,Raksha Goel,Presidency University,73.39,55.11,1.4,74.9,79.82,0
+KOL-2026102,Wriddhish Menon,St. Xavier's College,89.2,57.49,9.9,47.6,71.64,0
+KOL-2026103,Guneet Varughese,Jadavpur University,92.22,84.48,3.4,54.4,98.23,0
+KOL-2026104,Harshil Mallick,Jadavpur University,100.0,69.78,3.0,42.5,70.84,0
+KOL-2026105,Ishita Chopra,St. Xavier's College,59.61,100.0,4.7,36.5,54.82,0
+KOL-2026106,Varsha Padmanabhan,St. Xavier's College,97.35,81.47,2.4,19.1,64.96,0
+KOL-2026107,Rohan Sandal,Jadavpur University,81.11,49.94,4.5,39.5,29.55,0
+KOL-2026108,Wazir Kata,St. Xavier's College,81.54,93.92,8.7,67.5,65.97,0
+KOL-2026109,Chakradhar Vora,Presidency University,100.0,81.18,5.0,44.5,72.97,0
+KOL-2026110,Sudiksha Venkataraman,University of Calcutta,76.4,69.06,4.9,34.1,59.31,0
+KOL-2026111,Gaurav Desai,Presidency University,81.18,100.0,0.0,66.8,88.69,0
+KOL-2026112,Jacob Bhandari,Jadavpur University,79.86,72.57,2.2,29.4,53.34,1
+KOL-2026113,Patrick Bhatia,St. Xavier's College,99.04,100.0,6.4,22.4,62.13,0
+KOL-2026114,Joshua Koshy,University of Calcutta,66.67,94.26,4.5,37.5,80.66,0
+KOL-2026115,Yadavi Deo,Jadavpur University,79.59,100.0,2.8,57.3,78.9,0
+KOL-2026116,Saumya Bhat,St. Xavier's College,89.89,54.98,6.8,41.3,62.16,0
+KOL-2026117,Yahvi Wali,University of Calcutta,74.43,51.83,1.9,57.1,50.79,1
+KOL-2026118,Widisha Bhalla,University of Calcutta,53.77,100.0,5.4,43.1,61.83,0
+KOL-2026119,Nirja Gole,St. Xavier's College,84.44,100.0,5.2,48.0,64.55,0
+KOL-2026120,Urvi Rastogi,University of Calcutta,89.62,45.8,2.3,59.9,72.56,0
+KOL-2026121,Zayyan Korpal,Jadavpur University,85.28,86.95,3.9,29.4,72.94,0
+KOL-2026122,Indira Parmar,St. Xavier's College,91.12,45.95,7.1,54.5,73.84,0
+KOL-2026123,Jhalak Doctor,Presidency University,100.0,100.0,1.3,19.4,60.63,0
+KOL-2026124,Alexander Rana,Jadavpur University,92.76,65.49,5.4,29.9,60.83,0
+KOL-2026125,Charan Gala,Jadavpur University,71.15,52.97,3.0,66.1,55.76,1
+KOL-2026126,Mekhala Iyengar,St. Xavier's College,92.4,83.7,3.3,59.0,61.37,0
+KOL-2026127,Ishaan Karnik,St. Xavier's College,100.0,78.08,7.3,30.9,69.48,0
+KOL-2026128,Maanas Dara,University of Calcutta,75.6,100.0,6.4,33.8,79.49,0
+KOL-2026129,Laban Narasimhan,Jadavpur University,94.33,48.6,3.5,40.0,68.88,0
+KOL-2026130,Avni Sandal,University of Calcutta,87.67,53.29,5.8,57.2,78.4,0
+KOL-2026131,Mitali Khurana,Jadavpur University,97.51,89.18,4.9,11.8,76.44,0
+KOL-2026132,Panini Jaggi,Jadavpur University,89.07,54.47,2.8,66.1,69.41,0
+KOL-2026133,Matthew Handa,Presidency University,85.42,80.6,6.9,34.7,71.44,0
+KOL-2026134,Sudiksha Kota,Jadavpur University,78.48,73.82,5.4,35.4,88.84,0
+KOL-2026135,Matthew Warrior,University of Calcutta,82.2,71.21,7.9,48.9,85.48,0
+KOL-2026136,Rachit Master,University of Calcutta,89.01,97.79,5.2,66.3,62.24,0
+KOL-2026137,Nihal Deo,Presidency University,100.0,72.74,4.1,74.1,93.69,0
+KOL-2026138,Dalbir Sangha,University of Calcutta,78.7,74.36,2.3,26.6,54.94,0
+KOL-2026139,Chatresh Mahal,St. Xavier's College,84.48,84.68,8.1,25.0,84.76,0
+KOL-2026140,Ekiya Jaggi,Presidency University,84.26,93.5,2.8,52.6,72.5,0
+KOL-2026141,Nathan Palla,University of Calcutta,89.34,100.0,3.7,34.4,60.65,0
+KOL-2026142,Farhan Bava,University of Calcutta,75.44,100.0,7.8,33.6,57.51,0
+KOL-2026143,Krish Rai,St. Xavier's College,76.72,92.66,5.4,14.7,93.21,0
+KOL-2026144,Ishanvi Prashad,Presidency University,75.81,72.25,5.6,51.7,79.88,1
+KOL-2026145,Advaith Mann,St. Xavier's College,82.35,64.03,2.2,30.4,69.5,1
+KOL-2026146,Rachita Bhatt,Presidency University,77.24,84.48,5.0,68.8,100.0,0
+KOL-2026147,Nathan Sane,Presidency University,77.66,100.0,6.4,81.9,78.76,0
+KOL-2026148,Jack Badal,Jadavpur University,93.86,100.0,6.6,55.1,86.0,0
+KOL-2026149,Matthew Balay,University of Calcutta,100.0,92.97,4.7,47.9,88.1,0
+KOL-2026150,Devansh Taneja,University of Calcutta,90.53,72.13,5.1,70.6,72.87,0
+KOL-2026151,Udarsh Kata,Jadavpur University,64.6,94.93,6.3,88.3,65.38,0
+KOL-2026152,Jeet Gola,St. Xavier's College,88.74,100.0,4.8,50.6,79.12,0
+KOL-2026153,Aashi Brahmbhatt,Jadavpur University,78.3,83.88,7.1,24.5,71.99,0
+KOL-2026154,Tarak Prabhakar,University of Calcutta,100.0,49.54,3.9,52.5,93.48,0
+KOL-2026155,Ekalinga Shanker,University of Calcutta,76.67,100.0,2.1,2.0,76.6,0
+KOL-2026156,Amruta Sha,Jadavpur University,69.68,94.17,5.5,33.7,50.8,0
+KOL-2026157,Ekbal Dhar,Jadavpur University,94.75,78.02,8.7,23.6,47.12,0
+KOL-2026158,Yashasvi Ramakrishnan,Jadavpur University,84.32,84.87,4.5,52.0,51.23,0
+KOL-2026159,Hitesh Agarwal,University of Calcutta,83.77,100.0,5.7,54.1,78.55,0
+KOL-2026160,Nicholas Sharaf,Jadavpur University,94.64,100.0,5.4,59.2,68.65,0
+KOL-2026161,Charles Dubey,Jadavpur University,74.85,100.0,4.9,16.4,71.92,0
+KOL-2026162,Robert Goswami,St. Xavier's College,97.61,66.95,4.1,7.2,63.22,0
+KOL-2026163,Nathan Manda,Jadavpur University,61.24,95.21,6.6,53.5,55.5,0
+KOL-2026164,Mugdha Ahluwalia,University of Calcutta,84.95,56.83,8.0,62.5,66.69,0
+KOL-2026165,Warinder Khatri,St. Xavier's College,88.13,39.17,4.5,31.4,54.98,0
+KOL-2026166,Saksham Butala,Presidency University,100.0,92.82,3.9,56.5,90.99,0
+KOL-2026167,Upadhriti Dhaliwal,University of Calcutta,85.89,67.06,6.4,52.9,83.43,0
+KOL-2026168,Eesha Gaba,University of Calcutta,100.0,69.3,7.6,49.0,100.0,0
+KOL-2026169,Matthew Kunda,Presidency University,100.0,83.96,3.7,35.3,65.19,0
+KOL-2026170,Yagnesh Subramaniam,University of Calcutta,92.84,68.53,5.0,87.8,95.91,0
+KOL-2026171,Janaki Tara,Presidency University,85.57,82.4,6.2,24.5,66.14,0
+KOL-2026172,Saanvi Bhandari,Presidency University,90.99,92.94,4.0,76.5,51.61,0
+KOL-2026173,Anmol Bala,University of Calcutta,88.37,100.0,8.4,35.8,86.18,0
+KOL-2026174,Advay Chaudhry,Jadavpur University,82.41,97.67,6.3,13.5,92.15,0
+KOL-2026175,Chakradhar Master,Jadavpur University,75.62,87.92,6.0,50.2,61.75,0
+KOL-2026176,Nitesh Nagi,Presidency University,84.62,100.0,6.1,37.6,81.58,0
+KOL-2026177,Rudra Gill,St. Xavier's College,100.0,45.21,4.3,22.6,50.58,0
+KOL-2026178,Isaiah Dasgupta,Presidency University,77.98,86.93,4.9,54.5,71.15,0
+KOL-2026179,Aarini Dyal,Presidency University,99.94,70.12,1.9,36.4,92.51,0
+KOL-2026180,Bachittar Madan,Presidency University,79.77,73.01,4.4,86.5,75.73,0
+KOL-2026181,Thomas Narain,Jadavpur University,100.0,84.78,4.5,41.1,68.93,0
+KOL-2026182,Aishani Walla,Jadavpur University,95.91,81.04,6.5,43.4,71.18,0
+KOL-2026183,Neha Nadig,Jadavpur University,98.74,86.93,7.0,2.0,100.0,0
+KOL-2026184,Nitesh Lalla,Presidency University,100.0,59.2,6.2,23.9,60.64,0
+KOL-2026185,Watika Ratti,St. Xavier's College,82.14,84.35,6.7,54.9,72.26,0
+KOL-2026186,Ishita Rastogi,Jadavpur University,100.0,78.85,5.4,66.0,86.58,0
+KOL-2026187,Gavin Walia,University of Calcutta,94.58,57.14,8.3,22.1,74.54,0
+KOL-2026188,Logan Sarkar,University of Calcutta,84.04,86.58,5.6,53.4,94.21,0
+KOL-2026189,Ekta Raval,University of Calcutta,81.34,99.28,7.4,20.4,78.96,0
+KOL-2026190,Aahana Krishnan,Presidency University,80.54,100.0,4.7,47.5,67.4,0
+KOL-2026191,Om Tripathi,University of Calcutta,68.56,51.2,8.2,28.1,55.13,0
+KOL-2026192,Idika Banik,Presidency University,75.42,53.54,8.3,65.2,59.68,1
+KOL-2026193,Nicholas Sura,University of Calcutta,99.73,73.5,0.0,90.8,49.16,0
+KOL-2026194,Ishwar Deo,St. Xavier's College,100.0,100.0,7.8,56.3,78.92,0
+KOL-2026195,Charan Golla,Presidency University,96.38,85.62,5.2,43.7,58.69,0
+KOL-2026196,Oni Zachariah,University of Calcutta,59.61,78.03,3.0,22.9,72.7,1
+KOL-2026197,Harshil Subramaniam,Jadavpur University,98.77,48.59,3.0,63.8,55.26,0
+KOL-2026198,Lajita Kapoor,Presidency University,93.25,60.63,5.2,18.3,60.98,0
+KOL-2026199,Upasna Pillay,Jadavpur University,61.11,88.81,5.0,56.0,73.36,0
+KOL-2026200,Nakul Tank,Jadavpur University,86.88,71.41,5.2,55.9,70.73,0
+KOL-2026201,Xavier Khanna,Jadavpur University,74.47,66.74,2.2,80.0,51.34,0
+KOL-2026202,Rishi Mani,Jadavpur University,74.22,97.9,4.4,70.0,59.9,0
+KOL-2026203,George Kibe,University of Calcutta,72.47,100.0,2.6,51.2,79.51,0
+KOL-2026204,Ranbir Kara,University of Calcutta,82.22,77.4,5.1,42.1,84.46,0
+KOL-2026205,Devika Rajan,Presidency University,76.64,52.6,4.8,96.6,57.94,1
+KOL-2026206,Mason Ratti,Presidency University,100.0,68.93,6.1,77.6,64.31,0
+KOL-2026207,Vinaya Chaudhary,Presidency University,76.27,59.7,3.7,20.5,70.51,0
+KOL-2026208,Harsh Soman,University of Calcutta,88.51,48.88,5.7,61.7,40.09,0
+KOL-2026209,Udant Kunda,Presidency University,100.0,55.81,8.3,53.4,59.42,0
+KOL-2026210,Aadi Kapur,Jadavpur University,93.37,81.52,6.1,26.6,72.54,0
+KOL-2026211,Chavvi Khanna,University of Calcutta,83.33,61.92,3.5,69.7,86.37,0
+KOL-2026212,Samar Bhatia,Presidency University,68.62,73.67,7.4,47.8,100.0,0
+KOL-2026213,Ishani Naik,Jadavpur University,87.88,73.82,5.3,42.0,80.62,0
+KOL-2026214,Aishani Dhillon,Presidency University,73.21,53.38,1.3,55.2,53.45,0
+KOL-2026215,Mugdha Balasubramanian,St. Xavier's College,90.83,100.0,5.0,61.8,71.23,0
+KOL-2026216,Hamsini Sem,Presidency University,98.79,74.19,5.5,51.4,59.98,0
+KOL-2026217,Nirja Chakraborty,St. Xavier's College,82.38,64.89,6.1,27.0,70.42,0
+KOL-2026218,Pushti Bora,Presidency University,100.0,89.49,4.9,61.4,90.85,0
+KOL-2026219,Pratyush Ahluwalia,Presidency University,85.16,53.76,2.9,38.9,60.86,0
+KOL-2026220,Ishani Patil,University of Calcutta,85.85,90.59,4.9,54.7,70.97,0
+KOL-2026221,Qushi Grewal,University of Calcutta,70.91,77.12,2.6,57.0,92.96,0
+KOL-2026222,Vaishnavi Naik,St. Xavier's College,81.8,100.0,5.3,38.3,60.8,0
+KOL-2026223,Champak Prashad,University of Calcutta,79.18,83.41,5.3,45.1,76.55,0
+KOL-2026224,Sarthak Kashyap,Jadavpur University,99.24,50.3,0.0,63.7,49.5,0
+KOL-2026225,Nimrat Peri,Jadavpur University,67.45,43.96,6.1,60.2,61.35,0
+KOL-2026226,Ria Contractor,St. Xavier's College,76.81,87.84,2.0,48.7,69.77,0
+KOL-2026227,Faqid Sandal,Jadavpur University,86.79,60.54,7.4,41.8,69.59,0
+KOL-2026228,Zarna Biswas,Jadavpur University,78.35,62.3,4.7,79.2,49.42,0
+KOL-2026229,Charan Uppal,Presidency University,100.0,75.81,3.7,65.8,60.92,0
+KOL-2026230,Charvi Bir,University of Calcutta,95.17,70.24,9.3,32.9,81.13,0
+KOL-2026231,Chakrika Khare,Jadavpur University,100.0,100.0,5.1,29.9,76.9,0
+KOL-2026232,Janaki Narain,Jadavpur University,100.0,82.73,4.3,48.7,49.79,0
+KOL-2026233,Elijah Bera,University of Calcutta,100.0,66.86,2.9,55.7,87.79,0
+KOL-2026234,Upkaar Gour,Jadavpur University,99.94,64.86,2.2,75.0,65.16,0
+KOL-2026235,Idika Modi,Jadavpur University,100.0,91.12,5.9,88.3,60.35,0
+KOL-2026236,Amara Sachdeva,University of Calcutta,85.86,85.37,8.1,55.2,78.07,0
+KOL-2026237,Gaurangi Jhaveri,Presidency University,79.53,63.22,2.9,5.7,100.0,0
+KOL-2026238,Harshil Soman,Jadavpur University,81.68,74.46,5.6,61.3,82.91,0
+KOL-2026239,Oviya Bhat,University of Calcutta,82.49,85.65,4.5,77.1,77.36,0
+KOL-2026240,Alka Madan,Jadavpur University,94.94,100.0,5.4,19.1,76.0,0
+KOL-2026241,Sanya Gill,Jadavpur University,77.07,91.73,7.5,45.4,74.63,0
+KOL-2026242,Arin Uppal,Presidency University,88.61,100.0,6.1,9.8,81.3,0
+KOL-2026243,Bhanumati Dhingra,St. Xavier's College,100.0,93.46,4.7,20.5,66.86,0
+KOL-2026244,Avni Dua,St. Xavier's College,76.29,91.77,8.3,52.9,52.06,0
+KOL-2026245,Zaitra Biswas,University of Calcutta,100.0,67.8,4.7,45.3,58.23,0
+KOL-2026246,Xavier Chaudhry,St. Xavier's College,83.19,88.39,3.2,36.3,80.84,0
+KOL-2026247,Yachana Jaggi,University of Calcutta,100.0,72.01,5.4,63.7,48.72,0
+KOL-2026248,Chameli Varghese,St. Xavier's College,62.12,100.0,3.9,96.2,61.54,0
+KOL-2026249,Kashish Borde,Presidency University,100.0,100.0,9.1,69.2,85.36,0
+KOL-2026250,Chaaya Thakur,University of Calcutta,96.68,68.98,3.4,44.9,67.45,0
+KOL-2026251,Shivansh Varma,St. Xavier's College,95.45,99.11,5.2,74.6,52.87,0
+KOL-2026252,Ranbir Bakshi,Presidency University,74.25,42.67,4.8,42.6,92.7,0
+KOL-2026253,Nakul Bhagat,St. Xavier's College,69.64,100.0,7.4,56.6,66.6,0
+KOL-2026254,Oliver Krishnamurthy,Jadavpur University,79.42,100.0,8.8,75.9,62.67,0
+KOL-2026255,Vrishti Badal,Jadavpur University,87.11,44.63,5.6,42.0,63.01,0
+KOL-2026256,Caleb Dara,Presidency University,92.7,69.35,2.7,2.0,69.59,0
+KOL-2026257,Gunbir Nigam,Jadavpur University,100.0,70.86,3.8,54.4,55.02,0
+KOL-2026258,Yug Arora,Jadavpur University,96.49,100.0,4.8,40.9,56.83,0
+KOL-2026259,Kabir Mani,University of Calcutta,81.6,87.35,6.8,28.9,92.39,0
+KOL-2026260,Mahika Barad,St. Xavier's College,84.68,65.06,0.2,62.7,81.05,0
+KOL-2026261,Warda Sha,University of Calcutta,86.0,90.32,1.9,34.4,81.91,0
+KOL-2026262,Jeevika Dixit,St. Xavier's College,89.4,52.87,5.9,44.3,45.77,0
+KOL-2026263,Chameli Maharaj,Jadavpur University,73.98,63.79,5.4,68.0,54.76,0
+KOL-2026264,Nikita Dugar,University of Calcutta,91.43,93.86,5.4,37.7,57.59,0
+KOL-2026265,Pushti Taneja,St. Xavier's College,68.92,21.57,5.9,63.1,34.56,0
+KOL-2026266,Tanmayi Shan,St. Xavier's College,94.29,100.0,5.0,30.4,67.26,0
+KOL-2026267,Dhriti Rege,University of Calcutta,75.31,64.02,4.0,25.9,71.84,1
+KOL-2026268,Isaiah Natt,Presidency University,89.85,74.95,4.4,13.7,83.25,0
+KOL-2026269,Anita Mane,St. Xavier's College,82.29,100.0,5.6,30.0,63.6,0
+KOL-2026270,Ladli Mann,Jadavpur University,86.7,51.23,6.8,31.6,98.1,0
+KOL-2026271,Jagrati Borde,St. Xavier's College,78.29,100.0,5.1,62.1,77.27,0
+KOL-2026272,Balendra Dugar,Jadavpur University,75.35,100.0,4.3,36.9,55.67,0
+KOL-2026273,Ekaja Atwal,University of Calcutta,100.0,58.65,5.0,73.2,68.81,0
+KOL-2026274,Urishilla Sami,St. Xavier's College,69.06,88.57,4.6,64.7,87.81,1
+KOL-2026275,Bhavya Sarin,Jadavpur University,93.69,86.52,5.4,37.9,75.08,0
+KOL-2026276,Bhanumati Kadakia,Jadavpur University,87.53,100.0,3.0,67.8,89.76,0
+KOL-2026277,Sanaya Buch,University of Calcutta,53.17,67.84,7.6,44.5,55.01,0
+KOL-2026278,Elijah Karan,St. Xavier's College,97.61,90.93,4.5,37.7,64.12,0
+KOL-2026279,Abhiram Sawhney,St. Xavier's College,100.0,73.55,7.4,75.4,84.97,0
+KOL-2026280,Ranveer Banerjee,University of Calcutta,91.06,79.52,3.2,51.5,52.31,0
+KOL-2026281,Neelima Chana,St. Xavier's College,78.03,84.02,5.6,39.8,78.8,0
+KOL-2026282,Arin Yogi,University of Calcutta,98.07,53.08,5.3,83.8,55.0,0
+KOL-2026283,Timothy Mistry,St. Xavier's College,92.71,83.59,5.7,54.8,79.52,0
+KOL-2026284,Praneel Bajaj,Presidency University,91.15,75.17,6.3,83.0,68.01,0
+KOL-2026285,Victor Mohanty,St. Xavier's College,100.0,77.59,0.7,61.9,61.97,0
+KOL-2026286,Bina Prasad,Jadavpur University,89.98,83.81,6.4,36.3,77.7,0
+KOL-2026287,Bina Deshpande,Jadavpur University,96.08,92.31,3.1,66.7,61.96,0
+KOL-2026288,Xalak Dada,Presidency University,90.51,100.0,4.6,38.0,69.71,0
+KOL-2026289,Bhavani Parmer,St. Xavier's College,97.0,47.67,2.9,23.6,84.25,1
+KOL-2026290,Bhavani Sidhu,Jadavpur University,83.43,76.62,5.1,68.2,56.09,0
+KOL-2026291,Tripti Tandon,Jadavpur University,99.63,90.02,5.4,65.0,29.45,0
+KOL-2026292,Chakradhar Doctor,St. Xavier's College,75.19,43.39,6.0,72.5,67.94,0
+KOL-2026293,Ekaja Vala,University of Calcutta,100.0,100.0,8.3,59.8,71.13,0
+KOL-2026294,Pushti Om,St. Xavier's College,81.31,63.14,9.3,41.5,71.85,0
+KOL-2026295,Vasatika Raghavan,University of Calcutta,85.65,100.0,3.8,48.9,58.86,0
+KOL-2026296,Adya Sekhon,Presidency University,75.82,79.26,4.1,31.2,48.91,0
+KOL-2026297,Barkha Rattan,Presidency University,62.43,95.2,5.2,15.8,65.36,0
+KOL-2026298,Lila Khatri,Jadavpur University,89.79,100.0,1.2,47.3,67.6,0
+KOL-2026299,Mahika Kakar,Jadavpur University,88.2,64.96,4.4,29.1,86.14,0
+KOL-2026300,Hemani Bhatti,Jadavpur University,100.0,78.79,3.6,14.7,42.95,0
+KOL-2026301,Indira Magar,University of Calcutta,89.01,90.17,1.8,62.9,62.75,0
+KOL-2026302,Chandresh Panchal,Jadavpur University,100.0,97.94,4.5,27.2,37.72,0
+KOL-2026303,Vrinda Badami,St. Xavier's College,81.83,60.26,4.7,46.5,66.63,0
+KOL-2026304,Sathvik Khalsa,University of Calcutta,87.53,88.84,2.8,73.2,68.52,0
+KOL-2026305,Ayush Ramaswamy,Presidency University,95.62,84.66,6.9,50.7,60.81,0
+KOL-2026306,Madhav Chhabra,University of Calcutta,67.84,82.17,4.9,40.8,68.07,0
+KOL-2026307,Ojas Butala,Jadavpur University,76.77,81.86,5.3,24.4,88.99,0
+KOL-2026308,Reva Varma,St. Xavier's College,99.54,88.54,3.7,80.5,52.1,0
+KOL-2026309,Yoshita Arora,St. Xavier's College,100.0,66.59,7.8,40.0,74.33,0
+KOL-2026310,Aishani Pandey,Jadavpur University,82.99,96.22,6.6,10.0,89.57,0
+KOL-2026311,Veda Parikh,St. Xavier's College,100.0,100.0,2.8,36.8,53.41,0
+KOL-2026312,Nathaniel Kulkarni,University of Calcutta,80.38,95.59,7.6,72.9,61.57,0
+KOL-2026313,Jyoti Issac,University of Calcutta,59.75,63.88,6.9,77.3,51.48,0
+KOL-2026314,Ira Sane,Jadavpur University,84.6,85.6,3.4,53.5,62.89,0
+KOL-2026315,Maanas Dixit,St. Xavier's College,93.19,80.13,4.1,42.8,68.67,0
+KOL-2026316,Vritti Karpe,Presidency University,81.12,100.0,6.1,39.1,80.45,0
+KOL-2026317,Girik Sandal,University of Calcutta,100.0,87.39,4.8,54.0,46.44,0
+KOL-2026318,Nidra Nadig,University of Calcutta,67.09,82.86,8.5,89.6,79.57,0
+KOL-2026319,Matthew Talwar,University of Calcutta,57.98,69.15,3.4,32.6,67.48,0
+KOL-2026320,Zayyan Nigam,University of Calcutta,55.31,94.96,2.9,49.8,100.0,0
+KOL-2026321,Abha Borah,Presidency University,47.05,74.28,7.2,84.2,51.56,0
+KOL-2026322,Sara Balakrishnan,Jadavpur University,78.02,77.88,10.3,14.9,73.81,0
+KOL-2026323,Unnati Zachariah,University of Calcutta,100.0,81.96,5.6,37.2,74.04,0
+KOL-2026324,Pahal Mukherjee,St. Xavier's College,94.32,72.61,5.8,44.4,86.89,0
+KOL-2026325,Idika Patla,Presidency University,58.4,100.0,3.2,31.9,61.07,0
+KOL-2026326,Edhitha Savant,University of Calcutta,52.96,100.0,7.1,49.5,69.18,0
+KOL-2026327,Anika Kohli,St. Xavier's College,92.82,92.9,6.1,46.8,67.04,0
+KOL-2026328,Christopher Chadha,University of Calcutta,82.08,100.0,6.2,2.0,79.84,0
+KOL-2026329,Ishwar Nadkarni,Jadavpur University,84.72,72.23,7.2,64.0,58.41,0
+KOL-2026330,Pratyush Bhavsar,Presidency University,70.43,52.41,3.7,62.2,84.3,0
+KOL-2026331,Fiyaz Chada,Jadavpur University,95.88,90.32,3.7,53.6,82.01,0
+KOL-2026332,Janaki Shanker,Presidency University,100.0,94.17,5.7,66.4,69.6,0
+KOL-2026333,Kabir Rao,University of Calcutta,82.55,65.1,3.6,42.1,58.11,0
+KOL-2026334,Benjamin Puri,University of Calcutta,56.6,84.27,5.0,28.7,79.89,0
+KOL-2026335,Aachal Ravel,Presidency University,60.89,64.75,3.5,26.2,82.44,0
+KOL-2026336,Harish Pai,St. Xavier's College,81.03,39.92,6.3,20.2,70.9,0
+KOL-2026337,Ekanta Verma,St. Xavier's College,100.0,53.82,0.0,48.7,97.01,0
+KOL-2026338,Janya Nazareth,University of Calcutta,88.14,70.17,6.6,25.5,77.15,0
+KOL-2026339,Aahana Master,University of Calcutta,100.0,100.0,5.8,34.8,69.62,0
+KOL-2026340,Panini Biswas,Jadavpur University,74.58,71.81,4.0,48.0,57.66,0
+KOL-2026341,Vritti Devi,University of Calcutta,85.0,79.81,4.3,48.1,82.38,0
+KOL-2026342,Laksh Palla,Presidency University,75.13,73.93,2.3,28.6,62.86,0
+KOL-2026343,Ishaan Sule,St. Xavier's College,88.94,83.87,6.7,42.3,75.86,0
+KOL-2026344,Girish Garde,St. Xavier's College,88.98,68.34,0.1,42.3,91.34,0
+KOL-2026345,Adya Borde,Jadavpur University,99.48,100.0,5.2,48.9,60.74,0
+KOL-2026346,Eta Kurian,St. Xavier's College,94.24,100.0,4.7,36.0,70.01,0
+KOL-2026347,Jalsa Kothari,St. Xavier's College,63.34,34.08,3.9,20.6,62.38,0
+KOL-2026348,Amrita Raghavan,Presidency University,78.2,100.0,5.7,51.0,79.33,0
+KOL-2026349,Reva Khurana,St. Xavier's College,100.0,78.48,6.3,23.6,46.69,0
+KOL-2026350,Tripti Grover,Jadavpur University,90.65,61.96,3.3,67.5,52.16,0
+KOL-2026351,Charles Iyengar,Jadavpur University,71.49,92.77,4.3,57.1,61.84,0
+KOL-2026352,Aashi D’Alia,St. Xavier's College,85.61,59.96,6.5,34.7,66.57,0
+KOL-2026353,Ekiya Chakraborty,University of Calcutta,46.56,76.18,9.8,60.7,69.71,0
+KOL-2026354,Faris Buch,St. Xavier's College,85.34,90.94,2.6,67.3,80.73,0
+KOL-2026355,Gabriel Deep,Jadavpur University,91.58,80.39,6.3,56.8,64.69,0
+KOL-2026356,Watika Badami,Jadavpur University,86.53,100.0,2.5,15.6,72.47,0
+KOL-2026357,Suhani D’Alia,Presidency University,87.6,84.88,4.6,74.8,45.99,0
+KOL-2026358,Vritti Chowdhury,St. Xavier's College,83.45,47.14,4.6,78.2,70.31,0
+KOL-2026359,Yamini Ramanathan,St. Xavier's College,66.1,67.67,4.2,38.6,89.22,0
+KOL-2026360,Onkar Sane,Presidency University,68.33,84.93,6.0,67.8,93.71,0
+KOL-2026361,Abeer Pau,Jadavpur University,72.84,54.85,4.5,54.3,84.81,0
+KOL-2026362,Thomas Toor,Presidency University,80.2,83.04,3.3,86.8,45.89,0
+KOL-2026363,Unni Char,University of Calcutta,100.0,80.14,4.6,37.9,67.29,0
+KOL-2026364,Zansi Sahota,St. Xavier's College,51.82,100.0,2.2,39.7,63.56,0
+KOL-2026365,Januja Bajaj,Jadavpur University,61.03,89.24,9.0,17.7,72.85,0
+KOL-2026366,Warda Luthra,Presidency University,91.39,80.38,3.7,54.8,97.07,0
+KOL-2026367,Vansha Kurian,Jadavpur University,95.8,54.13,3.1,54.4,92.26,0
+KOL-2026368,Veer Soni,University of Calcutta,80.3,79.99,2.5,57.1,83.23,0
+KOL-2026369,Hemang Mangat,St. Xavier's College,77.95,85.32,4.1,43.7,100.0,0
+KOL-2026370,Ishanvi Rajagopalan,Presidency University,79.62,67.05,6.5,41.4,60.26,0
+KOL-2026371,Charan Naik,Jadavpur University,100.0,67.99,1.3,65.2,59.73,0
+KOL-2026372,Diya Dugar,St. Xavier's College,55.45,97.85,2.6,59.6,70.21,0
+KOL-2026373,Dhruv Biswas,St. Xavier's College,78.89,93.73,5.2,56.7,99.65,0
+KOL-2026374,Qushi Nagar,Jadavpur University,100.0,82.09,3.2,18.4,67.16,0
+KOL-2026375,Aryan Rattan,St. Xavier's College,83.09,100.0,2.1,44.8,51.21,0
+KOL-2026376,Daksh Ghose,St. Xavier's College,98.3,71.58,0.0,49.0,76.55,0
+KOL-2026377,Advika Raja,Presidency University,100.0,58.58,6.4,68.9,43.32,0
+KOL-2026378,Charan Barman,St. Xavier's College,77.44,78.37,5.7,35.3,59.86,0
+KOL-2026379,Hamsini Bhatnagar,Presidency University,68.69,58.28,6.4,22.0,79.99,0
+KOL-2026380,Krishna Balasubramanian,St. Xavier's College,59.11,66.45,7.4,25.4,63.03,0
+KOL-2026381,Ayushman Sarraf,University of Calcutta,96.75,74.97,3.8,73.4,96.08,0
+KOL-2026382,Viraj Bandi,University of Calcutta,86.28,63.83,3.3,55.5,76.28,0
+KOL-2026383,Ekapad Borah,Presidency University,94.76,49.94,7.1,25.0,64.24,0
+KOL-2026384,Neelima Malhotra,Presidency University,100.0,100.0,6.2,41.3,78.02,0
+KOL-2026385,Nitesh Sarkar,University of Calcutta,80.19,100.0,5.5,55.0,79.99,0
+KOL-2026386,Vasana Mohanty,St. Xavier's College,97.58,67.65,3.9,23.0,76.59,0
+KOL-2026387,Qarin Goda,Presidency University,91.87,100.0,5.0,58.4,53.62,0
+KOL-2026388,Omaja Anand,Jadavpur University,95.43,96.98,4.4,43.6,47.23,0
+KOL-2026389,Lopa Rajagopal,St. Xavier's College,98.36,91.5,6.0,46.0,70.11,0
+KOL-2026390,Lakshmi Kumer,St. Xavier's College,95.48,88.42,6.0,34.5,37.7,0
+KOL-2026391,Nitesh Upadhyay,University of Calcutta,77.82,62.74,6.4,37.2,85.9,0
+KOL-2026392,Zinal Jain,Presidency University,95.25,52.68,7.4,50.2,64.46,0
+KOL-2026393,Mitesh Gera,St. Xavier's College,58.36,88.17,2.9,17.9,47.16,0
+KOL-2026394,Vedant Khosla,Presidency University,75.56,100.0,3.9,10.9,53.25,0
+KOL-2026395,Aadi Randhawa,Presidency University,82.66,69.03,5.3,55.0,86.76,0
+KOL-2026396,Widisha Shan,Presidency University,79.6,53.48,4.2,50.2,55.54,0
+KOL-2026397,Abdul Goda,University of Calcutta,90.16,79.03,5.1,29.8,66.54,0
+KOL-2026398,Dhruv Halder,Presidency University,98.35,100.0,1.3,26.4,47.55,0
+KOL-2026399,Pratyush Dewan,University of Calcutta,83.75,51.01,3.2,24.9,73.11,0
+KOL-2026400,Jagvi Bassi,Jadavpur University,74.17,83.54,3.9,39.6,95.1,0
+KOL-2026401,Upadhriti Ramaswamy,St. Xavier's College,65.51,96.59,6.6,22.0,82.28,0
+KOL-2026402,Advik Pal,St. Xavier's College,68.16,61.65,7.0,50.4,78.27,0
+KOL-2026403,Chasmum Bala,Jadavpur University,90.86,53.47,7.1,68.4,66.56,0
+KOL-2026404,Praneel Sane,University of Calcutta,62.03,90.29,6.1,43.8,86.87,0
+KOL-2026405,Ganga Nath,St. Xavier's College,93.47,59.61,5.0,41.5,73.38,0
+KOL-2026406,Sara Oza,University of Calcutta,83.03,96.52,4.1,12.9,96.24,0
+KOL-2026407,Falak Ramachandran,University of Calcutta,65.62,93.79,4.0,50.3,74.41,0
+KOL-2026408,Charvi Hegde,University of Calcutta,73.24,66.19,3.2,28.4,68.99,0
+KOL-2026409,Mitesh Pant,Jadavpur University,95.23,100.0,3.8,49.8,77.5,0
+KOL-2026410,Ekantika Ahluwalia,Jadavpur University,86.14,94.85,6.0,20.2,83.04,0
+KOL-2026411,Ubika Mani,University of Calcutta,73.55,80.76,6.4,40.8,86.09,1
+KOL-2026412,Eshana Borde,Presidency University,73.21,52.38,5.6,59.4,66.54,1
+KOL-2026413,Sanaya Karpe,Jadavpur University,64.92,93.86,3.8,79.4,99.89,0
+KOL-2026414,Bimala Bhatia,Presidency University,76.76,97.19,4.2,44.1,70.38,0
+KOL-2026415,Zaitra Khosla,Presidency University,84.79,66.21,4.0,73.9,51.15,0
+KOL-2026416,Yauvani Aurora,University of Calcutta,80.82,74.4,6.6,51.8,78.56,0
+KOL-2026417,Dayita Patla,Presidency University,80.03,67.76,2.8,28.5,100.0,0
+KOL-2026418,Wahab Doctor,Presidency University,64.73,53.55,6.0,55.9,78.23,0
+KOL-2026419,Chanchal Chad,Presidency University,83.12,86.56,5.2,2.0,66.55,0
+KOL-2026420,Benjamin Chhabra,University of Calcutta,87.63,100.0,5.7,38.7,83.83,0
+KOL-2026421,Dakshesh Lanka,University of Calcutta,91.3,92.14,9.1,22.4,77.1,0
+KOL-2026422,Rachit Babu,Jadavpur University,93.33,61.63,4.2,39.1,84.64,0
+KOL-2026423,Oviya Goel,Jadavpur University,66.31,81.1,3.6,19.8,66.74,0
+KOL-2026424,Abdul Pandey,Presidency University,100.0,88.66,2.2,33.7,85.32,0
+KOL-2026425,Aditya Kothari,University of Calcutta,61.21,42.4,8.7,52.8,56.98,0
+KOL-2026426,Jagrati Behl,University of Calcutta,45.46,80.07,5.7,63.5,54.79,0
+KOL-2026427,Ekapad Wali,Presidency University,71.12,85.11,3.2,36.8,55.06,0
+KOL-2026428,Fiyaz Kapur,Jadavpur University,97.88,75.31,5.1,16.0,65.5,0
+KOL-2026429,Finn Morar,University of Calcutta,100.0,57.76,7.9,64.9,74.21,0
+KOL-2026430,Ekanta Ranganathan,Jadavpur University,90.58,87.78,4.9,69.5,86.45,0
+KOL-2026431,Owen Bera,Presidency University,65.21,75.94,3.4,43.7,88.56,0
+KOL-2026432,Tanvi Sarin,University of Calcutta,84.36,81.16,6.7,2.0,60.9,0
+KOL-2026433,Oscar Pandey,Presidency University,100.0,70.16,1.2,57.4,60.47,0
+KOL-2026434,Pooja Dey,St. Xavier's College,75.63,76.31,3.8,2.0,83.46,0
+KOL-2026435,Pooja Viswanathan,Presidency University,94.77,57.25,4.6,44.9,78.98,0
+KOL-2026436,Vasudha Comar,Presidency University,73.99,81.64,5.9,74.1,80.57,0
+KOL-2026437,Edhitha Khanna,Presidency University,86.26,100.0,5.8,27.8,91.05,0
+KOL-2026438,Vasatika Swaminathan,University of Calcutta,78.35,70.41,5.6,54.3,72.96,0
+KOL-2026439,Yachana Majumdar,Presidency University,100.0,100.0,5.4,63.8,54.51,0
+KOL-2026440,Triya Yadav,Presidency University,100.0,75.64,3.3,32.0,53.66,0
+KOL-2026441,Mahika Gala,St. Xavier's College,79.44,51.89,5.0,63.0,56.38,1
+KOL-2026442,Gayathri Trivedi,University of Calcutta,92.66,100.0,3.7,62.1,53.62,0
+KOL-2026443,Omisha Hari,St. Xavier's College,87.58,91.07,2.6,27.1,78.96,0
+KOL-2026444,Yuvraj Chahal,Presidency University,91.95,52.66,6.7,20.3,78.28,0
+KOL-2026445,Rudra Koshy,University of Calcutta,74.55,91.64,5.5,34.2,54.87,0
+KOL-2026446,Ganga Gill,St. Xavier's College,90.24,48.7,5.2,39.7,80.19,0
+KOL-2026447,Vritti Som,Presidency University,80.06,94.64,5.7,51.3,77.04,0
+KOL-2026448,Naksh Pradhan,Jadavpur University,96.35,92.25,3.0,40.1,69.41,0
+KOL-2026449,Warjas Balay,St. Xavier's College,90.01,100.0,7.2,18.8,79.33,0
+KOL-2026450,Priya Narula,University of Calcutta,90.8,100.0,9.0,65.5,73.74,0
+KOL-2026451,Urvashi Sidhu,St. Xavier's College,87.17,80.48,4.3,76.3,57.72,0
+KOL-2026452,Wakeeta Prabhakar,St. Xavier's College,92.5,52.01,5.7,3.0,79.38,0
+KOL-2026453,Rishi Banerjee,St. Xavier's College,76.11,82.47,8.9,34.9,54.12,0
+KOL-2026454,Alka Devan,Jadavpur University,100.0,80.07,7.0,71.8,58.86,0
+KOL-2026455,Parth Sankaran,University of Calcutta,100.0,100.0,6.1,27.4,99.81,0
+KOL-2026456,Simon Sarma,University of Calcutta,79.97,86.85,8.1,62.1,76.22,0
+KOL-2026457,Mohammed Tella,University of Calcutta,85.65,91.16,0.0,39.1,73.62,0
+KOL-2026458,Ikshita Sharaf,Presidency University,90.79,75.91,8.5,76.5,63.01,0
+KOL-2026459,Jeremiah Lanka,University of Calcutta,83.89,70.97,5.4,29.8,53.04,0
+KOL-2026460,Vasana Naidu,University of Calcutta,94.44,63.91,6.8,32.4,73.8,0
+KOL-2026461,Chandresh Sarna,Jadavpur University,84.5,89.09,4.0,41.1,66.91,0
+KOL-2026462,Arya Badami,Presidency University,82.35,49.03,4.0,39.3,66.16,0
+KOL-2026463,Jatin Sarkar,Presidency University,84.07,89.59,6.7,32.0,51.95,0
+KOL-2026464,Qasim Ramachandran,St. Xavier's College,77.69,72.96,3.5,19.1,63.16,0
+KOL-2026465,Isaac Chhabra,Presidency University,93.93,68.85,4.2,26.5,69.53,0
+KOL-2026466,Janaki Kunda,Presidency University,93.6,44.28,4.3,51.0,72.76,1
+KOL-2026467,Ucchal Barman,Jadavpur University,90.25,59.92,4.8,9.5,68.79,0
+KOL-2026468,Megha Rana,University of Calcutta,98.73,69.01,4.8,32.3,96.08,0
+KOL-2026469,Vedant Issac,Presidency University,100.0,96.28,6.0,52.4,75.91,0
+KOL-2026470,Chasmum Sinha,Presidency University,80.82,96.9,4.9,16.9,69.21,0
+KOL-2026471,Ridhi Johal,Jadavpur University,100.0,78.76,6.9,37.7,44.44,0
+KOL-2026472,Charles Ranganathan,Presidency University,100.0,74.52,4.5,39.0,98.56,0
+KOL-2026473,Bhavini Murty,Presidency University,100.0,76.82,5.6,14.7,92.15,0
+KOL-2026474,Yashoda Kanda,Jadavpur University,88.25,58.05,3.8,28.3,60.88,0
+KOL-2026475,Vedhika Suri,St. Xavier's College,76.78,96.67,2.8,49.4,88.27,0
+KOL-2026476,Ladli Sahota,St. Xavier's College,74.23,75.39,7.4,48.9,62.03,0
+KOL-2026477,Yashoda Sarraf,Presidency University,68.47,93.63,5.8,38.8,57.42,0
+KOL-2026478,Hema Bhattacharyya,Presidency University,93.02,100.0,3.7,54.2,38.69,0
+KOL-2026479,Dayita Borra,University of Calcutta,84.53,61.81,3.1,31.6,74.38,0
+KOL-2026480,Shivani Bhatia,Presidency University,51.43,37.59,3.8,54.2,28.79,0
+KOL-2026481,Hiral Walia,University of Calcutta,77.11,100.0,4.2,52.7,72.12,0
+KOL-2026482,Harita Subramaniam,St. Xavier's College,96.52,84.31,6.0,123.5,38.74,0
+KOL-2026483,Kiaan Kalla,Presidency University,80.69,85.75,4.9,36.5,61.45,0
+KOL-2026484,Vansha Basu,Presidency University,62.24,95.01,4.2,22.4,63.25,0
+KOL-2026485,Brijesh Mane,Jadavpur University,76.97,87.17,3.5,60.2,80.28,0
+KOL-2026486,Hitesh Khare,Presidency University,82.37,93.37,5.2,70.9,59.22,0
+KOL-2026487,Osha Bali,St. Xavier's College,82.08,78.72,5.2,50.0,68.26,0
+KOL-2026488,Gaurangi Peri,Presidency University,100.0,99.71,6.7,35.9,56.66,0
+KOL-2026489,Jeet Dey,University of Calcutta,98.14,100.0,3.8,40.4,45.41,0
+KOL-2026490,Mahika Chakraborty,Presidency University,99.95,70.67,6.3,41.2,74.86,0
+KOL-2026491,Gopal Kakar,University of Calcutta,86.28,20.18,4.6,12.4,88.09,1
+KOL-2026492,Warjas Shukla,Jadavpur University,92.0,100.0,3.1,79.9,83.98,0
+KOL-2026493,Daksha Bassi,Presidency University,100.0,57.87,3.4,32.8,62.07,0
+KOL-2026494,Elijah Bakshi,Jadavpur University,100.0,74.82,5.7,33.6,42.69,0
+KOL-2026495,Maanav Vaidya,Jadavpur University,56.32,78.63,2.3,84.7,83.67,0
+KOL-2026496,Frado Dhawan,Presidency University,100.0,63.07,6.1,49.0,73.96,0
+KOL-2026497,Simon Bajwa,University of Calcutta,95.99,85.77,1.7,25.8,68.16,0
+KOL-2026498,Logan Loke,Presidency University,68.05,100.0,8.0,57.0,71.08,0
+KOL-2026499,Bhavika Pillai,University of Calcutta,70.72,81.55,5.5,20.2,75.01,0
+KOL-2026500,Ekta Chander,Jadavpur University,56.38,62.79,4.2,82.8,78.35,0
+KOL-2026501,Advaith Som,St. Xavier's College,92.29,49.05,7.2,35.6,68.6,0
+KOL-2026502,Hiral Pillay,Presidency University,65.69,52.06,3.8,65.8,47.21,0
+KOL-2026503,Anya Kapur,St. Xavier's College,78.23,91.03,7.4,35.7,63.83,0
+KOL-2026504,Yashica Walla,University of Calcutta,56.95,72.23,5.4,54.0,62.35,0
+KOL-2026505,Chasmum Parmer,Presidency University,47.68,66.84,5.9,25.4,70.88,0
+KOL-2026506,Yashoda Sangha,St. Xavier's College,79.86,83.41,3.1,40.9,79.15,0
+KOL-2026507,Ojas Swaminathan,St. Xavier's College,76.2,84.48,6.4,4.0,87.39,0
+KOL-2026508,Ranbir Chand,Presidency University,91.38,100.0,2.3,30.8,65.67,0
+KOL-2026509,Unni Choudhury,St. Xavier's College,100.0,62.86,3.9,49.1,51.97,0
+KOL-2026510,Dakshesh Sathe,Presidency University,89.76,73.34,4.8,34.4,47.28,0
+KOL-2026511,Jacob Dani,St. Xavier's College,100.0,80.37,5.5,58.9,50.96,0
+KOL-2026512,Tamanna Oak,Jadavpur University,88.03,100.0,3.5,81.4,81.63,0
+KOL-2026513,Tanay Prashad,Presidency University,88.51,75.03,7.4,47.8,40.49,0
+KOL-2026514,Warda Master,Jadavpur University,82.21,86.2,4.9,69.4,40.73,0
+KOL-2026515,Isha Contractor,Jadavpur University,57.73,95.19,4.8,53.4,57.04,0
+KOL-2026516,Samesh Pandit,St. Xavier's College,100.0,91.67,4.7,56.6,59.4,0
+KOL-2026517,Saanvi Swamy,University of Calcutta,100.0,100.0,3.5,52.2,50.6,0
+KOL-2026518,Nilima Muni,Jadavpur University,91.76,42.6,2.7,39.3,65.49,0
+KOL-2026519,Gaurang Jhaveri,Jadavpur University,90.83,85.03,4.6,29.9,85.73,0
+KOL-2026520,Balendra Desai,Jadavpur University,77.75,67.76,6.0,37.8,67.91,0
+KOL-2026521,Tanish Kohli,University of Calcutta,56.36,100.0,5.1,36.8,68.66,0
+KOL-2026522,Ansh Shankar,University of Calcutta,59.03,100.0,5.1,53.9,84.27,0
+KOL-2026523,Krishna Bera,Jadavpur University,92.1,74.65,6.7,2.5,68.51,0
+KOL-2026524,Ekapad Swamy,University of Calcutta,91.48,89.4,3.6,30.8,68.34,0
+KOL-2026525,Michael Gola,University of Calcutta,97.63,72.62,0.0,37.5,54.42,0
+KOL-2026526,Yasti Dash,University of Calcutta,66.44,82.19,7.7,51.3,60.9,0
+KOL-2026527,Rayaan Garde,Presidency University,78.11,66.11,2.7,10.0,64.15,0
+KOL-2026528,Rishi Gole,Jadavpur University,83.55,71.68,3.1,57.2,50.24,0
+KOL-2026529,Jhalak Arora,University of Calcutta,69.97,64.95,2.1,35.0,84.63,0
+KOL-2026530,Bakhshi Parmer,Presidency University,99.68,90.44,2.8,38.4,58.3,0
+KOL-2026531,Upma Loke,St. Xavier's College,67.05,97.87,6.8,81.6,63.85,0
+KOL-2026532,Tanveer Kade,St. Xavier's College,100.0,67.65,1.9,7.4,80.69,0
+KOL-2026533,Nitara Shukla,University of Calcutta,79.42,88.75,5.4,53.5,73.33,0
+KOL-2026534,Devika Walla,Jadavpur University,70.72,66.46,3.5,61.6,83.51,0
+KOL-2026535,Warhi Palla,University of Calcutta,100.0,56.44,8.3,75.5,81.03,0
+KOL-2026536,Meera Mukherjee,St. Xavier's College,60.15,69.51,3.5,59.4,54.25,0
+KOL-2026537,Faras Natarajan,Jadavpur University,100.0,93.9,5.6,25.2,57.3,0
+KOL-2026538,Gaurang Mital,Jadavpur University,96.69,79.22,4.2,4.5,53.94,0
+KOL-2026539,Zayan Toor,St. Xavier's College,65.79,83.79,7.0,19.9,72.77,0
+KOL-2026540,Bhavna Rau,Presidency University,85.19,100.0,1.7,66.2,67.41,0
+KOL-2026541,Wishi Ganguly,Presidency University,91.62,65.34,5.5,7.8,79.05,0
+KOL-2026542,Divya More,University of Calcutta,94.58,100.0,5.7,48.0,56.78,0
+KOL-2026543,Oni Yadav,Jadavpur University,100.0,100.0,4.5,45.9,56.43,0
+KOL-2026544,Joshua Srinivas,University of Calcutta,94.98,100.0,3.2,37.4,73.47,0
+KOL-2026545,Aarav Dhillon,Jadavpur University,81.76,62.54,6.8,59.4,56.26,0
+KOL-2026546,Indali Goda,St. Xavier's College,100.0,82.69,5.2,56.1,57.07,0
+KOL-2026547,Rudra Misra,Jadavpur University,52.71,97.53,1.9,75.1,65.05,0
+KOL-2026548,Urvi Dhillon,Jadavpur University,75.58,74.24,7.8,2.0,89.15,0
+KOL-2026549,Mason Chaudhari,St. Xavier's College,66.89,58.49,8.4,26.1,52.7,0
+KOL-2026550,Noah Behl,Presidency University,90.08,61.24,5.4,24.5,86.51,0
+KOL-2026551,Pranav Khosla,St. Xavier's College,92.98,87.23,8.5,45.0,52.27,0
+KOL-2026552,Praneel Vyas,Jadavpur University,100.0,59.7,4.3,53.3,69.19,0
+KOL-2026553,Ekaraj Doshi,St. Xavier's College,100.0,100.0,5.4,26.9,46.77,0
+KOL-2026554,Farhan Zachariah,Jadavpur University,100.0,89.5,5.0,33.2,53.62,0
+KOL-2026555,Zehaan Sekhon,Presidency University,98.71,49.09,8.2,56.5,90.99,0
+KOL-2026556,Ronith Mall,Presidency University,64.51,77.02,6.0,80.9,80.59,0
+KOL-2026557,Yashasvi Narasimhan,Jadavpur University,69.6,100.0,3.1,77.6,65.73,0
+KOL-2026558,Rayaan Karpe,Presidency University,95.18,77.26,4.0,38.2,76.42,0
+KOL-2026559,Bhavani Mander,St. Xavier's College,76.09,76.69,5.2,2.4,76.87,0
+KOL-2026560,Samar Sekhon,Presidency University,67.7,46.25,1.4,17.9,59.36,1
+KOL-2026561,Kritika Om,University of Calcutta,77.11,83.56,5.8,47.6,68.84,0
+KOL-2026562,Manan Dubey,Presidency University,100.0,100.0,1.6,24.5,65.8,0
+KOL-2026563,Gaurangi Gill,University of Calcutta,92.59,65.43,9.3,68.8,73.19,0
+KOL-2026564,Hiral Keer,St. Xavier's College,100.0,68.72,3.4,46.6,82.92,0
+KOL-2026565,Victor Sangha,Presidency University,61.35,63.94,4.9,43.5,99.59,0
+KOL-2026566,Raksha Lala,Presidency University,92.58,100.0,9.5,36.9,77.37,0
+KOL-2026567,Sanya Ramakrishnan,Presidency University,87.93,78.02,5.9,2.0,80.23,0
+KOL-2026568,Zehaan Chaudhari,St. Xavier's College,81.66,100.0,3.7,36.9,99.87,0
+KOL-2026569,Yauvani Bala,St. Xavier's College,76.75,77.06,6.7,49.2,50.61,0
+KOL-2026570,Barkha Chadha,University of Calcutta,75.89,78.46,5.9,53.4,43.36,0
+KOL-2026571,Veer Desai,Jadavpur University,88.79,100.0,5.9,67.0,77.0,0
+KOL-2026572,Chaman Vig,St. Xavier's College,92.83,78.04,9.5,62.8,78.61,0
+KOL-2026573,Hemang Nath,Presidency University,65.68,85.85,5.3,32.7,72.11,0
+KOL-2026574,Ranveer Parsa,University of Calcutta,95.43,57.18,4.8,28.9,64.18,0
+KOL-2026575,Indali Aggarwal,Presidency University,77.84,54.9,4.7,33.8,26.06,1
+KOL-2026576,Kalpit Agate,Presidency University,100.0,72.47,5.0,21.6,95.44,0
+KOL-2026577,Kavya Mannan,St. Xavier's College,87.35,100.0,5.4,18.3,63.82,0
+KOL-2026578,Warda Venkataraman,Jadavpur University,78.18,75.63,4.8,43.4,70.78,0
+KOL-2026579,Tanveer Sampath,Presidency University,74.24,54.31,7.0,2.9,87.3,1
+KOL-2026580,Oscar Brahmbhatt,St. Xavier's College,80.47,27.94,4.3,43.7,54.84,0
+KOL-2026581,Niharika Brahmbhatt,University of Calcutta,100.0,93.3,3.2,13.0,65.09,0
+KOL-2026582,Warhi Handa,Presidency University,92.44,69.29,6.0,83.7,82.23,0
+KOL-2026583,Ekantika Aurora,University of Calcutta,82.25,72.87,7.4,32.5,70.68,0
+KOL-2026584,Adya Dara,St. Xavier's College,77.47,52.55,5.6,43.8,77.5,0
+KOL-2026585,Tanay Wali,St. Xavier's College,100.0,62.46,8.4,10.0,76.52,0
+KOL-2026586,Urishilla More,St. Xavier's College,73.07,88.49,7.6,2.0,77.54,0
+KOL-2026587,Ranveer Sen,St. Xavier's College,70.52,100.0,3.8,21.5,67.03,0
+KOL-2026588,Ayaan Viswanathan,St. Xavier's College,57.52,58.97,8.0,82.2,68.45,0
+KOL-2026589,Ijaya Goswami,Jadavpur University,100.0,100.0,6.4,28.8,69.26,0
+KOL-2026590,Wahab Varughese,University of Calcutta,89.96,100.0,6.8,23.5,90.65,0
+KOL-2026591,Yahvi Chandra,Jadavpur University,95.31,100.0,2.8,44.3,62.03,0
+KOL-2026592,Samuel Iyer,University of Calcutta,90.2,100.0,1.3,44.4,79.61,0
+KOL-2026593,Ishita Agrawal,Presidency University,83.3,54.02,5.5,29.9,37.15,0
+KOL-2026594,Orinder Bassi,Presidency University,99.38,81.03,5.5,66.5,73.37,0
+KOL-2026595,Harish Chaudhry,University of Calcutta,80.54,100.0,5.6,48.9,50.95,0
+KOL-2026596,Daniel Comar,Presidency University,72.52,67.23,3.4,23.7,100.0,0
+KOL-2026597,Praneel Mandal,Presidency University,100.0,55.54,5.1,19.1,59.56,0
+KOL-2026598,Libni Sani,Presidency University,100.0,72.08,7.1,57.1,100.0,0
+KOL-2026599,Omisha Banerjee,Jadavpur University,100.0,100.0,3.1,65.1,75.04,0
+KOL-2026600,Daksha Kannan,Jadavpur University,72.64,65.62,9.1,45.0,81.73,0
+KOL-2026601,Ekaraj Wali,St. Xavier's College,73.3,100.0,2.3,36.7,70.51,0
+KOL-2026602,Brijesh Gera,University of Calcutta,82.31,87.92,6.4,59.7,55.21,0
+KOL-2026603,Vasana Sandal,Presidency University,100.0,97.89,2.3,52.0,40.33,0
+KOL-2026604,Ranveer Buch,University of Calcutta,100.0,61.04,3.3,60.3,46.86,0
+KOL-2026605,Hemal Nayak,St. Xavier's College,93.95,67.31,4.5,59.9,76.32,0
+KOL-2026606,Krisha Seshadri,St. Xavier's College,79.91,87.4,4.8,54.2,62.55,0
+KOL-2026607,Chandran Sarraf,Presidency University,70.15,79.3,3.4,22.7,73.88,0
+KOL-2026608,Ria Choudhry,St. Xavier's College,96.74,71.38,5.8,56.0,76.67,0
+KOL-2026609,Triveni Balan,Presidency University,87.24,87.28,5.0,3.3,72.41,0
+KOL-2026610,Priya Kothari,St. Xavier's College,79.6,65.44,5.7,51.2,87.89,0
+KOL-2026611,Ekiya Golla,St. Xavier's College,95.97,91.81,4.7,51.8,85.44,0
+KOL-2026612,Sarthak Ratti,Presidency University,67.85,96.4,4.9,46.5,71.1,0
+KOL-2026613,Aradhana Pandit,St. Xavier's College,100.0,78.33,2.8,37.1,72.68,0
+KOL-2026614,Madhav Tara,St. Xavier's College,94.05,62.99,10.0,50.3,89.13,0
+KOL-2026615,Hemangini Kohli,St. Xavier's College,93.0,96.79,7.4,66.1,83.08,0
+KOL-2026616,Lakshmi Parmar,University of Calcutta,76.42,86.65,6.9,40.5,85.98,0
+KOL-2026617,Samuel Majumdar,Jadavpur University,71.26,63.26,4.7,51.2,62.13,1
+KOL-2026618,Xiti Magar,University of Calcutta,91.36,80.79,2.1,18.7,74.22,0
+KOL-2026619,Yug Sani,St. Xavier's College,100.0,76.84,11.5,91.2,67.28,0
+KOL-2026620,Quincy Kale,Jadavpur University,99.93,100.0,1.7,9.3,60.67,0
+KOL-2026621,Jackson Handa,University of Calcutta,92.45,100.0,2.6,2.0,82.87,0
+KOL-2026622,Ira Bains,University of Calcutta,54.72,82.9,6.6,42.6,63.13,0
+KOL-2026623,Urvashi Buch,University of Calcutta,79.44,53.04,3.6,55.4,74.83,0
+KOL-2026624,Nihal Mukherjee,Presidency University,70.07,76.37,0.6,48.6,91.43,0
+KOL-2026625,Pushti Tata,St. Xavier's College,76.21,86.58,7.5,36.0,59.62,0
+KOL-2026626,Avni Shan,St. Xavier's College,86.55,100.0,5.6,44.6,74.83,0
+KOL-2026627,Darika Viswanathan,Jadavpur University,72.8,96.47,5.5,45.4,55.37,0
+KOL-2026628,Vasudha Grover,University of Calcutta,94.97,68.94,7.0,35.0,58.27,0
+KOL-2026629,Yochana Dubey,St. Xavier's College,58.43,89.43,1.3,20.4,38.87,0
+KOL-2026630,Anya Kunda,University of Calcutta,82.75,73.47,2.9,21.6,76.97,0
+KOL-2026631,Unnati Chadha,St. Xavier's College,89.75,62.3,5.4,71.1,78.79,0
+KOL-2026632,Prisha Pillai,University of Calcutta,88.86,75.19,5.0,38.5,67.53,0
+KOL-2026633,Wishi Jani,St. Xavier's College,70.1,59.68,2.2,13.0,51.74,0
+KOL-2026634,Vaishnavi Pandya,Jadavpur University,71.61,90.27,5.1,5.6,79.82,0
+KOL-2026635,Yatin Kohli,University of Calcutta,70.09,88.4,3.3,47.0,51.03,0
+KOL-2026636,Victor Rai,St. Xavier's College,79.26,77.53,4.2,21.3,64.0,0
+KOL-2026637,Januja Ranganathan,Jadavpur University,84.33,83.65,3.7,68.4,52.36,0
+KOL-2026638,Nathan Dave,Jadavpur University,100.0,89.62,4.6,34.4,85.54,0
+KOL-2026639,Gayathri Gole,St. Xavier's College,70.45,72.05,7.5,52.6,55.48,0
+KOL-2026640,Aashi Mani,University of Calcutta,75.79,65.8,7.0,17.6,94.13,0
+KOL-2026641,Chandran Cheema,Presidency University,100.0,70.74,4.7,16.3,62.13,0
+KOL-2026642,Eta Mohanty,Jadavpur University,100.0,57.86,4.3,42.0,49.06,0
+KOL-2026643,Pushti Kala,Jadavpur University,74.14,76.09,4.1,29.2,69.89,0
+KOL-2026644,Hemani Sami,St. Xavier's College,79.42,65.43,5.6,78.1,72.1,0
+KOL-2026645,Zinal Kala,Presidency University,64.15,83.16,2.8,15.5,58.91,0
+KOL-2026646,Liam Peri,Presidency University,99.25,84.86,1.9,41.1,74.53,0
+KOL-2026647,Jagdish Aggarwal,Presidency University,57.34,62.19,4.9,55.7,37.06,0
+KOL-2026648,Saksham Varma,St. Xavier's College,87.15,96.99,6.4,56.7,58.0,0
+KOL-2026649,Yoshita Ramachandran,University of Calcutta,79.1,100.0,7.8,59.2,76.44,0
+KOL-2026650,Yashawini Solanki,Jadavpur University,76.66,77.4,8.3,26.1,94.22,0
+KOL-2026651,Bakhshi Ramesh,St. Xavier's College,100.0,51.86,6.2,30.3,48.77,0
+KOL-2026652,Chakrika Bhakta,Presidency University,100.0,63.1,2.0,43.2,68.69,0
+KOL-2026653,Faqid Gopal,Jadavpur University,99.24,78.81,8.7,49.5,64.8,0
+KOL-2026654,Ekapad Bora,Jadavpur University,81.06,73.27,6.9,54.2,52.31,0
+KOL-2026655,Arunima Sahni,Presidency University,95.07,100.0,6.8,60.2,70.9,0
+KOL-2026656,Theodore Sama,Presidency University,100.0,53.34,4.3,29.5,75.69,0
+KOL-2026657,Jagat Baral,Jadavpur University,76.05,32.19,4.2,63.3,78.06,0
+KOL-2026658,Alexander Kakar,Jadavpur University,80.8,54.42,6.0,28.3,100.0,0
+KOL-2026659,Abha Khare,University of Calcutta,76.29,67.77,4.8,40.2,86.75,0
+KOL-2026660,Isaac Patil,University of Calcutta,74.03,100.0,5.1,60.4,60.88,0
+KOL-2026661,Ekapad Sanghvi,St. Xavier's College,89.67,42.21,9.0,70.8,64.04,0
+KOL-2026662,Yutika Narain,Jadavpur University,90.21,81.73,5.7,48.8,77.59,0
+KOL-2026663,Samaksh Hans,University of Calcutta,93.52,59.01,7.7,77.8,100.0,0
+KOL-2026664,Ati Ramanathan,Jadavpur University,88.64,38.36,6.1,34.0,98.85,0
+KOL-2026665,Yashasvi Sheth,Presidency University,59.66,70.57,1.0,60.0,39.02,0
+KOL-2026666,Chaitanya Mammen,University of Calcutta,53.83,73.59,8.3,52.2,57.05,0
+KOL-2026667,Faras Nagar,Presidency University,85.27,89.45,2.3,56.9,29.43,0
+KOL-2026668,Sai Dhaliwal,Presidency University,77.68,92.67,5.0,16.9,55.23,0
+KOL-2026669,Krishna Sabharwal,Presidency University,83.81,68.42,4.0,58.9,62.23,0
+KOL-2026670,Deepa Puri,St. Xavier's College,100.0,51.53,1.3,60.7,59.82,0
+KOL-2026671,Varsha Dara,Presidency University,73.28,74.8,8.2,61.0,82.93,0
+KOL-2026672,Nikita Sidhu,St. Xavier's College,67.73,23.22,3.4,64.1,77.75,0
+KOL-2026673,Gagan Behl,Jadavpur University,84.67,66.22,5.4,60.3,45.76,0
+KOL-2026674,Theodore Dey,Jadavpur University,98.99,71.7,6.4,101.3,68.43,0
+KOL-2026675,Devansh Borde,University of Calcutta,73.93,83.63,5.9,48.9,54.7,0
+KOL-2026676,Hemal Natarajan,University of Calcutta,100.0,88.97,6.9,40.3,81.25,0
+KOL-2026677,Owen Borah,St. Xavier's College,70.74,86.37,3.0,32.3,72.84,0
+KOL-2026678,Jack Gala,Jadavpur University,67.16,100.0,6.1,30.9,46.94,0
+KOL-2026679,Balendra Banerjee,University of Calcutta,78.31,82.26,4.3,4.9,64.17,0
+KOL-2026680,Chavvi Barad,University of Calcutta,94.5,66.04,8.4,6.8,89.67,0
+KOL-2026681,Samaksh Kunda,University of Calcutta,97.89,81.6,7.3,37.3,53.52,0
+KOL-2026682,Xiti Tailor,Jadavpur University,83.3,84.43,7.5,24.4,78.93,0
+KOL-2026683,Ranveer Borah,University of Calcutta,83.02,81.45,2.0,29.4,90.27,0
+KOL-2026684,Akshay Solanki,Jadavpur University,84.06,84.86,4.4,72.1,66.99,0
+KOL-2026685,Wishi Varkey,Presidency University,100.0,64.45,8.1,14.4,94.44,0
+KOL-2026686,Varsha Sandal,Presidency University,81.36,42.2,4.1,24.2,60.89,0
+KOL-2026687,Utkarsh Gara,Presidency University,99.37,84.15,5.6,23.1,56.79,0
+KOL-2026688,Dakshesh Bhatnagar,St. Xavier's College,73.97,100.0,4.5,45.0,86.06,0
+KOL-2026689,Gunbir Koshy,Jadavpur University,83.34,72.24,4.9,51.8,83.37,0
+KOL-2026690,Tara Mohan,University of Calcutta,94.28,100.0,5.8,51.2,47.22,0
+KOL-2026691,Farhan Arora,St. Xavier's College,90.83,78.1,4.0,49.9,69.09,0
+KOL-2026692,Darpan Ratta,St. Xavier's College,86.29,65.06,7.0,40.7,77.9,0
+KOL-2026693,Chanchal Sachar,Presidency University,75.25,81.68,5.0,54.6,65.97,0
+KOL-2026694,Bhavna Kannan,Jadavpur University,78.51,95.88,4.4,40.1,84.8,0
+KOL-2026695,Maanav Bawa,University of Calcutta,61.86,76.79,4.0,25.7,67.37,0
+KOL-2026696,Isha Reddy,St. Xavier's College,84.86,86.14,8.6,38.1,74.18,0
+KOL-2026697,Anthony Ramachandran,University of Calcutta,72.3,68.3,4.0,52.2,100.0,0
+KOL-2026698,Kashish Chaudry,Presidency University,78.75,78.74,5.8,50.3,89.26,0
+KOL-2026699,Lucky Tandon,Jadavpur University,49.2,70.08,7.2,13.7,24.89,1
+KOL-2026700,Dayita Gour,University of Calcutta,88.65,58.2,3.0,25.6,71.66,0
+KOL-2026701,Praneel Ghosh,University of Calcutta,92.41,22.91,3.3,22.5,66.15,0
+KOL-2026702,Chandani Contractor,St. Xavier's College,96.97,42.81,5.1,56.2,97.85,0
+KOL-2026703,Warjas Balay,University of Calcutta,89.87,43.92,0.2,61.9,69.92,1
+KOL-2026704,Falan Bahl,Jadavpur University,64.4,90.4,8.7,53.4,74.15,0
+KOL-2026705,Niharika Devan,Jadavpur University,61.44,100.0,3.8,55.1,46.55,0
+KOL-2026706,Faras Shankar,University of Calcutta,100.0,73.05,7.9,43.4,42.37,0
+KOL-2026707,Meera Tata,St. Xavier's College,76.15,93.97,5.1,14.1,72.46,0
+KOL-2026708,Matthew Master,St. Xavier's College,92.39,78.85,7.2,49.2,73.14,0
+KOL-2026709,Atharv Bassi,Presidency University,88.51,100.0,3.3,73.5,68.62,0
+KOL-2026710,Ishani Sodhi,Jadavpur University,99.96,74.26,6.5,39.2,69.1,0
+KOL-2026711,Eiravati Kurian,Presidency University,89.36,40.09,2.8,63.6,68.02,0
+KOL-2026712,Jagdish Thaker,St. Xavier's College,64.62,58.41,1.0,43.0,61.02,0
+KOL-2026713,Abeer Sampath,Presidency University,83.98,87.28,9.2,14.8,87.39,0
+KOL-2026714,Megha Acharya,St. Xavier's College,73.31,84.06,4.1,48.7,92.64,0
+KOL-2026715,Harita Doctor,Presidency University,92.63,71.39,2.0,40.8,88.1,0
+KOL-2026716,Nandini Merchant,Presidency University,69.17,82.53,3.0,29.1,63.65,0
+KOL-2026717,Vedant Viswanathan,Jadavpur University,70.39,94.07,2.4,13.0,60.55,0
+KOL-2026718,Andrew Walia,Jadavpur University,82.05,70.71,5.1,10.1,77.42,0
+KOL-2026719,Bachittar More,Presidency University,78.86,100.0,2.7,67.6,72.32,0
+KOL-2026720,Harish Saraf,St. Xavier's College,84.7,77.85,7.4,23.5,58.56,0
+KOL-2026721,Zaitra Buch,St. Xavier's College,76.07,98.01,8.4,37.0,80.22,0
+KOL-2026722,Amrita Hegde,Jadavpur University,96.32,83.99,5.9,32.1,45.08,0
+KOL-2026723,Ansh Kale,Jadavpur University,54.05,73.65,6.9,48.8,99.23,0
+KOL-2026724,Netra Karan,University of Calcutta,75.19,80.55,4.9,13.4,55.89,0
+KOL-2026725,Jeevika Gulati,Jadavpur University,54.46,80.95,4.5,11.5,76.06,0
+KOL-2026726,Suhani Radhakrishnan,St. Xavier's College,88.41,73.52,6.2,58.6,74.61,0
+KOL-2026727,Osha Halder,Jadavpur University,89.15,100.0,3.8,87.0,62.12,0
+KOL-2026728,Aarini Chopra,University of Calcutta,74.91,84.47,1.5,34.1,53.62,0
+KOL-2026729,Aishani Gandhi,Presidency University,99.92,92.92,0.3,85.8,74.43,0
+KOL-2026730,Chavvi Misra,Presidency University,87.36,83.52,3.7,49.0,60.89,0
+KOL-2026731,Karan Puri,St. Xavier's College,74.71,51.35,5.3,56.7,77.72,0
+KOL-2026732,Chasmum Balakrishnan,University of Calcutta,89.87,69.35,6.7,17.8,56.49,0
+KOL-2026733,Pranit Kakar,Presidency University,100.0,98.86,6.0,66.4,56.81,0
+KOL-2026734,Advay Kalla,Presidency University,83.12,96.94,4.8,37.3,78.11,0
+KOL-2026735,Nidhi Chakraborty,Jadavpur University,74.97,78.78,2.9,2.0,73.01,0
+KOL-2026736,Devika Sama,Presidency University,88.93,41.01,4.3,2.0,90.55,0
+KOL-2026737,Qasim Pillay,St. Xavier's College,100.0,98.92,3.2,22.3,75.26,0
+KOL-2026738,Owen Dash,Presidency University,86.54,70.34,1.4,2.0,73.4,0
+KOL-2026739,Ojas Bali,St. Xavier's College,76.7,93.92,7.3,39.5,64.89,0
+KOL-2026740,Netra Prakash,St. Xavier's College,64.65,84.46,6.1,58.6,40.95,0
+KOL-2026741,Caleb Kapur,Jadavpur University,71.83,82.0,6.0,74.9,62.58,0
+KOL-2026742,Chaman Chaudhuri,University of Calcutta,100.0,85.93,7.5,50.8,52.64,0
+KOL-2026743,Idika Bora,St. Xavier's College,61.73,93.24,7.4,82.0,82.65,0
+KOL-2026744,Vedant Prabhu,Presidency University,76.3,56.87,6.7,53.4,71.61,0
+KOL-2026745,Qabil Lalla,Presidency University,89.85,100.0,7.6,55.9,82.69,0
+KOL-2026746,Anay Bajwa,St. Xavier's College,78.08,95.13,2.2,66.1,52.08,0
+KOL-2026747,Chameli Ray,Presidency University,72.32,91.07,4.9,13.1,76.31,0
+KOL-2026748,Manya Sen,Jadavpur University,98.22,80.03,5.8,25.8,61.16,0
+KOL-2026749,Manbir Sekhon,Presidency University,97.85,100.0,3.4,66.5,37.45,0
+KOL-2026750,Falan Bahl,Jadavpur University,70.62,52.95,1.8,53.3,66.79,0
+KOL-2026751,Nilima Ganguly,St. Xavier's College,95.36,85.31,6.3,43.6,52.2,0
+KOL-2026752,Saksham Konda,St. Xavier's College,76.16,61.29,4.6,26.7,63.74,0
+KOL-2026753,Wishi Pandey,St. Xavier's College,90.23,62.04,4.0,66.5,77.45,0
+KOL-2026754,Qarin Aurora,Jadavpur University,100.0,100.0,2.2,60.3,69.2,0
+KOL-2026755,Kiaan Gandhi,Presidency University,87.52,98.9,6.0,27.4,81.14,0
+KOL-2026756,Lucky Sem,Jadavpur University,88.25,73.93,4.6,60.3,54.4,0
+KOL-2026757,Yashawini Mammen,Presidency University,57.68,68.05,5.7,56.7,68.49,0
+KOL-2026758,Avi Kara,Presidency University,91.16,75.38,7.8,61.8,83.09,0
+KOL-2026759,Tanmayi Mann,Jadavpur University,83.81,73.99,3.0,52.2,61.94,0
+KOL-2026760,Kamala Chana,University of Calcutta,68.95,100.0,3.2,49.4,81.88,0
+KOL-2026761,Veer Narang,St. Xavier's College,97.79,55.42,7.9,45.3,61.05,0
+KOL-2026762,Orinder Mahajan,Presidency University,97.13,68.31,3.5,40.6,52.35,0
+KOL-2026763,Osha Rajagopal,Presidency University,76.5,96.63,5.4,25.3,69.91,0
+KOL-2026764,Ikbal Cherian,Jadavpur University,82.18,100.0,7.0,63.4,63.11,0
+KOL-2026765,Nandini Borah,University of Calcutta,75.8,83.92,6.1,2.0,69.88,0
+KOL-2026766,Januja Raval,St. Xavier's College,80.84,100.0,5.8,71.2,66.76,0
+KOL-2026767,Yuvraj Palla,University of Calcutta,100.0,100.0,2.8,39.9,64.82,0
+KOL-2026768,Aryan Mani,St. Xavier's College,95.3,63.22,5.1,4.6,91.63,0
+KOL-2026769,Shivansh Sachdeva,Presidency University,85.84,73.81,7.3,2.0,69.75,0
+KOL-2026770,Ryan Gulati,Presidency University,78.2,100.0,3.2,60.4,75.34,0
+KOL-2026771,Upma Patel,Jadavpur University,74.99,65.34,7.2,53.5,46.83,0
+KOL-2026772,Qadim Mitra,Jadavpur University,90.8,96.76,3.6,2.0,77.85,0
+KOL-2026773,Yatin Kanda,University of Calcutta,54.74,23.35,6.6,47.6,66.62,1
+KOL-2026774,Hiral Devi,University of Calcutta,94.56,100.0,2.2,44.3,45.75,0
+KOL-2026775,Caleb Madan,St. Xavier's College,81.27,92.53,5.1,57.5,80.55,0
+KOL-2026776,Odika Sunder,Jadavpur University,80.27,61.18,5.5,29.0,92.23,0
+KOL-2026777,Niharika Wable,Presidency University,76.52,70.57,6.4,41.8,60.37,0
+KOL-2026778,Manan Vasa,Jadavpur University,72.16,80.71,6.3,12.4,77.2,0
+KOL-2026779,Nandini Bumb,University of Calcutta,97.34,60.75,6.4,67.1,82.92,0
+KOL-2026780,Samar Dani,Jadavpur University,81.53,68.47,7.9,31.0,54.44,0
+KOL-2026781,Megha Kurian,Presidency University,73.06,61.0,2.1,35.3,68.76,0
+KOL-2026782,Adweta Parikh,Jadavpur University,99.27,90.54,4.6,41.0,77.65,0
+KOL-2026783,Dayamai Nadkarni,University of Calcutta,86.89,70.62,3.0,16.1,79.99,0
+KOL-2026784,Nihal Kata,Presidency University,93.66,77.43,7.8,35.3,84.33,0
+KOL-2026785,Ekiya Menon,St. Xavier's College,75.87,91.85,5.8,52.1,71.22,0
+KOL-2026786,Diya Shah,St. Xavier's College,100.0,100.0,6.4,47.2,85.11,0
+KOL-2026787,Samarth Konda,Presidency University,85.39,73.93,4.8,2.0,73.16,0
+KOL-2026788,Sanya Wason,Presidency University,100.0,80.39,2.6,44.0,54.31,0
+KOL-2026789,Ikshita Datta,Presidency University,89.36,99.16,3.4,45.7,49.52,0
+KOL-2026790,Ranbir Morar,University of Calcutta,92.78,89.92,5.0,53.3,94.07,0
+KOL-2026791,Tejas Sunder,Presidency University,87.08,58.28,3.3,47.0,86.56,0
+KOL-2026792,Amrita Shroff,University of Calcutta,81.46,71.86,3.9,50.9,47.54,0
+KOL-2026793,Mitesh Chakrabarti,Presidency University,75.02,94.44,2.5,58.4,80.08,0
+KOL-2026794,Faqid Jha,University of Calcutta,70.08,84.99,2.6,39.9,85.44,0
+KOL-2026795,Suhani Sachar,University of Calcutta,85.23,60.5,6.3,45.4,35.2,0
+KOL-2026796,Hamsini Dewan,Jadavpur University,84.64,100.0,2.8,2.0,74.19,0
+KOL-2026797,Girik Parekh,St. Xavier's College,59.64,60.43,10.5,38.9,80.96,0
+KOL-2026798,Suhani Krishna,Presidency University,53.65,76.59,4.5,37.0,68.28,0
+KOL-2026799,Ubika Dhillon,St. Xavier's College,82.75,54.72,6.0,6.0,39.24,0
+KOL-2026800,Chatura Ghosh,St. Xavier's College,92.61,78.85,2.2,30.8,66.06,0
+KOL-2026801,Damyanti Wable,Jadavpur University,73.91,93.05,7.9,36.6,81.35,0
+KOL-2026802,Ishwar Datta,St. Xavier's College,94.89,63.92,5.6,40.0,89.81,0
+KOL-2026803,Kiaan Ramachandran,St. Xavier's College,94.41,74.41,4.7,41.3,57.31,0
+KOL-2026804,Radhika Rama,Presidency University,84.06,84.82,5.2,61.0,83.85,0
+KOL-2026805,Ikbal Desai,University of Calcutta,98.03,56.27,6.2,57.4,41.33,0
+KOL-2026806,Yug Chanda,Presidency University,77.97,64.82,7.7,31.9,57.9,0
+KOL-2026807,Yashawini Raja,Presidency University,95.28,77.17,7.3,55.6,37.33,0
+KOL-2026808,Girish Lad,St. Xavier's College,76.57,89.59,0.0,96.0,77.97,0
+KOL-2026809,Gautami Buch,St. Xavier's College,100.0,100.0,6.7,64.0,71.96,0
+KOL-2026810,Hredhaan Sarna,Presidency University,77.86,63.48,3.6,18.0,68.86,0
+KOL-2026811,Garima Choudhry,Presidency University,87.86,79.27,5.3,34.6,100.0,0
+KOL-2026812,Oviya Dey,St. Xavier's College,66.33,84.66,3.8,24.7,49.9,0
+KOL-2026813,Chaaya Jaggi,University of Calcutta,74.78,99.36,7.0,72.5,57.21,0
+KOL-2026814,Gavin Sheth,University of Calcutta,94.49,70.52,3.5,77.2,73.41,0
+KOL-2026815,Chaitanya Nadig,Presidency University,72.67,55.61,3.9,42.5,54.04,0
+KOL-2026816,Eesha Kanda,University of Calcutta,59.67,57.6,6.3,57.1,64.12,0
+KOL-2026817,Saksham Ben,Presidency University,69.59,72.53,6.3,63.6,62.55,0
+KOL-2026818,Manbir Kumer,Jadavpur University,89.02,63.53,4.0,71.5,82.41,0
+KOL-2026819,Wahab Rama,St. Xavier's College,65.92,84.23,7.1,37.5,90.27,0
+KOL-2026820,Manthan Dey,Presidency University,100.0,86.1,6.2,73.3,76.71,0
+KOL-2026821,Praneel Dube,Presidency University,78.27,84.77,2.4,42.1,86.45,0
+KOL-2026822,Dayita Chauhan,Presidency University,100.0,100.0,4.1,55.9,70.05,0
+KOL-2026823,Gaurika Karan,University of Calcutta,99.74,52.0,6.2,40.9,71.24,0
+KOL-2026824,Anthony Shukla,Presidency University,100.0,100.0,3.5,18.3,64.21,0
+KOL-2026825,Shivani Dyal,Jadavpur University,88.6,100.0,6.6,64.4,74.9,0
+KOL-2026826,Dev Parmer,University of Calcutta,82.06,100.0,4.9,55.1,65.22,0
+KOL-2026827,Aarini Agarwal,St. Xavier's College,83.15,86.18,3.7,40.3,55.91,0
+KOL-2026828,Oeshi Tata,Jadavpur University,80.58,100.0,8.1,43.4,54.87,0
+KOL-2026829,Tara Rout,Presidency University,62.92,52.52,7.8,47.3,75.84,0
+KOL-2026830,Radha Barad,Jadavpur University,67.03,97.74,5.6,42.1,78.47,0
+KOL-2026831,Naveen Sarin,Presidency University,81.68,81.39,5.4,92.8,38.51,0
+KOL-2026832,Garima Bora,Jadavpur University,83.28,91.34,3.7,44.0,80.67,1
+KOL-2026833,Jackson Rattan,University of Calcutta,97.12,63.04,4.2,35.9,43.07,0
+KOL-2026834,Sneha Goel,Presidency University,95.99,54.52,7.1,54.8,58.99,0
+KOL-2026835,Xavier Venkataraman,University of Calcutta,100.0,94.67,5.0,40.2,71.15,0
+KOL-2026836,Samesh Prakash,Jadavpur University,53.43,100.0,5.3,53.0,69.13,0
+KOL-2026837,Saksham Basu,Presidency University,82.21,48.01,9.6,20.3,54.52,0
+KOL-2026838,Christopher Kulkarni,St. Xavier's College,100.0,80.29,2.5,70.1,80.97,0
+KOL-2026839,Panini Verma,St. Xavier's College,95.74,100.0,9.4,31.3,94.36,0
+KOL-2026840,Andrew Kapadia,Presidency University,92.49,46.15,4.7,28.7,82.42,0
+KOL-2026841,Suhani Pall,Jadavpur University,53.88,79.56,7.2,41.3,80.94,0
+KOL-2026842,Arya Raval,St. Xavier's College,90.12,74.57,2.6,22.6,80.64,0
+KOL-2026843,Onveer Pal,Presidency University,82.92,71.52,4.4,65.9,64.97,0
+KOL-2026844,Noah Parikh,St. Xavier's College,96.15,75.9,5.1,77.2,69.69,0
+KOL-2026845,Jeevika Sani,Presidency University,67.32,75.61,6.2,13.9,73.01,0
+KOL-2026846,Janaki Rastogi,Jadavpur University,85.62,100.0,5.7,74.6,55.1,0
+KOL-2026847,Gabriel Jhaveri,Jadavpur University,86.27,58.61,6.9,91.5,69.74,0
+KOL-2026848,Onveer Warrior,University of Calcutta,86.27,65.73,1.4,30.9,49.12,1
+KOL-2026849,Tanish Chowdhury,St. Xavier's College,83.27,73.08,6.8,22.6,58.5,0
+KOL-2026850,Yashoda Borra,University of Calcutta,100.0,90.03,5.5,46.6,76.0,0
+KOL-2026851,Nikita Warrior,Jadavpur University,69.55,80.92,2.9,46.6,62.79,1
+KOL-2026852,Sarthak Varma,Presidency University,84.4,51.92,4.7,55.4,95.1,0
+KOL-2026853,Chandran Bhatt,Jadavpur University,61.26,96.34,2.2,36.3,66.14,0
+KOL-2026854,Ansh Grover,Jadavpur University,95.34,66.33,4.5,44.7,72.24,0
+KOL-2026855,Anya Loke,Presidency University,91.54,96.88,5.8,54.1,46.27,0
+KOL-2026856,Ikbal Mitra,University of Calcutta,92.19,94.58,3.6,31.8,61.39,0
+KOL-2026857,Yauvani Kant,St. Xavier's College,100.0,71.85,6.8,47.5,68.14,0
+KOL-2026858,Oscar Cherian,Jadavpur University,96.2,86.51,9.6,28.0,77.77,0
+KOL-2026859,Bimala Thakkar,Jadavpur University,71.96,79.78,5.3,103.4,67.24,0
+KOL-2026860,Radha Venkatesh,St. Xavier's College,89.1,38.51,4.8,45.3,81.92,0
+KOL-2026861,Megha Chad,Jadavpur University,77.45,76.99,3.5,22.4,74.65,0
+KOL-2026862,Isaac Reddy,St. Xavier's College,78.78,60.1,6.1,81.0,50.48,0
+KOL-2026863,Raksha Edwin,St. Xavier's College,83.13,80.31,5.4,36.1,66.99,0
+KOL-2026864,Rachana Golla,St. Xavier's College,100.0,40.9,4.3,49.3,56.23,0
+KOL-2026865,Matthew Gera,Presidency University,75.47,79.17,6.1,33.2,42.3,0
+KOL-2026866,William Prakash,University of Calcutta,100.0,73.26,3.3,63.5,65.04,0
+KOL-2026867,Shivansh Toor,University of Calcutta,87.24,95.42,9.8,61.5,87.4,0
+KOL-2026868,Damini Chadha,Presidency University,69.61,81.25,5.2,23.4,67.37,0
+KOL-2026869,Quincy Bhatnagar,University of Calcutta,90.41,90.09,5.6,34.9,62.29,0
+KOL-2026870,Idika Murty,University of Calcutta,100.0,80.27,4.6,26.4,100.0,0
+KOL-2026871,Michael Prasad,University of Calcutta,78.57,88.32,6.2,64.2,97.11,0
+KOL-2026872,Girindra Narula,Jadavpur University,69.16,74.86,5.6,86.4,49.03,0
+KOL-2026873,Ekanta Yogi,Presidency University,87.7,96.76,4.8,28.2,81.26,0
+KOL-2026874,Nachiket Garg,University of Calcutta,99.58,79.73,3.8,13.8,82.29,0
+KOL-2026875,Krish Khalsa,Presidency University,70.51,69.23,4.1,15.3,57.73,0
+KOL-2026876,William Oza,University of Calcutta,78.81,65.23,1.7,85.5,88.79,0
+KOL-2026877,Jagat Sahni,University of Calcutta,89.09,88.35,7.4,28.6,86.38,0
+KOL-2026878,Rachana Bhardwaj,Presidency University,64.96,94.48,7.6,96.8,52.0,0
+KOL-2026879,Oviya Memon,St. Xavier's College,78.85,95.67,2.1,19.7,58.36,0
+KOL-2026880,Finn Kashyap,Presidency University,75.38,93.18,7.1,57.0,94.28,0
+KOL-2026881,Ishaan Malhotra,St. Xavier's College,66.75,100.0,3.8,63.2,93.61,0
+KOL-2026882,Xalak Nayak,Jadavpur University,62.56,61.64,7.6,41.6,71.19,0
+KOL-2026883,Odika Saran,Presidency University,95.44,85.58,4.6,38.7,82.87,0
+KOL-2026884,Eesha Lata,St. Xavier's College,81.14,100.0,4.7,28.0,58.62,0
+KOL-2026885,Agastya Date,University of Calcutta,80.91,100.0,3.4,48.8,60.15,0
+KOL-2026886,Ranveer Goyal,Jadavpur University,62.35,75.59,4.6,55.8,73.35,0
+KOL-2026887,Faras Goswami,Presidency University,100.0,84.21,5.4,44.8,62.23,0
+KOL-2026888,Anika Nagy,St. Xavier's College,92.13,45.06,3.9,39.9,73.84,0
+KOL-2026889,Abha Shroff,St. Xavier's College,73.42,70.04,4.0,29.0,64.79,0
+KOL-2026890,Abeer Padmanabhan,Presidency University,69.19,88.56,1.6,33.8,65.06,1
+KOL-2026891,Pranit Ram,St. Xavier's College,80.88,35.98,1.0,45.7,79.21,0
+KOL-2026892,Hamsini Bumb,Presidency University,87.51,100.0,3.9,62.9,45.52,0
+KOL-2026893,Hemangini Tank,St. Xavier's College,57.89,74.5,4.9,47.3,70.93,0
+KOL-2026894,Urmi Manne,University of Calcutta,82.15,50.05,7.7,38.9,62.67,0
+KOL-2026895,Yochana Bahl,Presidency University,66.37,57.49,2.8,43.6,76.47,0
+KOL-2026896,Kevin Sahota,Presidency University,100.0,35.01,6.2,33.9,61.2,0
+KOL-2026897,Yug Narayan,Jadavpur University,71.37,100.0,6.7,45.5,90.27,0
+KOL-2026898,Jai Bali,University of Calcutta,65.04,36.44,3.6,48.2,71.54,0
+KOL-2026899,Matthew Deshpande,Presidency University,63.83,96.06,5.5,59.7,41.61,0
+KOL-2026900,Oeshi Tata,St. Xavier's College,67.18,72.05,6.1,46.8,57.23,0
+KOL-2026901,Aahana Vaidya,St. Xavier's College,62.03,100.0,4.6,67.4,62.1,0
+KOL-2026902,Ekaraj Maharaj,St. Xavier's College,73.54,97.52,3.6,57.9,64.26,0
+KOL-2026903,Damyanti Tripathi,Jadavpur University,76.45,56.42,5.1,21.2,83.89,0
+KOL-2026904,Amol Lata,Presidency University,82.34,93.12,6.9,44.6,58.43,0
+KOL-2026905,Harsh Naik,St. Xavier's College,74.71,67.66,5.2,38.1,80.32,0
+KOL-2026906,Sneha Das,Jadavpur University,84.14,100.0,5.7,43.8,60.97,0
+KOL-2026907,Jeremiah Mandal,Jadavpur University,72.24,69.18,6.5,40.6,49.75,1
+KOL-2026908,Frado Chaudhuri,Presidency University,89.8,51.86,4.1,47.2,95.57,0
+KOL-2026909,Isha Ratti,St. Xavier's College,99.64,100.0,3.7,39.4,54.46,0
+KOL-2026910,Zarna Gade,University of Calcutta,84.45,93.19,7.2,30.0,40.49,0
+KOL-2026911,Divya Purohit,St. Xavier's College,89.4,84.99,4.3,47.5,92.73,0
+KOL-2026912,Varenya Khalsa,University of Calcutta,79.4,70.0,4.7,77.7,67.25,0
+KOL-2026913,Anjali Saraf,University of Calcutta,77.77,100.0,8.9,54.0,71.24,0
+KOL-2026914,Watika Kohli,St. Xavier's College,49.24,94.9,5.3,53.6,59.33,0
+KOL-2026915,Udyati Sarna,University of Calcutta,78.83,100.0,4.2,86.7,76.46,0
+KOL-2026916,Aadi Narasimhan,Jadavpur University,83.07,66.97,0.6,77.0,80.55,0
+KOL-2026917,Fiyaz Divan,Jadavpur University,87.48,52.36,4.0,61.8,54.23,0
+KOL-2026918,Vanya Kannan,St. Xavier's College,81.59,77.16,5.3,59.6,79.56,0
+KOL-2026919,Tarak Chadha,Presidency University,100.0,49.62,6.0,57.5,51.41,0
+KOL-2026920,Nikita Basak,Jadavpur University,73.81,66.77,6.5,32.7,57.15,0
+KOL-2026921,Yashoda Mani,St. Xavier's College,100.0,80.26,4.6,42.8,89.38,0
+KOL-2026922,Tejas Bassi,University of Calcutta,100.0,84.21,4.7,95.0,54.17,0
+KOL-2026923,Neha Basak,Jadavpur University,66.51,99.05,8.4,78.4,88.36,0
+KOL-2026924,Advik Chahal,St. Xavier's College,79.52,46.58,9.1,54.4,62.62,0
+KOL-2026925,Ekansh Mahajan,St. Xavier's College,70.41,88.13,4.7,57.8,69.05,0
+KOL-2026926,Yug Goda,Presidency University,86.13,100.0,4.9,60.5,54.32,0
+KOL-2026927,Aashi Dar,University of Calcutta,75.63,94.94,5.1,58.8,86.32,0
+KOL-2026928,Gavin Golla,University of Calcutta,89.1,60.04,5.0,34.3,64.84,0
+KOL-2026929,Jeremiah Peri,University of Calcutta,70.3,40.85,3.7,48.9,49.78,0
+KOL-2026930,Oeshi Walla,St. Xavier's College,100.0,100.0,8.3,52.8,87.51,0
+KOL-2026931,Azad Buch,St. Xavier's College,75.33,25.22,7.4,75.8,61.7,0
+KOL-2026932,Nimrat Deol,University of Calcutta,73.69,87.65,7.2,10.1,76.14,0
+KOL-2026933,Amara Edwin,St. Xavier's College,86.7,89.18,4.6,42.9,66.79,0
+KOL-2026934,Zansi Purohit,Presidency University,91.28,84.41,2.5,37.4,83.48,0
+KOL-2026935,Amol Banerjee,St. Xavier's College,94.89,100.0,7.1,46.9,62.34,0
+KOL-2026936,Dayita Ravi,St. Xavier's College,82.47,73.48,5.8,41.9,65.19,0
+KOL-2026937,Sachi Saraf,Jadavpur University,70.9,89.53,8.4,43.0,74.92,0
+KOL-2026938,Warhi Banerjee,Presidency University,72.84,87.34,3.5,62.3,72.27,0
+KOL-2026939,Anirudh Sama,Jadavpur University,73.26,94.14,9.2,24.8,64.9,0
+KOL-2026940,Gautami Om,University of Calcutta,96.8,68.81,0.0,72.2,81.41,0
+KOL-2026941,Qasim Raval,University of Calcutta,75.89,100.0,7.9,63.8,67.36,0
+KOL-2026942,Indira Mitter,Presidency University,83.04,100.0,3.2,28.9,85.15,0
+KOL-2026943,Veer Krishnan,St. Xavier's College,100.0,66.57,4.9,26.6,70.11,0
+KOL-2026944,Mohini Kari,Jadavpur University,77.69,51.27,6.4,59.3,44.05,0
+KOL-2026945,Madhav Ramachandran,Presidency University,100.0,80.92,3.7,101.5,50.22,0
+KOL-2026946,Warinder Edwin,Jadavpur University,87.69,100.0,5.7,35.0,55.73,0
+KOL-2026947,Damini Rajagopalan,St. Xavier's College,69.9,80.96,3.9,15.1,88.83,0
+KOL-2026948,Krisha Cheema,Jadavpur University,65.98,76.63,5.1,10.1,74.97,0
+KOL-2026949,Madhav Sura,Presidency University,100.0,90.48,4.2,30.1,68.43,0
+KOL-2026950,Osha Saran,St. Xavier's College,84.62,75.66,5.1,32.9,64.85,0
+KOL-2026951,Atharv Peri,St. Xavier's College,99.61,85.98,3.5,83.0,71.31,0
+KOL-2026952,Balhaar Menon,Presidency University,97.85,87.96,5.8,36.5,76.76,0
+KOL-2026953,Aadi Pandit,St. Xavier's College,93.34,41.9,4.1,79.4,58.49,0
+KOL-2026954,Upkaar Chaudry,Jadavpur University,78.28,55.7,0.6,40.4,72.04,0
+KOL-2026955,Siya Batra,University of Calcutta,82.83,80.86,7.0,41.2,61.39,0
+KOL-2026956,Warda Patil,Presidency University,93.69,100.0,3.7,47.0,75.08,0
+KOL-2026957,Aashi Mahajan,Jadavpur University,85.31,50.69,1.5,52.3,64.24,0
+KOL-2026958,Frado Sarma,St. Xavier's College,84.73,60.47,4.9,20.3,90.86,0
+KOL-2026959,Victor Parmar,University of Calcutta,82.06,59.15,6.1,38.4,62.22,0
+KOL-2026960,Arin Mane,Jadavpur University,85.44,90.33,3.0,16.9,71.61,0
+KOL-2026961,Krishna Chawla,Presidency University,94.4,78.4,5.4,12.5,98.33,0
+KOL-2026962,Gautami Bhandari,St. Xavier's College,95.46,63.28,5.6,18.9,76.78,0
+KOL-2026963,Ikbal Mallick,Presidency University,85.44,93.96,2.5,31.3,76.86,0
+KOL-2026964,Abdul Parmer,Jadavpur University,82.93,91.82,4.8,83.8,43.79,0
+KOL-2026965,Mason Baral,University of Calcutta,60.62,29.87,5.6,47.8,65.73,0
+KOL-2026966,Fitan Bhalla,Jadavpur University,100.0,74.84,6.0,32.0,74.43,0
+KOL-2026967,Janani Sibal,Jadavpur University,78.84,100.0,7.4,47.7,35.44,0
+KOL-2026968,Ati Badami,St. Xavier's College,100.0,75.39,7.2,73.8,73.28,0
+KOL-2026969,Shivani Sood,Presidency University,48.47,93.68,3.4,48.5,51.25,0
+KOL-2026970,Aashi Sanghvi,Jadavpur University,85.51,85.37,2.8,68.9,61.05,0
+KOL-2026971,Krishna Zachariah,Jadavpur University,83.36,80.69,5.3,72.2,66.45,0
+KOL-2026972,Azaan Bakshi,University of Calcutta,68.45,96.41,5.4,36.6,41.43,0
+KOL-2026973,Yachana Muni,University of Calcutta,66.58,68.17,5.7,21.1,47.6,0
+KOL-2026974,Nimrat Sahota,Presidency University,95.81,69.1,10.9,25.1,56.18,0
+KOL-2026975,Sneha Gala,Presidency University,88.65,70.6,6.2,25.4,49.28,0
+KOL-2026976,Amol Dass,St. Xavier's College,51.65,69.64,4.4,32.4,88.65,1
+KOL-2026977,Frado Bhardwaj,Presidency University,79.98,44.12,3.9,33.0,60.14,0
+KOL-2026978,Waida Raghavan,University of Calcutta,75.2,72.27,3.7,49.2,75.41,0
+KOL-2026979,Kashish Chakraborty,Presidency University,100.0,60.4,1.8,52.6,57.74,0
+KOL-2026980,Rushil Mohanty,Jadavpur University,48.94,100.0,6.3,15.0,47.82,1
+KOL-2026981,Nidra Mutti,Presidency University,73.94,63.32,0.5,38.0,66.58,0
+KOL-2026982,Brinda Khare,Presidency University,64.01,49.59,5.9,65.1,46.43,1
+KOL-2026983,Ridhi Sani,St. Xavier's College,85.56,100.0,4.9,2.0,67.72,0
+KOL-2026984,Chakradhar Borra,Jadavpur University,71.59,72.24,4.6,2.0,95.07,0
+KOL-2026985,Manthan Bir,St. Xavier's College,92.59,78.27,7.5,53.1,66.48,0
+KOL-2026986,Abhimanyu Memon,University of Calcutta,96.97,42.53,6.3,23.0,88.78,0
+KOL-2026987,Saanvi Nazareth,Presidency University,94.66,81.64,1.5,27.8,80.09,0
+KOL-2026988,Fariq Deo,Presidency University,100.0,88.07,3.1,29.1,71.54,0
+KOL-2026989,Farhan Tiwari,University of Calcutta,100.0,88.83,7.5,13.4,88.67,0
+KOL-2026990,Ladli Doshi,St. Xavier's College,65.19,95.43,5.0,14.1,77.39,0
+KOL-2026991,Arya Goyal,Jadavpur University,75.98,100.0,1.7,15.1,72.05,0
+KOL-2026992,Balendra Cheema,St. Xavier's College,74.25,96.19,6.1,62.2,68.15,0
+KOL-2026993,Agastya Mammen,St. Xavier's College,78.32,100.0,3.4,87.1,70.52,0
+KOL-2026994,Krishna Karan,Jadavpur University,100.0,82.52,6.7,69.5,75.07,0
+KOL-2026995,Timothy Raghavan,Presidency University,99.64,80.02,6.4,2.0,76.7,0
+KOL-2026996,Ekaja Minhas,St. Xavier's College,100.0,92.46,5.5,54.7,55.02,0
+KOL-2026997,Aadi Singh,University of Calcutta,100.0,87.86,8.2,33.6,58.04,0
+KOL-2026998,Tripti More,Jadavpur University,91.52,72.12,6.1,51.1,55.03,0
+KOL-2026999,Hemang Johal,Presidency University,97.95,83.43,7.3,20.7,77.02,0
+KOL-2027000,Faqid Gole,Jadavpur University,68.29,67.38,3.1,34.0,66.79,0
+KOL-2027001,Xavier Gour,University of Calcutta,80.18,48.29,7.3,28.3,69.12,0
+KOL-2027002,Suhani Basu,Jadavpur University,87.99,100.0,6.0,27.8,100.0,0
+KOL-2027003,Fiyaz Sood,Jadavpur University,82.79,99.28,5.5,53.0,100.0,0
+KOL-2027004,Inaya Sant,St. Xavier's College,80.23,82.33,7.1,14.9,40.52,0
+KOL-2027005,Avni Jani,University of Calcutta,60.49,71.5,6.0,27.2,48.6,0
+KOL-2027006,Watika Mody,University of Calcutta,97.94,46.1,6.6,61.3,84.31,0
+KOL-2027007,Waida Virk,University of Calcutta,100.0,72.88,5.2,36.7,70.03,0
+KOL-2027008,Dev Thakur,Jadavpur University,64.82,62.78,7.8,65.4,64.55,0
+KOL-2027009,Vasudha Kota,University of Calcutta,90.12,100.0,5.1,65.5,100.0,0
+KOL-2027010,Chaman Pillay,University of Calcutta,85.74,94.45,4.3,92.8,72.7,0
+KOL-2027011,Adweta Karnik,University of Calcutta,72.46,100.0,6.7,35.1,78.65,0
+KOL-2027012,Nathan Sani,St. Xavier's College,87.77,89.06,8.4,29.6,50.82,0
+KOL-2027013,Ekaja Thakkar,University of Calcutta,64.95,100.0,8.1,51.4,88.32,0
+KOL-2027014,Tanmayi Singh,Jadavpur University,83.57,73.34,4.4,14.0,73.96,0
+KOL-2027015,Yutika Verma,St. Xavier's College,96.18,81.87,4.7,27.6,71.08,0
+KOL-2027016,Arya Chand,University of Calcutta,67.85,81.75,5.5,30.6,61.18,0
+KOL-2027017,Devika Jain,University of Calcutta,68.0,87.0,3.2,66.3,100.0,0
+KOL-2027018,Sachi Ghose,St. Xavier's College,93.01,65.47,7.1,19.7,77.21,0
+KOL-2027019,Viraj Chopra,University of Calcutta,81.9,59.38,6.6,28.3,78.28,0
+KOL-2027020,Ladli Char,Jadavpur University,83.28,82.96,3.5,49.2,92.96,0
+KOL-2027021,Falguni Bhagat,Jadavpur University,100.0,100.0,3.4,15.9,74.53,0
+KOL-2027022,Fitan Basu,University of Calcutta,100.0,80.7,3.4,22.1,86.35,0
+KOL-2027023,Leela Gokhale,Jadavpur University,85.66,99.12,4.0,44.1,69.75,0
+KOL-2027024,Ekbal Suresh,St. Xavier's College,93.86,75.6,5.1,37.6,47.84,0
+KOL-2027025,Nitara Dasgupta,University of Calcutta,100.0,62.33,3.5,27.6,80.87,0
+KOL-2027026,Matthew Pal,St. Xavier's College,82.62,61.64,5.2,13.7,72.15,0
+KOL-2027027,Watika Kari,Jadavpur University,66.23,49.35,8.2,32.8,87.04,0
+KOL-2027028,Abeer Pandit,University of Calcutta,82.57,88.77,3.2,47.6,64.28,0
+KOL-2027029,Baljiwan Saxena,St. Xavier's College,90.06,74.73,4.7,20.8,93.87,0
+KOL-2027030,Ganga Venkataraman,Jadavpur University,99.46,73.89,1.5,84.1,69.08,0
+KOL-2027031,Aditya Patil,University of Calcutta,91.25,100.0,5.0,70.6,86.24,0
+KOL-2027032,Devansh Rajagopal,Presidency University,74.89,99.15,0.0,42.0,48.54,0
+KOL-2027033,Sai Rastogi,Jadavpur University,80.52,72.84,3.9,23.1,100.0,0
+KOL-2027034,Warda Edwin,Jadavpur University,67.57,100.0,4.2,47.6,69.05,0
+KOL-2027035,Lila Bhatt,Presidency University,99.76,82.52,4.0,18.9,56.6,0
+KOL-2027036,Osha Pillay,Presidency University,85.18,56.07,4.5,72.4,87.99,0
+KOL-2027037,Girindra Chacko,St. Xavier's College,83.69,100.0,6.0,38.4,48.61,0
+KOL-2027038,Falan Ben,Jadavpur University,97.44,67.37,5.6,37.7,67.24,0
+KOL-2027039,Shaurya Barad,Presidency University,81.67,99.39,3.7,46.1,58.66,0
+KOL-2027040,Urvashi Subramanian,University of Calcutta,81.75,61.22,7.7,63.6,60.93,0
+KOL-2027041,Ayushman Singhal,Jadavpur University,93.06,92.85,1.6,65.1,61.45,0
+KOL-2027042,Kalpit Parmar,St. Xavier's College,100.0,86.04,4.2,2.0,90.85,0
+KOL-2027043,Mitesh Verma,Presidency University,69.95,73.37,7.8,60.5,67.63,0
+KOL-2027044,Gaurika Butala,Jadavpur University,75.99,82.79,5.1,64.4,84.51,0
+KOL-2027045,Daksha Balay,Jadavpur University,79.56,94.84,4.8,23.4,63.95,0
+KOL-2027046,Jyoti Hegde,Presidency University,98.65,76.33,2.6,46.1,71.7,0
+KOL-2027047,Radhika Narula,Presidency University,98.8,100.0,3.8,32.7,54.4,0
+KOL-2027048,Yashvi Tella,Presidency University,100.0,73.7,4.5,74.3,77.58,0
+KOL-2027049,Patrick Mukhopadhyay,Jadavpur University,67.14,93.57,3.1,22.3,64.8,0
+KOL-2027050,Urishilla Goswami,Presidency University,81.68,51.18,6.9,67.6,40.79,0
+KOL-2027051,Karan Tella,Presidency University,72.84,97.14,4.9,45.6,67.22,0
+KOL-2027052,Patrick Sidhu,Jadavpur University,66.41,92.16,7.2,59.3,100.0,0
+KOL-2027053,Sai Shere,Jadavpur University,99.36,77.88,7.5,44.8,64.18,0
+KOL-2027054,Max Sinha,St. Xavier's College,77.63,51.75,4.0,57.4,90.88,0
+KOL-2027055,Harsh Bhattacharyya,University of Calcutta,100.0,52.84,4.1,39.2,68.28,0
+KOL-2027056,Rajeshri Upadhyay,Jadavpur University,95.36,71.1,5.3,44.1,56.11,0
+KOL-2027057,Kashish Iyer,University of Calcutta,82.85,76.7,5.1,46.5,63.52,0
+KOL-2027058,Manan Ganesan,St. Xavier's College,67.46,65.58,10.6,24.2,49.69,0
+KOL-2027059,Maya Boase,St. Xavier's College,53.84,75.29,9.3,14.1,40.27,0
+KOL-2027060,Aashi Bora,Presidency University,98.48,100.0,4.0,58.7,90.85,0
+KOL-2027061,Hiral Bhandari,St. Xavier's College,81.3,33.97,3.4,36.5,66.12,0
+KOL-2027062,Tripti Taneja,Presidency University,100.0,100.0,4.7,67.0,75.36,0
+KOL-2027063,Avi Naidu,Presidency University,98.6,81.45,9.1,16.2,62.27,0
+KOL-2027064,Shivani Jha,Jadavpur University,91.59,100.0,5.0,16.6,82.64,0
+KOL-2027065,Samar Khalsa,Jadavpur University,55.87,79.92,1.8,31.7,56.46,1
+KOL-2027066,Urishilla Pall,University of Calcutta,86.75,54.29,6.8,16.3,74.95,0
+KOL-2027067,Jackson Patla,Presidency University,79.51,90.09,6.0,71.7,68.77,0
+KOL-2027068,Isha Agrawal,Presidency University,78.43,83.64,5.9,43.0,42.94,0
+KOL-2027069,Prisha Sem,University of Calcutta,90.47,66.4,2.4,74.5,77.37,0
+KOL-2027070,Tanish Halder,Presidency University,67.94,63.56,7.6,47.8,61.74,0
+KOL-2027071,Omaja Kumer,St. Xavier's College,72.78,100.0,7.7,35.7,60.57,0
+KOL-2027072,Oviya Kunda,Presidency University,62.78,53.21,5.3,38.5,49.82,0
+KOL-2027073,Chavvi Sha,Presidency University,92.58,90.56,1.2,42.4,49.25,0
+KOL-2027074,Wazir Halder,Presidency University,96.76,62.04,3.5,35.8,36.21,0
+KOL-2027075,Amara Sinha,Jadavpur University,80.91,99.4,2.8,32.6,47.4,0
+KOL-2027076,Bhanumati Panchal,St. Xavier's College,67.27,99.92,3.6,47.5,64.29,0
+KOL-2027077,Faraj Bahl,Presidency University,82.48,91.98,2.6,61.2,57.25,0
+KOL-2027078,Ekaraj Basu,St. Xavier's College,92.96,66.73,5.1,38.7,71.94,0
+KOL-2027079,Gauri Bawa,St. Xavier's College,57.55,92.32,7.1,26.8,66.34,0
+KOL-2027080,Michael Iyengar,St. Xavier's College,95.4,39.45,3.2,38.3,80.55,1
+KOL-2027081,Nisha Dewan,University of Calcutta,81.58,51.86,5.8,71.4,71.62,0
+KOL-2027082,Ayush Sarraf,Presidency University,99.37,93.27,2.9,52.6,84.96,0
+KOL-2027083,Matthew De,Jadavpur University,84.0,72.84,7.5,20.8,76.58,0
+KOL-2027084,Forum Lad,Jadavpur University,100.0,74.84,7.5,54.8,51.65,0
+KOL-2027085,Max Barman,Jadavpur University,100.0,97.65,3.5,38.9,72.18,0
+KOL-2027086,Vedika Batta,Jadavpur University,100.0,82.89,0.0,51.8,64.78,0
+KOL-2027087,Janaki Raja,Presidency University,79.47,96.14,7.2,50.7,64.91,0
+KOL-2027088,Dayamai Agate,Jadavpur University,85.29,63.95,6.2,54.2,93.11,0
+KOL-2027089,Anthony Saha,St. Xavier's College,74.71,96.41,3.1,58.9,62.25,0
+KOL-2027090,Kamya Ram,University of Calcutta,89.2,26.51,1.5,41.5,71.24,0
+KOL-2027091,Megha Balan,Jadavpur University,61.31,63.64,5.8,56.6,69.76,1
+KOL-2027092,Abha Bir,St. Xavier's College,90.96,65.05,4.4,16.9,68.38,0
+KOL-2027093,Tarak Gulati,Jadavpur University,95.28,100.0,4.4,71.9,67.1,0
+KOL-2027094,Nicholas Amble,Presidency University,84.67,94.14,8.0,41.1,73.28,0
+KOL-2027095,Abhiram Narang,St. Xavier's College,83.0,53.58,9.3,35.6,72.38,0
+KOL-2027096,Qabil Puri,Presidency University,75.87,59.84,5.5,9.1,65.68,0
+KOL-2027097,Jagrati Dhillon,Jadavpur University,80.95,49.13,8.2,47.1,91.47,0
+KOL-2027098,Dalbir Arora,St. Xavier's College,71.8,85.38,4.6,21.4,92.05,0
+KOL-2027099,Patrick Rajagopal,St. Xavier's College,57.4,100.0,4.0,32.8,43.52,1
+KOL-2027100,Janaki Pillai,St. Xavier's College,65.66,81.17,6.8,53.4,69.11,0
+KOL-2027101,Naksh Madan,Jadavpur University,72.85,83.76,3.4,49.1,80.23,0
+KOL-2027102,Yadavi Balay,University of Calcutta,66.61,100.0,6.5,45.0,86.34,0
+KOL-2027103,Chatura More,University of Calcutta,63.42,75.49,0.2,48.9,75.48,0
+KOL-2027104,Daksh Mall,Presidency University,75.18,39.01,5.7,74.1,61.13,0
+KOL-2027105,Sanaya Purohit,University of Calcutta,61.48,89.14,4.2,29.8,58.59,0
+KOL-2027106,Garima Patel,Jadavpur University,90.74,53.76,4.2,44.2,53.51,1
+KOL-2027107,Advika Parsa,St. Xavier's College,72.2,66.61,3.0,81.0,78.29,0
+KOL-2027108,Warhi Garg,St. Xavier's College,100.0,84.01,5.5,38.1,58.76,0
+KOL-2027109,Eiravati Yadav,Jadavpur University,76.82,100.0,2.5,75.7,68.33,0
+KOL-2027110,Ekansh Bhardwaj,St. Xavier's College,97.5,67.4,6.7,2.0,59.2,0
+KOL-2027111,Oliver Chander,University of Calcutta,66.2,75.7,5.8,59.1,73.61,0
+KOL-2027112,Anjali Nazareth,Presidency University,90.54,82.49,6.9,60.5,70.46,0
+KOL-2027113,Dalaja Chaudhry,Jadavpur University,75.21,69.0,4.4,50.4,80.73,0
+KOL-2027114,Vasatika Bhatnagar,St. Xavier's College,85.24,82.87,4.0,26.5,43.67,0
+KOL-2027115,Eta Sarna,Jadavpur University,92.1,65.94,4.5,54.3,77.81,0
+KOL-2027116,Madhavi D’Alia,University of Calcutta,99.96,100.0,2.7,28.5,87.87,0
+KOL-2027117,Om Samra,St. Xavier's College,51.7,52.01,4.5,21.7,63.8,0
+KOL-2027118,Manya Gupta,St. Xavier's College,100.0,74.19,7.1,73.6,91.51,0
+KOL-2027119,Jeremiah Chaudhuri,St. Xavier's College,55.55,89.22,7.1,43.4,96.17,0
+KOL-2027120,Victor Naidu,St. Xavier's College,93.52,100.0,5.7,2.0,62.51,0
+KOL-2027121,Jeevika Char,Jadavpur University,72.89,75.53,2.9,80.7,95.22,0
+KOL-2027122,Bishakha Bhardwaj,University of Calcutta,87.21,66.39,6.2,55.2,82.18,0
+KOL-2027123,Anthony Sodhi,University of Calcutta,100.0,59.44,1.6,37.1,46.48,0
+KOL-2027124,Amaira Chahal,Presidency University,69.98,61.56,3.1,55.4,62.41,0
+KOL-2027125,Lucky Balay,Jadavpur University,98.41,64.67,4.5,52.3,40.88,0
+KOL-2027126,Oscar Ranganathan,University of Calcutta,90.19,89.84,9.1,48.2,82.3,0
+KOL-2027127,Nachiket Ahluwalia,Jadavpur University,89.46,100.0,0.8,53.3,100.0,0
+KOL-2027128,Samaksh Nath,Jadavpur University,100.0,67.42,4.9,45.7,36.74,0
+KOL-2027129,Chameli Chandran,University of Calcutta,68.55,96.44,6.7,51.5,82.36,0
+KOL-2027130,Samar Chanda,Presidency University,100.0,80.18,5.1,39.7,80.27,0
+KOL-2027131,Anusha Suresh,Presidency University,99.65,57.36,2.8,58.7,68.67,0
+KOL-2027132,Qasim Batta,Presidency University,98.35,67.85,4.6,73.0,93.09,0
+KOL-2027133,Aarush Bail,St. Xavier's College,80.77,100.0,3.1,26.9,34.74,0
+KOL-2027134,Lakshmi Banerjee,University of Calcutta,72.04,77.47,3.2,58.9,64.37,0
+KOL-2027135,Prisha Shroff,St. Xavier's College,91.62,51.33,3.3,2.9,48.64,0
+KOL-2027136,Krishna Ahluwalia,St. Xavier's College,55.53,50.38,5.0,34.1,99.88,1
+KOL-2027137,Vasana Mangat,St. Xavier's College,71.98,91.14,6.5,33.1,47.57,0
+KOL-2027138,Logan Arora,Jadavpur University,82.41,71.28,5.9,30.0,52.72,0
+KOL-2027139,Wakeeta Ramachandran,Jadavpur University,90.79,56.47,6.9,9.6,61.33,0
+KOL-2027140,Bachittar Ganesh,University of Calcutta,75.46,68.7,8.7,28.0,100.0,0
+KOL-2027141,Hemal Kata,University of Calcutta,86.38,89.52,10.1,25.1,53.19,0
+KOL-2027142,Sathvik Chakraborty,Jadavpur University,85.48,45.48,5.0,78.9,72.27,0
+KOL-2027143,Gaurang Toor,Jadavpur University,75.73,97.97,3.3,81.9,99.0,0
+KOL-2027144,Chakrika Sanghvi,St. Xavier's College,84.83,100.0,7.2,28.9,62.1,0
+KOL-2027145,Samaksh Bajaj,Presidency University,91.14,93.33,2.3,35.9,49.79,0
+KOL-2027146,Nachiket Nigam,Presidency University,93.27,65.33,4.4,12.5,72.8,0
+KOL-2027147,Oliver Pandya,Presidency University,74.07,76.22,5.4,28.7,47.86,1
+KOL-2027148,Harrison Chacko,Presidency University,75.5,78.06,7.0,115.6,51.33,0
+KOL-2027149,Chakradhar Sharaf,Presidency University,74.39,69.22,3.6,22.5,69.38,0
+KOL-2027150,Varenya Ramachandran,St. Xavier's College,99.2,81.1,5.8,35.7,64.49,0
+KOL-2027151,Mekhala Som,University of Calcutta,67.54,72.84,3.3,27.2,38.35,1
+KOL-2027152,Charvi Madan,Jadavpur University,74.7,100.0,7.1,19.3,53.67,0
+KOL-2027153,Yagnesh Kale,St. Xavier's College,100.0,79.37,5.5,32.4,76.49,0
+KOL-2027154,Anjali Nagarajan,Presidency University,54.51,53.57,5.0,22.4,68.99,0
+KOL-2027155,Anjali Kalita,Jadavpur University,73.26,97.06,5.5,44.8,83.18,0
+KOL-2027156,Isaiah Khalsa,St. Xavier's College,100.0,70.8,4.1,19.0,63.57,0
+KOL-2027157,Nakul Tripathi,Presidency University,100.0,99.21,1.4,66.7,42.42,0
+KOL-2027158,Aashi Goel,St. Xavier's College,79.48,94.05,2.3,68.4,48.03,0
+KOL-2027159,Adweta Aurora,Jadavpur University,70.03,44.91,5.2,81.1,100.0,0
+KOL-2027160,Krishna Bhargava,University of Calcutta,100.0,84.64,6.0,38.2,72.93,0
+KOL-2027161,Damyanti Memon,Presidency University,76.32,78.45,4.9,61.5,54.01,0
+KOL-2027162,Chaaya Vaidya,Jadavpur University,100.0,100.0,7.7,45.5,74.81,0
+KOL-2027163,Arjun Thakkar,Jadavpur University,100.0,40.97,2.4,71.2,65.85,0
+KOL-2027164,Charles Bahri,University of Calcutta,66.19,68.9,2.2,86.8,69.66,0
+KOL-2027165,Neelima Mand,St. Xavier's College,93.82,99.25,6.9,66.5,60.54,0
+KOL-2027166,Devika Sama,University of Calcutta,96.54,69.45,5.0,53.0,81.78,0
+KOL-2027167,Tanmayi Narasimhan,University of Calcutta,95.72,75.33,6.4,60.5,94.12,0
+KOL-2027168,David Venkatesh,St. Xavier's College,100.0,100.0,5.6,45.6,83.09,0
+KOL-2027169,Aishani Bhattacharyya,St. Xavier's College,80.36,88.1,4.9,27.9,89.36,0
+KOL-2027170,Patrick Chana,St. Xavier's College,100.0,47.49,3.9,45.7,87.06,0
+KOL-2027171,Lakshmi Agrawal,Jadavpur University,89.66,57.45,2.7,51.5,49.54,0
+KOL-2027172,Daniel Jhaveri,Jadavpur University,92.51,60.35,8.2,69.5,46.43,0
+KOL-2027173,Yutika Khosla,Presidency University,50.71,64.35,6.5,36.7,76.91,0
+KOL-2027174,Isha Sahni,Presidency University,96.97,68.9,5.0,43.1,50.93,0
+KOL-2027175,Gaurang Dash,University of Calcutta,99.52,87.98,7.1,51.5,72.14,0
+KOL-2027176,Charita Mani,University of Calcutta,80.94,79.45,8.9,58.7,93.04,0
+KOL-2027177,Warjas Vala,Presidency University,74.33,82.34,5.5,26.2,64.23,0
+KOL-2027178,Pavani Naidu,University of Calcutta,100.0,38.39,7.4,26.3,49.42,0
+KOL-2027179,Adya Shukla,St. Xavier's College,95.98,100.0,6.6,86.2,78.38,0
+KOL-2027180,Raksha Choudhury,Jadavpur University,90.14,100.0,3.4,32.0,65.37,0
+KOL-2027181,Nisha Palla,Presidency University,87.07,42.28,5.1,62.3,62.85,1
+KOL-2027182,Aahana Virk,Jadavpur University,63.09,100.0,6.4,10.7,100.0,0
+KOL-2027183,Isaiah Khalsa,Presidency University,71.84,51.86,4.6,42.5,71.54,0
+KOL-2027184,Zashil Cherian,Jadavpur University,94.5,72.25,1.1,42.0,34.49,0
+KOL-2027185,Mitesh Lal,Presidency University,70.31,83.27,7.6,26.0,85.92,0
+KOL-2027186,Qadim Murthy,Jadavpur University,100.0,72.7,3.3,58.7,63.46,0
+KOL-2027187,Neelima Krishnamurthy,St. Xavier's College,77.83,79.11,7.7,6.3,70.35,0
+KOL-2027188,Forum Balay,Presidency University,87.9,100.0,4.9,41.3,78.88,0
+KOL-2027189,Lohit Arora,Presidency University,79.14,90.32,3.7,32.8,62.08,0
+KOL-2027190,Anika Sekhon,Presidency University,36.68,87.91,5.1,11.4,74.65,0
+KOL-2027191,Rajata Batra,St. Xavier's College,93.84,26.96,7.7,30.2,80.3,0
+KOL-2027192,Leela Parmer,Jadavpur University,71.85,93.21,4.2,3.6,87.52,0
+KOL-2027193,Urmi Patil,Presidency University,72.18,71.94,5.5,43.9,78.22,0
+KOL-2027194,Ojasvi Mani,Jadavpur University,73.86,77.68,8.8,42.7,86.28,0
+KOL-2027195,Pooja Manne,St. Xavier's College,77.75,75.07,4.7,57.1,90.62,0
+KOL-2027196,Wishi Sanghvi,University of Calcutta,100.0,60.7,4.2,30.5,74.72,0
+KOL-2027197,Aarna Nagy,Presidency University,95.95,61.38,5.1,58.7,39.02,0
+KOL-2027198,Jasmit Khare,St. Xavier's College,80.75,39.5,5.3,45.7,68.77,0
+KOL-2027199,Dipta Swaminathan,Jadavpur University,96.21,85.96,5.9,42.9,96.63,0

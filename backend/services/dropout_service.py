@@ -15,7 +15,7 @@ class DropoutService:
 
     def _load_model(self):
         """
-        Loads the trained RandomForest model and initializes SHAP explainer.
+        Loads the trained model and initializes SHAP.
         """
         if not os.path.exists(self.model_path):
             raise FileNotFoundError(f"Model file not found at {self.model_path}")
@@ -23,46 +23,50 @@ class DropoutService:
         model_data = joblib.load(self.model_path)
         self.model = model_data['model']
         self.features = model_data['features']
-        
-        # Initialize optimized TreeExplainer for SHAP
         self.explainer = shap.TreeExplainer(self.model)
 
     def predict(self, input_data: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Inference + SHAP Explanation for a single student.
+        Inference with Feature Engineering + Lower Decision Threshold (0.4)
         """
+        # --- FIX 2: Dynamic Feature Engineering ---
+        # Calculate engagement_score based on normalized LMS login frequency
+        normalized_lms = (input_data['lms_login_frequency'] / 14) * 100
+        engagement_score = (
+            input_data['attendance_rate'] * 0.4 +
+            input_data['assignment_submission_rate'] * 0.3 +
+            normalized_lms * 0.3
+        )
+        
+        # Add engagement_score to input data
+        input_data['engagement_score'] = round(engagement_score, 2)
+        
+        # --- Core Prediction Logic ---
         df_input = pd.DataFrame([input_data])
         df_features = df_input[self.features]
 
-        # Prediction
-        risk = int(self.model.predict(df_features)[0])
+        # Get probability
         proba_all = self.model.predict_proba(df_features)[0]
         probability = float(proba_all[1])
 
-        # SHAP Explanation (Contribution to the dropout class probability)
-        # TreeExplainer returns [contrib_class_0, contrib_class_1]
+        # --- FIX 4: Lower Decision Threshold (0.4) for higher sensitivity ---
+        risk = 1 if probability > 0.4 else 0
+
+        # --- SHAP Explanation ---
         shap_values = self.explainer.shap_values(df_features)
         
-        # Handle different SHAP output formats (v0.40+ vs older)
-        # We want the contribution to class 1 (Dropout)
         if isinstance(shap_values, list):
-            # Binary classification usually returns a list [values_for_class_0, values_for_class_1]
             s_vals = shap_values[1][0]
         else:
-            # Newer SHAP might return a single array for binary
             s_vals = shap_values[0, :, 1] if len(shap_values.shape) == 3 else shap_values[0]
 
-        # Map features to their SHAP values and sort by absolute impact
         feature_impacts = []
         for feat, val in zip(self.features, s_vals):
-            # val > 0 means it increased dropout probability
-            # val < 0 means it decreased dropout probability
             feature_impacts.append({
                 "feature": feat.replace('_', ' ').title(),
                 "impact": val
             })
 
-        # Sort by absolute impact and take top 3
         top_3 = sorted(feature_impacts, key=lambda x: abs(x['impact']), reverse=True)[:3]
         
         explanation = []

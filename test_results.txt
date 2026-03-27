@@ -1,0 +1,108 @@
+--- SILENT DROPOUT DETECTION SYSTEM: TEST RESULTS ---
+Date: 2026-03-28 05:06:30
+Model: RandomForest (Optimized)
+--------------------------------------------------
+
+Test #1: Perfect Student
+  Input: 100% Att, 100% Sub, 14 Log, 120 Min, 95% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.01)
+  Result: PASS
+------------------------------
+Test #2: Severe Risk
+  Input: 20% Att, 10% Sub, 0.5 Log, 5 Min, 30% Gr
+  Expected: 1, Predicted: 1 (Prob: 0.56)
+  Result: PASS
+------------------------------
+Test #3: Low Attendance Only
+  Input: 30% Att, 90% Sub, 10 Log, 60 Min, 80% Gr
+  Expected: 1, Predicted: 0 (Prob: 0.08)
+  Result: FAIL
+------------------------------
+Test #4: Low Submissions Only
+  Input: 90% Att, 20% Sub, 12 Log, 45 Min, 85% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.37)
+  Result: PASS
+------------------------------
+Test #5: Borderline Active
+  Input: 60% Att, 60% Sub, 5 Log, 30 Min, 60% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.10)
+  Result: PASS
+------------------------------
+Test #6: High Grades but Inactive
+  Input: 40% Att, 30% Sub, 2 Log, 10 Min, 85% Gr
+  Expected: 1, Predicted: 0 (Prob: 0.40)
+  Result: FAIL
+------------------------------
+Test #7: Active but Failing
+  Input: 95% Att, 95% Sub, 12 Log, 90 Min, 20% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.08)
+  Result: PASS
+------------------------------
+Test #8: Average Student
+  Input: 80% Att, 75% Sub, 6 Log, 40 Min, 70% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #9: Disengaged Learner
+  Input: 45% Att, 40% Sub, 2 Log, 15 Min, 50% Gr
+  Expected: 1, Predicted: 0 (Prob: 0.42)
+  Result: FAIL
+------------------------------
+Test #10: Recovering Student
+  Input: 70% Att, 50% Sub, 4 Log, 25 Min, 60% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.14)
+  Result: PASS
+------------------------------
+Test #11: Dataset Sample (ID: KOL-2026840)
+  Input: 92.49% Att, 46.15% Sub, 4.7 Log, 28.7 Min, 82.42% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.04)
+  Result: PASS
+------------------------------
+Test #12: Dataset Sample (ID: KOL-2026662)
+  Input: 90.21% Att, 81.73% Sub, 5.7 Log, 48.8 Min, 77.59% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #13: Dataset Sample (ID: KOL-2026885)
+  Input: 80.91% Att, 100.0% Sub, 3.4 Log, 48.8 Min, 60.15% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #14: Dataset Sample (ID: KOL-2026681)
+  Input: 97.89% Att, 81.6% Sub, 7.3 Log, 37.3 Min, 53.52% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.01)
+  Result: PASS
+------------------------------
+Test #15: Dataset Sample (ID: KOL-2026217)
+  Input: 82.38% Att, 64.89% Sub, 6.1 Log, 27.0 Min, 70.42% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #16: Dataset Sample (ID: KOL-2026990)
+  Input: 65.19% Att, 95.43% Sub, 5.0 Log, 14.1 Min, 77.39% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.01)
+  Result: PASS
+------------------------------
+Test #17: Dataset Sample (ID: KOL-2026777)
+  Input: 76.52% Att, 70.57% Sub, 6.4 Log, 41.8 Min, 60.37% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.02)
+  Result: PASS
+------------------------------
+Test #18: Dataset Sample (ID: KOL-2026032)
+  Input: 88.21% Att, 55.09% Sub, 5.3 Log, 52.7 Min, 56.74% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+Test #19: Dataset Sample (ID: KOL-2026495)
+  Input: 56.32% Att, 78.63% Sub, 2.3 Log, 84.7 Min, 83.67% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.04)
+  Result: PASS
+------------------------------
+Test #20: Dataset Sample (ID: KOL-2026088)
+  Input: 88.9% Att, 61.91% Sub, 6.3 Log, 11.8 Min, 69.01% Gr
+  Expected: 0, Predicted: 0 (Prob: 0.00)
+  Result: PASS
+------------------------------
+
+FINAL ACCURACY: 85.00% (17/20)
+--------------------------------------------------

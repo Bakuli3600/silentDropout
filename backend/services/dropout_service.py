@@ -23,17 +23,22 @@ class DropoutService:
         self.explainer = shap.TreeExplainer(self.model)
 
     def predict(self, input_data: Dict[str, Any]) -> Dict[str, Any]:
-        # --- dynamic feature engineering ---
+        # --- RESEARCH-FIX FEATURE ENGINEERING ---
+        # 1. Improved engagement score weighting
         normalized_lms = (input_data['lms_login_frequency'] / 14) * 100
         engagement_score = (
-            input_data['attendance_rate'] * 0.4 +
-            input_data['assignment_submission_rate'] * 0.3 +
+            input_data['attendance_rate'] * 0.3 + 
+            input_data['assignment_submission_rate'] * 0.4 + 
             normalized_lms * 0.3
         )
         
+        # 2. Strong interaction signal
+        attendance_submission_ratio = input_data['attendance_rate'] / (input_data['assignment_submission_rate'] + 1)
         attendance_lms_interaction = input_data['attendance_rate'] * input_data['lms_login_frequency']
         
+        # Populate for model input
         input_data['engagement_score'] = round(engagement_score, 2)
+        input_data['attendance_submission_ratio'] = round(attendance_submission_ratio, 2)
         input_data['attendance_lms_interaction'] = round(attendance_lms_interaction, 2)
         
         df_input = pd.DataFrame([input_data])
@@ -43,13 +48,13 @@ class DropoutService:
         proba_all = self.model.predict_proba(df_features)[0]
         probability = float(proba_all[1])
 
-        # Lower threshold for high sensitivity
-        risk = 1 if probability > 0.4 else 0
+        # --- FIX: Threshold sweep showed 0.35 is optimal for this distribution ---
+        risk = 1 if probability > 0.35 else 0
 
         # SHAP Explanation
         shap_values = self.explainer.shap_values(df_features)
         
-        # LightGBM binary shap_values returns a single array in newer versions
+        # Handle SHAP binary list or array
         if isinstance(shap_values, list):
             s_vals = shap_values[1][0] if len(shap_values) > 1 else shap_values[0][0]
         else:

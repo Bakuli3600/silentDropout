@@ -18,7 +18,7 @@ def train_dropout_model(data_path, model_save_path):
 
     df = pd.read_csv(data_path)
 
-    # 1. Feature Selection (Including new Engagement Score & Interaction Feature)
+    # 1. Feature Selection (All engineered signals)
     features = [
         'attendance_rate', 
         'assignment_submission_rate', 
@@ -26,6 +26,7 @@ def train_dropout_model(data_path, model_save_path):
         'avg_session_time', 
         'grades',
         'engagement_score',
+        'attendance_submission_ratio',  # NEW FIX
         'attendance_lms_interaction'
     ]
     target = 'dropout_risk'
@@ -36,13 +37,14 @@ def train_dropout_model(data_path, model_save_path):
     # 2. Split Data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-    # 3. Initialize & Train LightGBM Classifier (Faster, Better for Tabular)
-    print("🤖 Training LightGBM Classifier (Gradient Boosting)...")
+    # 3. RESEARCH-FIX: Optimized LightGBM parameters
+    print("🤖 Training LightGBM Classifier (n_estimators=300, depth=8, class_weight='balanced')...")
     model = LGBMClassifier(
         n_estimators=300,
-        max_depth=12,
-        class_weight='balanced',
         learning_rate=0.05,
+        max_depth=8,            # Optimized depth to prevent overfitting
+        num_leaves=31,          # Standard, balanced for tabular
+        class_weight='balanced', # Ensuring high recall on dropouts
         random_state=42,
         n_jobs=-1,
         verbose=-1
@@ -59,7 +61,7 @@ def train_dropout_model(data_path, model_save_path):
     print("\nClassification Report:")
     print(classification_report(y_test, y_pred))
 
-    # 5. Save Model & Features Metadata
+    # 5. Save Model & Metadata
     print(f"💾 Saving model to {model_save_path}...")
     model_data = {
         'model': model,
@@ -69,7 +71,7 @@ def train_dropout_model(data_path, model_save_path):
     joblib.dump(model_data, model_save_path)
 
     # 6. SHAP Initialization
-    print("🔍 Initializing SHAP TreeExplainer for LightGBM...")
+    print("🔍 Initializing SHAP TreeExplainer for Research analysis...")
     explainer = shap.TreeExplainer(model)
     shap_values = explainer.shap_values(X_test)
     print("✨ SHAP values calculated successfully.")

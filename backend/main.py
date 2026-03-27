@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from routes import health
+from fastapi.middleware.cors import CORSMiddleware
+from routes import health, prediction
 
 def create_app() -> FastAPI:
     """
@@ -11,8 +12,18 @@ def create_app() -> FastAPI:
         version="1.0.0",
     )
 
+    # Enable CORS for the frontend
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],  # In production, replace with specific domain
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+
     # Include routers from the routes module
     app.include_router(health.router, tags=["Health"])
+    app.include_router(prediction.router, tags=["Prediction"])
 
     return app
 

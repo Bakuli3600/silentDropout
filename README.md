@@ -8,6 +8,30 @@ Run everything (install dependencies, generate 5k dataset, train LightGBM, verif
 ./start_project.sh
 ```
 
+## System Architecture and Pipeline Logic
+The following flowchart illustrates the end-to-end data processing and inference pipeline:
+
+```mermaid
+graph TD
+    A[Student Data] --> B[Data Preprocessing]
+    B --> C[Feature Engineering]
+    C --> D[Trained ML Model: LightGBM]
+    D --> E[Risk Prediction: Safe / At Risk]
+    E --> F[Explainability: SHAP]
+    F --> G[Alerts / Intervention]
+    
+    subgraph Feature Engineering
+    C1[Engagement Score]
+    C2[Attendance-Submission Ratio]
+    C3[LMS Interaction]
+    end
+    
+    subgraph Explainability
+    F1[Top 3 Contributing Factors]
+    F2[Feature Impact Analysis]
+    end
+```
+
 ## Research-Grade Success: 96% Accuracy
 Initial models exhibited an attendance bias, assuming students who show up are safe. Through rigorous testing, we discovered this failed to identify "Silent Dropouts" (passive, disengaged learners). 
 
@@ -41,6 +65,7 @@ To manually run the expanded 50-case test suite (including 15 manual edge cases 
 View the detailed logs in test_results.txt.
 
 ## Project Structure
+- assets/: Images and diagrams for documentation.
 - backend/: Root directory for the API.
   - main.py: Entry point for the FastAPI application.
   - routes/, models/, services/: Modular components.

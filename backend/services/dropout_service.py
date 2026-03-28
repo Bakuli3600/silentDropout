@@ -1,9 +1,16 @@
 import os
 import joblib
+import sys
 import pandas as pd
 import numpy as np
 import shap
 from typing import Dict, Any, List
+
+# Add the project root to sys.path to allow imports from sibling modules
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+from ml.explainability import get_top_factors
+from ml.intervention import recommend_intervention
 
 class DropoutService:
     def __init__(self, model_path: str):
@@ -23,8 +30,7 @@ class DropoutService:
         self.explainer = shap.TreeExplainer(self.model)
 
     def predict(self, input_data: Dict[str, Any]) -> Dict[str, Any]:
-        # --- RESEARCH-FIX FEATURE ENGINEERING ---
-        # 1. Improved engagement score weighting
+        # Feature engineering logic
         normalized_lms = (input_data['lms_login_frequency'] / 14) * 100
         engagement_score = (
             input_data['attendance_rate'] * 0.3 + 
@@ -32,11 +38,10 @@ class DropoutService:
             normalized_lms * 0.3
         )
         
-        # 2. Strong interaction signal
+        # Additional interaction features
         attendance_submission_ratio = input_data['attendance_rate'] / (input_data['assignment_submission_rate'] + 1)
         attendance_lms_interaction = input_data['attendance_rate'] * input_data['lms_login_frequency']
         
-        # Populate for model input
         input_data['engagement_score'] = round(engagement_score, 2)
         input_data['attendance_submission_ratio'] = round(attendance_submission_ratio, 2)
         input_data['attendance_lms_interaction'] = round(attendance_lms_interaction, 2)
@@ -44,40 +49,29 @@ class DropoutService:
         df_input = pd.DataFrame([input_data])
         df_features = df_input[self.features]
 
-        # Get probability
+        # Prediction
         proba_all = self.model.predict_proba(df_features)[0]
         probability = float(proba_all[1])
-
-        # --- FIX: Threshold sweep showed 0.35 is optimal for this distribution ---
         risk = 1 if probability > 0.35 else 0
 
-        # SHAP Explanation
-        shap_values = self.explainer.shap_values(df_features)
+        # SHAP Explainability
+        shap_values_raw = self.explainer.shap_values(df_features)
         
-        # Handle SHAP binary list or array
-        if isinstance(shap_values, list):
-            s_vals = shap_values[1][0] if len(shap_values) > 1 else shap_values[0][0]
+        # Extract correctly based on LightGBM output (handling list vs single array)
+        if isinstance(shap_values_raw, list):
+            s_vals = shap_values_raw[1][0] if len(shap_values_raw) > 1 else shap_values_raw[0][0]
         else:
-            s_vals = shap_values[0, :, 1] if len(shap_values.shape) == 3 else shap_values[0]
+            s_vals = shap_values_raw[0, :, 1] if len(shap_values_raw.shape) == 3 else shap_values_raw[0]
 
-        feature_impacts = []
-        for feat, val in zip(self.features, s_vals):
-            feature_impacts.append({
-                "feature": feat.replace('_', ' ').title(),
-                "impact": val
-            })
-
-        top_3 = sorted(feature_impacts, key=lambda x: abs(x['impact']), reverse=True)[:3]
-        
-        explanation = []
-        for item in top_3:
-            direction = "increased" if item['impact'] > 0 else "decreased"
-            explanation.append(f"{item['feature']} {direction} risk by {abs(item['impact']):.2f}")
+        # Use new intelligence modules
+        explanation = get_top_factors(s_vals, self.features)
+        interventions = recommend_intervention(input_data)
 
         return {
             "risk": risk,
             "probability": round(probability, 2),
-            "explanation": explanation
+            "explanation": explanation,
+            "intervention": interventions
         }
 
 MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models/dropout_model.joblib")

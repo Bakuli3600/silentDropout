@@ -12,3 +12,4 @@ class PredictionOutput(BaseModel):
     risk: int = Field(..., description="Dropout risk: 1 (High Risk), 0 (Low Risk)")
     probability: float = Field(..., description="Probability of dropout (0.0 to 1.0)")
     explanation: List[str] = Field(default=[], description="Top contributing factors for the prediction")
+    intervention: List[str] = Field(default=[], description="Recommended intervention actions for at-risk students")

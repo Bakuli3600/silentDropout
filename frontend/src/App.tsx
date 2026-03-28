@@ -5,6 +5,7 @@ interface Prediction {
   risk: number;
   probability: number;
   explanation: string[];
+  intervention: string[];
 }
 
 function App() {
@@ -95,7 +96,7 @@ function App() {
           
           {prediction ? (
             <div className="prediction-card fadeIn" style={{ borderLeftColor: getStatusColor(prediction.probability) }}>
-              <h2>Prediction Results</h2>
+              <h2>Analysis Results</h2>
               <div className="risk-score">
                 Risk Level: <strong>{prediction.risk === 1 ? 'HIGH' : 'LOW'}</strong>
               </div>
@@ -106,16 +107,29 @@ function App() {
                 </div>
               </div>
 
-              <h3>Explainable AI (XAI) Insights</h3>
-              <ul className="explanation-list">
-                {prediction.explanation.map((item, idx) => (
-                  <li key={idx} className="explanation-item slideIn">{item}</li>
-                ))}
-              </ul>
+              <div className="intelligence-grid">
+                <div className="intelligence-section">
+                  <h3>XAI Insights (SHAP)</h3>
+                  <ul className="explanation-list">
+                    {prediction.explanation.map((item, idx) => (
+                      <li key={idx} className="explanation-item slideIn">{item}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="intelligence-section">
+                  <h3>Recommended Interventions</h3>
+                  <ul className="intervention-list">
+                    {prediction.intervention.map((item, idx) => (
+                      <li key={idx} className="intervention-item slideIn">{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
           ) : !loading && !error && (
             <div className="placeholder-card">
-              Enter student data to see AI analysis results.
+              Enter student data to see AI analysis results and interventions.
             </div>
           )}
         </div>

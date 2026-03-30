@@ -40,9 +40,23 @@ Beyond high-accuracy prediction, this system provides a complete "Why" and "What
 
 ## Technical Specifications
 - **Model:** LightGBM Classifier (n_estimators=300, max_depth=8, learning_rate=0.05, balanced)
-- **Dataset:** 5,000 unique student records.
+- **Dataset:** 5,000 unique student records. This is a dummy dataset representing students in Kolkata colleges, including various demographic and behavioral features.
 - **Backend:** FastAPI with modular Intelligence Layers.
 - **Frontend:** React, TypeScript, CSS3 Animations.
+
+## Model Evaluation
+The model achieved an accuracy of 97.20% with high precision and recall for detecting dropout risk.
+
+### Confusion Matrix
+The following matrix illustrates the performance of the classification model:
+
+![Confusion Matrix](assets/confusion_matrix.png)
+
+## Dataset Visualization
+Below are some visualizations of the dummy dataset representing Kolkata college students:
+
+![Dataset Visualization 1](assets/Dataset1.png)
+![Dataset Visualization 2](assets/Dataset2.png)
 
 ## Project Structure
 - `ml/`: Intelligence layers (Explainability, Intervention).

@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, accuracy_score
+from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 from lightgbm import LGBMClassifier
+import matplotlib.pyplot as plt
 import joblib
 import shap
 import os
@@ -61,7 +62,36 @@ def train_dropout_model(data_path, model_save_path):
     print("\nClassification Report:")
     print(classification_report(y_test, y_pred))
 
-    # 5. Save Model
+    # 5. Confusion Matrix
+    print("INFO: Generating Confusion Matrix...")
+    cm = confusion_matrix(y_test, y_pred)
+    print("\nConfusion Matrix:")
+    print(cm)
+
+    # Plot Confusion Matrix
+    plt.figure(figsize=(8, 6))
+    plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
+    plt.title('Confusion Matrix')
+    plt.colorbar()
+    tick_marks = np.arange(2)
+    plt.xticks(tick_marks, ['Safe', 'At Risk'], rotation=45)
+    plt.yticks(tick_marks, ['Safe', 'At Risk'])
+    plt.xlabel('Predicted label')
+    plt.ylabel('True label')
+
+    # Add text to the plot
+    thresh = cm.max() / 2.
+    for i, j in np.ndindex(cm.shape):
+        plt.text(j, i, format(cm[i, j], 'd'),
+                 horizontalalignment="center",
+                 color="white" if cm[i, j] > thresh else "black")
+
+    plt.tight_layout()
+    os.makedirs('assets', exist_ok=True)
+    plt.savefig('assets/confusion_matrix.png')
+    print("SUCCESS: Confusion Matrix saved to assets/confusion_matrix.png")
+
+    # 6. Save Model
     print(f"INFO: Saving model to {model_save_path}...")
     model_data = {
         'model': model,
@@ -70,7 +100,7 @@ def train_dropout_model(data_path, model_save_path):
     }
     joblib.dump(model_data, model_save_path)
 
-    # 6. SHAP Initialization
+    # 7. SHAP Initialization
     print("INFO: Initializing SHAP TreeExplainer for Research analysis...")
     explainer = shap.TreeExplainer(model)
     shap_values = explainer.shap_values(X_test)

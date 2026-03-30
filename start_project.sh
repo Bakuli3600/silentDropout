@@ -28,8 +28,7 @@ if [ ! -d "venv" ]; then
 fi
 
 echo "INFO: Installing Backend Dependencies..."
-./venv/bin/pip install -r backend/requirements.txt --quiet
-./venv/bin/pip install faker shap lightgbm joblib scikit-learn pandas matplotlib --quiet
+./venv/bin/pip install -r requirements.txt --quiet
 
 # 3. Data & Model Pipeline
 echo "INFO: Regenerating Synthetic Dataset (5,000 students)..."

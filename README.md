@@ -1,5 +1,8 @@
 # Silent Dropout Detection System (Kolkata Pilot)
 
+## About
+🎓 The Silent Dropout Detection System is an advanced AI platform built for higher education institutions in Kolkata. Its primary mission is to support **SDG Goal 4: Quality Education** by identifying students at risk of disengaging before they officially drop out. Using a high-performance **LightGBM Gradient Boosting** model and **SHAP Explainability (XAI)**, our system analyzes multi-dimensional behavioral data to provide early risk scoring, pedagogical insights, and actionable intervention roadmaps.
+
 A professional-grade predictive analytics platform designed to detect student disengagement early, specifically built to address **SDG Goal 4: Quality Education**.
 
 ## Vision

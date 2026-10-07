@@ -3,22 +3,49 @@
 ## About
 🎓 The Silent Dropout Detection System is an advanced AI platform built for higher education institutions in Kolkata. Its primary mission is to support **SDG Goal 4: Quality Education** by identifying students at risk of disengaging before they officially drop out. Using a high-performance **LightGBM Gradient Boosting** model and **SHAP Explainability (XAI)**, our system analyzes multi-dimensional behavioral data to provide early risk scoring, pedagogical insights, and actionable intervention roadmaps.
 
-A professional-grade predictive analytics platform designed to detect student disengagement early, specifically built to address **SDG Goal 4: Quality Education**.
+A professional-grade predictive analytics platform designed to detect student disengagement early, specifically built to address **SDG Goal 4: Quality Education**.## Data Sources
 
-## Vision
-In Kolkata's higher education landscape, many students "silently" drop out—they may attend classes but stop submitting assignments or engaging with digital resources. This system uses **LightGBM Gradient Boosting** and **SHAP Explainability** to identify these patterns before the student officially leaves the institution.
+### Real Data
+| Source | Country | Classification | Status |
+|---|---|---|---|
+| AISHE (India) | India | Aggregate real | Downloaded |
+| West Bengal State Council of Higher Education (WBSCHE) | India | Aggregate real | Documented; manual download pending |
+| National Academic Depository (NAD) | India | Aggregate real | Documentation only |
+| Dataful collection 585 (AISHE-derived) | India | Aggregate real | Downloaded |
+| OULAD (Open University Learning Analytics Dataset) | United Kingdom | Individual real (international benchmark) | Downloaded |
+| Mendeley University dropout dataset | International (various) | Individual real (international benchmark) | Downloaded |
+| Synthetic development dataset | n/a | Synthetic development only | 5,000 student records |
 
-### Research Breakthrough: 96% Accuracy & Actionable Intelligence
-Beyond high-accuracy prediction, this system provides a complete "Why" and "What to do" framework:
+### Planned International Dataset: Ethiopia
+The system is designed for **cross-continental generalisation**. The following dataset is planned as an additional international benchmark to validate model transfer beyond South Asia and Europe:
 
-1. **Explainability Layer (XAI):** Uses SHAP values to identify the exact behavioral factors (e.g., Attendance vs. Submission) driving the risk score.
-2. **Intervention Engine:** A custom-built recommendation system that maps ML predictions to specific pedagogical actions (e.g., counselor notification, mentor assignment).
-3. **Advanced Feature Engineering:** Engineered the `attendance_submission_ratio` and `engagement_score` to solve the common "attendance bias" in dropout modeling.
+| Source | Country | Classification | Status |
+|---|---|---|---|
+| [AfriBiomass / Addis Ababa University student retention data](https://data.mendeley.com/) | Ethiopia | Individual real | Planned for future release |
+
+**Why Ethiopia?** Higher education systems in Sub-Saharan Africa face distinct dropout drivers (e.g., access barriers, financial shock, displacement) that differ from both the Kolkata cohort and the UK OULAD cohort. Adding an Ethiopia benchmark tests whether the `attendance_submission_ratio` and `engagement_score` features generalise to a third cultural and institutional context.
+
+- **Verification:** Any Ethiopia data added will be clearly labelled **REAL_ETHiopia_INDIVIDUAL** in `data/source_registry.json`.
+- **Synthetic label:** All synthetic demonstration data remains **NON-REAL** and is never shown in the dashboard without a visible synthetic label.
+- **No fabrication:** No fake Ethiopian student records are generated or presented. If real Ethiopia data cannot be obtained, this section documents that limitation explicitly.
 
 ### System Architecture and Pipeline Logic
 The following flowchart illustrates the end-to-end data processing and inference pipeline:
 
 ![Machine Learning Pipeline Flow](assets/MachineLearningPipelineFlow.png)
+
+## Data Provenance & Validation
+
+Every dataset in this project carries a verified source and provenance:
+
+- **All India Survey on Higher Education (AISHE)** — official government statistics for Indian institutions; used for aggregate institutional context.
+- **West Bengal State Council of Higher Education (WBSCHE)** — state-level higher education records; documentation recorded in `data/source_registry.json`.
+- **Open University Learning Analytics Dataset (OULAD)** — a genuine anonymized UK university dataset used as an international benchmark.
+- **Mendeley University dropout dataset** — an external comparison dataset for inter-country analysis.
+- **Synthetic development dataset** — 5,000 student records used exclusively for development, training, and demonstration. All synthetic data is clearly labelled **NON-REAL** throughout the dashboard.
+- **Ethiopia** — planned international benchmark (see below). No fabricated Ethiopian student records are generated.
+
+The dashboard never presents synthetic data as real, and never presents international data as West Bengal data. Source identification is preserved for every processed dataset.
 
 ## Features
 - **Predictive Engine:** LightGBM model trained on 5,000 unique student records (Kolkata locale).
@@ -50,6 +77,18 @@ Below are some visualizations of the synthetic dataset representing students in 
 
 ![Dataset Visualization 1](assets/Dataset1.png)
 ![Dataset Visualization 2](assets/Dataset2.png)
+
+### Dashboard Screenshots
+Screenshot evidence of the live dashboard (captured with headless Chrome, 1384×749 px):
+
+| Section | Screenshot |
+|---|---|
+| **Dashboard Overview** | ![Dashboard Overview](assets/1_dashboard_overview.png) |
+| **Datasets/Provenance** | ![Datasets/Provenance](assets/2_datasets_provenance.png) |
+| **Student Risk Distribution** | ![Student Risk Distribution](assets/3_student_risk_distribution.png) |
+| **Explainable AI** | ![Explainable AI](assets/4_explainable_ai.png) |
+| **Intervention Recommendations** | ![Intervention Recommendations](assets/5_intervention_recommendations.png) |
+| **Model Performance** | ![Model Performance](assets/6_model_performance.png) |
 
 ## Project Structure
 - `ml/`: Intelligence layers (XAI, Interventions).

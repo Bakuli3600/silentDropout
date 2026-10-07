@@ -1,12 +1,30 @@
-fastapi
-uvicorn
-pandas
-numpy
-scikit-learn
-joblib
-shap
-matplotlib
-lightgbm
-faker
-lucide-react
-recharts
+# Silent Dropout Detection System - pinned dependencies
+# Install with:  python -m venv venv && ./venv/bin/pip install -r requirements.txt
+#
+# Note: lightgbm and shap may need to be installed from prebuilt wheels; they
+# are CPU-only and require no NVIDIA GPU.
+
+fastapi==0.115.6
+uvicorn==0.34.0pandas==2.2.3
+numpy==2.3.5
+scipy==1.15.2
+scikit-learn==1.6.0
+lightgbm==4.6.0
+shap==0.46.0
+joblib==1.4.2
+pydantic==2.10.3
+matplotlib==3.10.9
+pyarrow==18.1.0
+
+numpy==2.3.5
+scipy==1.15.2
+scikit-learn==1.6.0
+lightgbm==4.6.0
+shap==0.46.0
+joblib==1.4.2
+pydantic==2.10.3
+matplotlib==3.10.9
+pyarrow==18.1.0
+python-multipart==0.0.20
+python-dotenv==1.0.1
+loguru==0.7.3

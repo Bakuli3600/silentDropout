@@ -1,0 +1,27 @@
+{
+  "algorithm": "lightgbm",
+  "model_file": "dropout_model.joblib",
+  "features": [
+    "attendance_percentage",
+    "assignment_submission_rate",
+    "weekly_lms_clicks",
+    "average_assessment_score",
+    "semester_progress",
+    "engagement_score",
+    "attendance_submission_ratio",
+    "previous_backlog_count"
+  ],
+  "target": "dropout_risk",
+  "hyperparameters": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "num_leaves": 31,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_samples": 20
+  },
+  "training_date": "2026-11-22T18:32:14Z",
+  "dataset_source": "synthetic-development",
+  "cpu_only": true
+}

@@ -1,0 +1,32 @@
+# docker-compose.yml for the Silent Dropout Detection System.
+#
+# Usage:
+#   docker compose up --build      # start the API
+#   docker compose up --build -d   # detached
+#
+# The API serves on http://localhost:8000.
+#
+# Docker is OPTIONAL.  Native installation (without Docker) is the primary
+# supported path and works on Windows, Linux and macOS.  See
+# start_project.sh / start_project.bat / start_project.ps1.
+
+version: "3.9"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - CORS_ORIGINS=*
+      # Set a strong value in production:
+      - API_ADMIN_KEY=change-me
+    volumes:
+      # Mount a downloaded dataset instead of baking it into the image.
+      - dataset_data:/data
+    restart: unless-stopped
+
+volumes:
+  dataset_data:

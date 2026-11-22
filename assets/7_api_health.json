@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "service": "silent-dropout-api",
+  "version": "2.0.0",
+  "python_version": "3.10.6",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "timestamp": "2026-11-22T18:32:14.609584+00:00"
+}

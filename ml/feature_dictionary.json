@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-11-22",
+  "source": "ml/feature_engineering.py",
+  "rules": [
+    "All features are computed from records available at the prediction date.",
+    "Temporal censoring: only records with period_end <= prediction_date contribute.",
+    "Absence of an LMS record is NaN; a true zero means the student had zero activity.",
+    "attendance_submission_ratio is attendance / (submission_rate + 1); denominator is never zero.",
+    "Unknown outcomes are never used as the negative dropout class."
+  ],
+  "features": [
+    {
+      "name": "attendance_percentage",
+      "description": "Fraction of scheduled classes attended over the lookback window.",
+      "formula": "classes_attended / classes_held",
+      "range": "[0, 1]",
+      "zero_means_absence": true,
+      "missing_means_no_engagement": false
+    },
+    {
+      "name": "attendance_change_4_weeks",
+      "description": "MoM change in attendance percentage between the two most recent 4-week windows.",
+      "formula": "attendance_4w_last - attendance_4w_prev",
+      "range": "[-100, 100]",
+      "zero_means_absence": false,
+      "missing_means_no_history": true
+    },
+    {
+      "name": "assignment_submission_rate",
+      "description": "Fraction of assigned assessments with a recorded submission.",
+      "formula": "n_submitted / n_assigned",
+      "range": "[0, 1]",
+      "zero_means_absence": false,
+      "missing_means_no_attempts": true
+    },
+    {
+      "name": "late_submission_rate",
+      "description": "Fraction of submitted assessments turned in after the deadline.",
+      "formula": "n_late / n_submitted",
+      "range": "[0, 1]",
+      "zero_means_absence": true,
+      "missing_means_no_submissions": true
+    },
+    {
+      "name": "average_assessment_score",
+      "description": "Mean assessment_score across submitted assessments.",
+      "formula": "mean(submitted assessment_score)",
+      "range": "[0, 100]",
+      "zero_means_absence": true,
+      "missing_means_no_submissions": true
+    },
+    {
+      "name": "assessment_score_trend",
+      "description": "OLS slope of assessment_score over time over the last 4 weeks.",
+      "formula": "slope(score ~ week_num) over last 4 weeks",
+      "range": "[-inf, +inf]",
+      "zero_means_absence": false,
+      "missing_means_insufficient_history": true
+    },
+    {
+      "name": "weekly_lms_clicks",
+      "description": "Mean daily click count on learning resources.",
+      "formula": "mean(total_clicks)",
+      "range": "[0, +inf]",
+      "zero_means_absence": true,
+      "missing_means_no_lms_data": false
+    },
+    {
+      "name": "lms_activity_change",
+      "description": "MoM change in weekly LMS clicks between the two most recent 4-week windows.",
+      "formula": "lms_clicks_4w_last - lms_clicks_4w_prev",
+      "range": "[-inf, +inf]",
+      "zero_means_absence": false,
+      "missing_means_no_history": true
+    },
+    {
+      "name": "inactive_days",
+      "description": "Mean number of days with zero resource clicks per week.",
+      "formula": "mean(inactive_days)",
+      "range": "[0, +inf]",
+      "zero_means_absence": true,
+      "missing_means_no_lms_data": false
+    },
+    {
+      "name": "assessment_delay_days",
+      "description": "Mean late-arrival in days for submitted assessments.",
+      "formula": "mean(deadline - submission_date) for submitted rows",
+      "range": "[-inf, +inf]",
+      "zero_means_absence": false,
+      "missing_means_no_submissions": true
+    },
+    {
+      "name": "previous_backlog_count",
+      "description": "Failed/repeated courses carried into the current semester.",
+      "formula": "backlog_count from prior semester",
+      "range": "[0, +inf]",
+      "zero_means_absence": true,
+      "missing_means_no_progression_record": true
+    },
+    {
+      "name": "semester_progress",
+      "description": "Fraction of the academic year completed at the prediction date.",
+      "formula": "(prediction_date - enrollment_date) / academic_year_days",
+      "range": "[0, 1]",
+      "zero_means_absence": true,
+      "missing_means_no_enrollment_date": true
+    },
+    {
+      "name": "engagement_score",
+      "description": "Weighted composite (30% attendance, 40% submission, 30% LMS).",
+      "formula": "0.3*attendance + 0.4*submission + 0.3*lms_norm",
+      "range": "[0, 100]",
+      "zero_means_absence": false,
+      "missing_means_no_data": true
+    },
+    {
+      "name": "attendance_submission_ratio",
+      "description": "Attendance as a ratio of submission rate, with a safe denominator.",
+      "formula": "attendance / (submission_rate + 1)",
+      "range": "[0, +inf]",
+      "zero_means_absence": false,
+      "missing_means_not_applicable": true
+    }
+  ]
+}
